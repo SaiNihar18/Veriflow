@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, AlertTriangle, XCircle, HelpCircle } from 'lucide-react';
+import { CheckCircle2, AlertTriangle, XCircle } from 'lucide-react';
 
 interface VerdictBadgeProps {
   verdict: string;
@@ -8,67 +8,63 @@ interface VerdictBadgeProps {
 
 export const VerdictBadge: React.FC<VerdictBadgeProps> = ({ verdict, size = 'md' }) => {
   const upper = verdict.toUpperCase();
-  let badgeTheme = {
-    bg: 'bg-slate-100 dark:bg-slate-800',
-    text: 'text-slate-700 dark:text-slate-300',
-    border: 'border-slate-200 dark:border-slate-700',
+  let theme = {
+    bg: 'bg-ink-100 dark:bg-ink-800',
+    text: 'text-ink-600 dark:text-ink-300',
+    border: 'border-ink-200 dark:border-ink-700',
     icon: XCircle,
-    color: 'text-slate-500',
+    iconColor: 'text-ink-400',
   };
 
   if (upper.includes('DATA CONFLICT')) {
-    badgeTheme = {
-      bg: 'bg-rose-50 dark:bg-rose-950/40',
-      text: 'text-rose-700 dark:text-rose-300',
-      border: 'border-rose-200 dark:border-rose-800',
+    theme = {
+      bg: 'bg-danger-50 dark:bg-danger-500/10',
+      text: 'text-danger-700 dark:text-danger-500',
+      border: 'border-danger-100 dark:border-danger-500/20',
       icon: AlertTriangle,
-      color: 'text-rose-500',
+      iconColor: 'text-danger-500',
     };
   } else if (upper.includes('REAL')) {
-    badgeTheme = {
-      bg: 'bg-emerald-50 dark:bg-emerald-950/40',
-      text: 'text-emerald-700 dark:text-emerald-300',
-      border: 'border-emerald-200 dark:border-emerald-800',
+    theme = {
+      bg: 'bg-success-50 dark:bg-success-500/10',
+      text: 'text-success-700 dark:text-success-500',
+      border: 'border-success-100 dark:border-success-500/20',
       icon: CheckCircle2,
-      color: 'text-emerald-500',
+      iconColor: 'text-success-500',
     };
   } else if (upper.includes('NOISE')) {
-    badgeTheme = {
-      bg: 'bg-slate-100 dark:bg-slate-800',
-      text: 'text-slate-700 dark:text-slate-300',
-      border: 'border-slate-300 dark:border-slate-700',
+    theme = {
+      bg: 'bg-ink-100 dark:bg-ink-800',
+      text: 'text-ink-600 dark:text-ink-400',
+      border: 'border-ink-200 dark:border-ink-700',
       icon: XCircle,
-      color: 'text-slate-400',
+      iconColor: 'text-ink-400',
     };
   } else if (upper.includes('ASSUMPTION')) {
-    badgeTheme = {
-      bg: 'bg-amber-50 dark:bg-amber-950/40',
-      text: 'text-amber-700 dark:text-amber-300',
-      border: 'border-amber-200 dark:border-amber-800',
+    theme = {
+      bg: 'bg-caution-50 dark:bg-caution-500/10',
+      text: 'text-caution-700 dark:text-caution-500',
+      border: 'border-caution-100 dark:border-caution-500/20',
       icon: AlertTriangle,
-      color: 'text-amber-500',
+      iconColor: 'text-caution-500',
     };
   }
 
-  const IconComponent = badgeTheme.icon;
+  const Icon = theme.icon;
   const sizeClasses = {
-    sm: 'text-xs px-2 py-0.5 gap-1',
+    sm: 'text-2xs px-2 py-0.5 gap-1',
     md: 'text-xs font-semibold px-2.5 py-1 gap-1.5',
     lg: 'text-sm font-semibold px-3 py-1.5 gap-2',
   }[size];
 
-  const iconSizes = {
-    sm: 12,
-    md: 14,
-    lg: 16,
-  }[size];
+  const iconSize = { sm: 11, md: 13, lg: 15 }[size];
 
   return (
     <span
-      className={`inline-flex items-center rounded-full border transition-colors ${badgeTheme.bg} ${badgeTheme.text} ${badgeTheme.border} ${sizeClasses}`}
+      className={`tag ${theme.bg} ${theme.text} ${theme.border} ${sizeClasses}`}
       title={`Verdict: ${verdict}`}
     >
-      <IconComponent size={iconSizes} className={badgeTheme.color} />
+      <Icon size={iconSize} className={theme.iconColor} />
       <span>{verdict}</span>
     </span>
   );

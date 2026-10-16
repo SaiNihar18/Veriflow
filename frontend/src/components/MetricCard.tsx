@@ -21,35 +21,42 @@ export const MetricCard: React.FC<MetricCardProps> = ({
   className = '',
 }) => {
   const trendClasses = {
-    neutral: 'text-slate-500 dark:text-slate-400',
-    positive: 'text-emerald-600 dark:text-emerald-400',
-    negative: 'text-rose-600 dark:text-rose-400',
-    warning: 'text-amber-600 dark:text-amber-400',
+    neutral:  'text-ink-500 dark:text-ink-400',
+    positive: 'text-success-600 dark:text-success-500',
+    negative: 'text-danger-600 dark:text-danger-500',
+    warning:  'text-caution-600 dark:text-caution-500',
+  }[trend];
+
+  const iconBg = {
+    neutral:  'bg-ink-100 dark:bg-ink-800 text-ink-500',
+    positive: 'bg-success-50 dark:bg-success-500/10 text-success-600 dark:text-success-500',
+    negative: 'bg-danger-50 dark:bg-danger-500/10 text-danger-600 dark:text-danger-500',
+    warning:  'bg-caution-50 dark:bg-caution-500/10 text-caution-600 dark:text-caution-500',
   }[trend];
 
   return (
     <div
-      className={`bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow ${className}`}
+      className={`card p-5 group animate-slide-up ${className}`}
     >
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+      <div className="flex items-start justify-between gap-3 mb-3">
+        <span className="stat-label leading-tight">
           {label}
         </span>
         {badge ? (
           badge
         ) : Icon ? (
-          <div className="p-2 rounded-lg bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
-            <Icon size={18} />
+          <div className={`p-2 rounded-lg ${iconBg} transition-colors`}>
+            <Icon size={16} strokeWidth={2} />
           </div>
         ) : null}
       </div>
 
-      <div className="text-2xl sm:text-3xl font-bold font-mono text-slate-900 dark:text-slate-50 tracking-tight">
+      <div className="stat-value">
         {value}
       </div>
 
       {subtext && (
-        <div className={`mt-2 text-xs font-medium ${trendClasses}`}>
+        <div className={`mt-2 text-xs font-medium leading-snug ${trendClasses}`}>
           {subtext}
         </div>
       )}

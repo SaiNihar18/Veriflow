@@ -5,26 +5,89 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --chart-grid: #E2E8F0;
+    --chart-tooltip-bg: #0E1629;
+    --chart-tooltip-border: #2A3550;
+    --shadow-card: 0 1px 2px 0 rgba(0,0,0,0.03), 0 1px 6px -1px rgba(0,0,0,0.04);
+    --shadow-card-lg: 0 2px 8px -2px rgba(0,0,0,0.06), 0 4px 12px -4px rgba(0,0,0,0.05);
+  }
+  .dark {
+    --chart-grid: #1A2340;
+    --chart-tooltip-bg: #070B17;
+    --chart-tooltip-border: #2A3550;
+  }
   body {
-    @apply bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white;
+    @apply bg-ink-50 text-ink-900 dark:bg-ink-950 dark:text-ink-100 font-sans antialiased;
+    @apply selection:bg-brand-500 selection:text-white;
     min-height: 100vh;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
 
-/* Custom scrollbars for clean table and chart display */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+@layer components {
+  .card {
+    @apply bg-white dark:bg-ink-900 border border-ink-200/80 dark:border-ink-800/80
+           rounded-2xl transition-shadow duration-200;
+    box-shadow: var(--shadow-card);
+  }
+  .card:hover {
+    box-shadow: var(--shadow-card-lg);
+  }
+  .card-title {
+    @apply text-sm font-semibold text-ink-900 dark:text-white tracking-tight;
+  }
+  .card-subtitle {
+    @apply text-xs text-ink-500 dark:text-ink-400;
+  }
+  .tag {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-md font-semibold border transition-colors;
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+  }
+  .stat-value {
+    @apply text-2xl font-bold font-mono text-ink-900 dark:text-white tracking-tight;
+  }
+  .stat-label {
+    @apply font-semibold text-ink-500 dark:text-ink-400 uppercase tracking-wider;
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+  }
+  .input-base {
+    @apply px-3 py-2 text-sm rounded-lg border border-ink-200 dark:border-ink-700
+           bg-white dark:bg-ink-800 text-ink-900 dark:text-ink-100
+           focus:outline-none focus:ring-2 focus:ring-brand-500/40 focus:border-brand-500
+           placeholder:text-ink-400 dark:placeholder:text-ink-500
+           transition-colors;
+  }
+  .btn-primary {
+    @apply px-4 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 active:bg-brand-800
+           text-white font-semibold text-sm
+           focus:outline-none focus:ring-2 focus:ring-brand-500/40 focus:ring-offset-2
+           dark:focus:ring-offset-ink-900
+           disabled:opacity-50 disabled:cursor-not-allowed
+           transition-all duration-150;
+    box-shadow: var(--shadow-card);
+  }
 }
 
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 ::-webkit-scrollbar-thumb {
-  @apply bg-slate-300 dark:bg-slate-700 rounded-full;
+  @apply bg-ink-300 dark:bg-ink-700 rounded-full;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-slate-400 dark:bg-slate-600;
+  @apply bg-ink-400 dark:bg-ink-600;
 }

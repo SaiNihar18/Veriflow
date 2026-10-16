@@ -8,23 +8,23 @@ interface ErrorDisplayProps {
 
 export const ErrorDisplay: React.FC<ErrorDisplayProps> = ({ message, onRetry }) => {
   return (
-    <div className="rounded-xl border border-rose-200 dark:border-rose-900/50 bg-rose-50/50 dark:bg-rose-950/20 p-6 text-center my-6">
-      <div className="w-12 h-12 rounded-full bg-rose-100 dark:bg-rose-900/50 text-rose-600 dark:text-rose-400 flex items-center justify-center mx-auto mb-3">
+    <div className="card p-8 text-center my-6 border-danger-100 dark:border-danger-500/20">
+      <div className="w-12 h-12 rounded-full bg-danger-50 dark:bg-danger-500/10 text-danger-500 flex items-center justify-center mx-auto mb-4">
         <AlertCircle size={24} />
       </div>
-      <h3 className="text-base font-semibold text-rose-900 dark:text-rose-200">
+      <h3 className="text-base font-semibold text-ink-900 dark:text-ink-100">
         Unable to Load Data
       </h3>
-      <p className="mt-1 text-sm text-rose-700 dark:text-rose-400 max-w-md mx-auto">
+      <p className="mt-1.5 text-sm text-ink-500 max-w-md mx-auto">
         {message}
       </p>
       {onRetry && (
         <button
           onClick={onRetry}
-          className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold shadow-sm transition-colors"
+          className="btn-primary mt-5 inline-flex items-center gap-2 bg-danger-600 hover:bg-danger-700"
         >
           <RefreshCw size={14} />
-          <span>Retry Request</span>
+          <span>Retry</span>
         </button>
       )}
     </div>

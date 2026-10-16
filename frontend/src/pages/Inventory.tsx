@@ -3,11 +3,7 @@ import {
   Boxes,
   AlertTriangle,
   ArrowUpDown,
-  CheckCircle2,
-  HelpCircle,
   Package,
-  Layers,
-  Info,
   DollarSign
 } from 'lucide-react';
 import { fetchInventory } from '../lib/api';
@@ -23,7 +19,6 @@ export const Inventory: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Sorting
   const [sortField, setSortField] = useState<'product_id' | 'category' | 'stock_on_hand' | 'days_of_cover' | 'shortfall_days' | 'est_revenue_at_risk'>('shortfall_days');
   const [sortAsc, setSortAsc] = useState<boolean>(false);
 
@@ -61,7 +56,6 @@ export const Inventory: React.FC = () => {
   const sortedList = [...riskList].sort((a, b) => {
     let aVal: any = a[sortField as keyof InventoryRiskItem] ?? 0;
     let bVal: any = b[sortField as keyof InventoryRiskItem] ?? 0;
-
     if (typeof aVal === 'string') {
       return sortAsc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
     }
@@ -72,180 +66,96 @@ export const Inventory: React.FC = () => {
   const belowReorderCount = data.stats.products_below_reorder ?? 26;
   const revAtRisk = data.stats.est_revenue_at_risk ?? 8026;
 
+  const SortHeader = ({ field, children }: { field: typeof sortField; children: React.ReactNode }) => (
+    <th
+      onClick={() => handleSort(field)}
+      className="py-3 px-4 font-semibold cursor-pointer hover:text-ink-900 dark:hover:text-white transition-colors select-none"
+    >
+      <div className="flex items-center gap-1">
+        <span>{children}</span>
+        <ArrowUpDown size={11} className={sortField === field ? 'text-brand-500' : ''} />
+      </div>
+    </th>
+  );
+
   return (
-    <div className="space-y-8">
-      {/* Page Header */}
+    <div className="space-y-6">
+      {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
+          <h1 className="text-xl sm:text-2xl font-bold text-ink-900 dark:text-white tracking-tight">
             Inventory & Stockout Risk
           </h1>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            Products likely to stock out before supplier delivery (Finding F7) and data quality audit.
+          <p className="mt-1 text-sm text-ink-500 dark:text-ink-400">
+            Products likely to stock out before supplier delivery (Finding F7).
           </p>
         </div>
         <VerdictBadge verdict={data.verdict} size="lg" />
       </div>
 
-      {/* KPI Cards */}
+      {/* KPIs */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <MetricCard
-          label="Stockout Before Restock"
-          value={`${stockoutCount} Products`}
-          subtext="Days of cover < supplier lead time + delay"
-          icon={AlertTriangle}
-          trend="negative"
-        />
-
-        <MetricCard
-          label="Revenue at Risk"
-          value={formatMoney(revAtRisk)}
-          subtext="Shortfall days x daily completed revenue"
-          icon={DollarSign}
-          trend="warning"
-        />
-
-        <MetricCard
-          label="Below Reorder Point"
-          value={`${belowReorderCount} Products`}
-          subtext="Additional products needing restock"
-          icon={Package}
-          trend="neutral"
-        />
-
-        <MetricCard
-          label="Total Products Tracked"
-          value={`${data.stats.total_products} SKUs`}
-          subtext="Across all 6 retail departments"
-          icon={Boxes}
-          trend="neutral"
-        />
+        <MetricCard label="Stockout Before Restock" value={`${stockoutCount} Products`} subtext="Days of cover < lead time + delay" icon={AlertTriangle} trend="negative" />
+        <MetricCard label="Revenue at Risk" value={formatMoney(revAtRisk)} subtext="Shortfall days × daily revenue" icon={DollarSign} trend="warning" />
+        <MetricCard label="Below Reorder Point" value={`${belowReorderCount} Products`} subtext="Additional products needing restock" icon={Package} trend="neutral" />
+        <MetricCard label="Total Products" value={`${data.stats.total_products} SKUs`} subtext="Across all 6 retail departments" icon={Boxes} trend="neutral" />
       </div>
 
-
       {/* Watchlist Table */}
-      <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-xl shadow-sm overflow-hidden">
-        <div className="p-5 border-b border-slate-200/80 dark:border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+      <div className="card overflow-hidden">
+        <div className="p-5 border-b border-ink-100 dark:border-ink-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <h2 className="text-base font-semibold text-slate-900 dark:text-white">
-              Supplier Delivery Risk Table ({sortedList.length} Products Monitored)
-            </h2>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
-              Ranked by shortfall days. Priority order for immediate procurement and supplier expediting.
-            </p>
+            <h2 className="card-title">Supplier Delivery Risk ({sortedList.length} Products)</h2>
+            <p className="card-subtitle">Ranked by shortfall days for immediate procurement action.</p>
           </div>
-          <span className="text-xs font-semibold px-2.5 py-1 bg-rose-50 text-rose-700 dark:bg-rose-950/60 dark:text-rose-300 rounded-md border border-rose-200 dark:border-rose-800">
-            Immediate Action Required
+          <span className="tag bg-danger-50 dark:bg-danger-500/10 text-danger-700 dark:text-danger-500 border-danger-100 dark:border-danger-500/20 text-2xs font-bold">
+            Immediate Action
           </span>
         </div>
 
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs">
-            <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-800 select-none">
+            <thead className="bg-ink-50 dark:bg-ink-800/40 text-ink-500 dark:text-ink-400 border-b border-ink-100 dark:border-ink-800">
               <tr>
-                <th
-                  onClick={() => handleSort('product_id')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Product ID</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
-                <th
-                  onClick={() => handleSort('category')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Category</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
-                <th
-                  onClick={() => handleSort('stock_on_hand')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Stock on Hand</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
-                <th
-                  onClick={() => handleSort('days_of_cover')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Days of Cover</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
-                <th className="py-3 px-4 font-semibold">
-                  Effective Lead Days
-                </th>
-                <th
-                  onClick={() => handleSort('shortfall_days')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Shortfall Days</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
-                <th
-                  onClick={() => handleSort('est_revenue_at_risk')}
-                  className="py-3 px-4 font-semibold cursor-pointer hover:text-slate-900 dark:hover:text-white"
-                >
-                  <div className="flex items-center gap-1">
-                    <span>Revenue at Risk</span>
-                    <ArrowUpDown size={12} />
-                  </div>
-                </th>
+                <SortHeader field="product_id">Product</SortHeader>
+                <SortHeader field="category">Category</SortHeader>
+                <SortHeader field="stock_on_hand">Stock</SortHeader>
+                <SortHeader field="days_of_cover">Cover</SortHeader>
+                <th className="py-3 px-4 font-semibold">Lead Days</th>
+                <SortHeader field="shortfall_days">Shortfall</SortHeader>
+                <SortHeader field="est_revenue_at_risk">Rev. at Risk</SortHeader>
                 <th className="py-3 px-4 font-semibold">Status</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-slate-800 font-mono">
+            <tbody className="divide-y divide-ink-100 dark:divide-ink-800/60 font-mono">
               {sortedList.map((item) => {
                 const hasShortfall = (item.shortfall_days ?? 0) > 0;
                 return (
-                  <tr key={item.product_id} className="hover:bg-slate-50/50 dark:hover:bg-slate-800/30">
-                    <td className="py-3 px-4 font-bold text-slate-900 dark:text-white">
-                      {item.product_id}
-                    </td>
-                    <td className="py-3 px-4 font-sans text-slate-700 dark:text-slate-300">
-                      {item.category}
-                    </td>
+                  <tr key={item.product_id} className="hover:bg-ink-50/50 dark:hover:bg-ink-800/20 transition-colors">
+                    <td className="py-3 px-4 font-bold text-ink-900 dark:text-white">{item.product_id}</td>
+                    <td className="py-3 px-4 font-sans text-ink-600 dark:text-ink-300">{item.category}</td>
+                    <td className="py-3 px-4 font-bold text-ink-900 dark:text-white">{item.stock_on_hand}</td>
+                    <td className="py-3 px-4 text-ink-500">{item.days_of_cover ?? '-'}d</td>
+                    <td className="py-3 px-4 text-ink-500">{item.effective_lead_days ?? '-'}d</td>
                     <td className="py-3 px-4">
-                      <span className="font-bold text-slate-900 dark:text-white">
-                        {item.stock_on_hand}
-                      </span>
-                    </td>
-                    <td className="py-3 px-4 text-slate-600 dark:text-slate-300">
-                      {item.days_of_cover ?? '-'}d
-                    </td>
-                    <td className="py-3 px-4 text-slate-600 dark:text-slate-300">
-                      {item.effective_lead_days ?? '-'}d
-                    </td>
-                    <td className="py-3 px-4">
-                      <span
-                        className={`px-2 py-0.5 rounded text-xs font-bold ${
-                          hasShortfall
-                            ? 'bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300'
-                            : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400'
-                        }`}
-                      >
+                      <span className={`tag text-2xs font-bold ${
+                        hasShortfall
+                          ? 'bg-danger-50 dark:bg-danger-500/10 text-danger-700 dark:text-danger-500 border-danger-100 dark:border-danger-500/20'
+                          : 'bg-ink-50 dark:bg-ink-800 text-ink-500 border-ink-200 dark:border-ink-700'
+                      }`}>
                         {item.shortfall_days ?? 0}d
                       </span>
                     </td>
-                    <td className="py-3 px-4 font-bold text-slate-900 dark:text-white">
+                    <td className="py-3 px-4 font-bold text-ink-900 dark:text-white">
                       {item.est_revenue_at_risk ? formatMoney(item.est_revenue_at_risk) : '$0'}
                     </td>
                     <td className="py-3 px-4">
                       {hasShortfall ? (
-                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300 border border-rose-200 dark:border-rose-800">
-                          Stockout Before Delivery
+                        <span className="tag bg-danger-50 dark:bg-danger-500/10 text-danger-700 dark:text-danger-500 border-danger-100 dark:border-danger-500/20 text-2xs font-bold">
+                          Stockout Risk
                         </span>
                       ) : (
-                        <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-400">
+                        <span className="tag bg-ink-50 dark:bg-ink-800 text-ink-500 border-ink-200 dark:border-ink-700 text-2xs">
                           Covered
                         </span>
                       )}

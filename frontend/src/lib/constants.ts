@@ -11,41 +11,65 @@ export const VERDICT_STYLES: Record<string, {
 }> = {
   REAL: {
     label: "REAL",
-    badgeBg: "bg-emerald-50 dark:bg-emerald-950/40",
-    badgeText: "text-emerald-700 dark:text-emerald-300",
-    badgeBorder: "border-emerald-200 dark:border-emerald-800",
-    dotColor: "bg-emerald-500",
+    badgeBg: "bg-success-50 dark:bg-success-500/10",
+    badgeText: "text-success-700 dark:text-success-500",
+    badgeBorder: "border-success-100 dark:border-success-500/20",
+    dotColor: "bg-success-500",
     iconType: "check",
   },
   NOISE: {
     label: "NOISE",
-    badgeBg: "bg-slate-100 dark:bg-slate-800",
-    badgeText: "text-slate-600 dark:text-slate-300",
-    badgeBorder: "border-slate-200 dark:border-slate-700",
-    dotColor: "bg-slate-400",
+    badgeBg: "bg-ink-100 dark:bg-ink-800",
+    badgeText: "text-ink-600 dark:text-ink-400",
+    badgeBorder: "border-ink-200 dark:border-ink-700",
+    dotColor: "bg-ink-400",
     iconType: "x",
   },
   "ASSUMPTION-DEPENDENT": {
     label: "ASSUMPTION-DEPENDENT",
-    badgeBg: "bg-amber-50 dark:bg-amber-950/40",
-    badgeText: "text-amber-700 dark:text-amber-300",
-    badgeBorder: "border-amber-200 dark:border-amber-800",
-    dotColor: "bg-amber-500",
+    badgeBg: "bg-caution-50 dark:bg-caution-500/10",
+    badgeText: "text-caution-700 dark:text-caution-500",
+    badgeBorder: "border-caution-100 dark:border-caution-500/20",
+    dotColor: "bg-caution-500",
     iconType: "alert",
   },
   "DATA CONFLICT": {
     label: "DATA CONFLICT",
-    badgeBg: "bg-rose-50 dark:bg-rose-950/40",
-    badgeText: "text-rose-700 dark:text-rose-300",
-    badgeBorder: "border-rose-200 dark:border-rose-800",
-    dotColor: "bg-rose-500",
+    badgeBg: "bg-danger-50 dark:bg-danger-500/10",
+    badgeText: "text-danger-700 dark:text-danger-500",
+    badgeBorder: "border-danger-100 dark:border-danger-500/20",
+    dotColor: "bg-danger-500",
     iconType: "alert",
   },
 };
 
 export const STATUS_COLORS: Record<string, string> = {
-  Completed: "#10B981", // Emerald 500
-  Cancelled: "#EF4444", // Red 500
-  Returned: "#F59E0B",  // Amber 500
-  Pending: "#6366F1",   // Indigo 500
+  Completed: "#22C55E",
+  Cancelled: "#EF4444",
+  Returned:  "#F59E0B",
+  Pending:   "#3366FF",
 };
+
+/* Shared chart tooltip style for dark tooltips */
+export const CHART_TOOLTIP_STYLE = {
+  backgroundColor: '#0E1629',
+  borderColor: '#2A3550',
+  borderRadius: '10px',
+  boxShadow: '0 8px 24px -4px rgba(0, 0, 0, 0.4)',
+  padding: '10px 14px',
+};
+
+export const CHART_ITEM_STYLE = {
+  color: '#F0F2F5',
+  fontSize: '12px',
+  fontWeight: 500,
+};
+
+export const CHART_LABEL_STYLE = {
+  color: '#7D89A1',
+  fontSize: '11px',
+  fontWeight: 600,
+  marginBottom: '4px',
+};
+
+export const CHART_AXIS_COLOR = '#7D89A1';

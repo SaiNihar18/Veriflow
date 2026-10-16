@@ -38,12 +38,12 @@ export const Layout: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex transition-colors duration-150">
+    <div className="min-h-screen bg-ink-50 dark:bg-ink-950 flex transition-colors duration-150">
       {/* Sidebar */}
       <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
       {/* Main Content Area */}
-      <div className="flex-1 flex flex-col min-w-0 lg:pl-64">
+      <div className="flex-1 flex flex-col min-w-0 lg:pl-[260px]">
         <Topbar
           onToggleSidebar={() => setSidebarOpen((prev) => !prev)}
           datePeriod={datePeriod}
@@ -51,7 +51,7 @@ export const Layout: React.FC = () => {
           onToggleDark={() => setIsDark((prev) => !prev)}
         />
 
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 max-w-7xl w-full mx-auto">
+        <main className="flex-1 px-4 py-5 sm:px-6 sm:py-6 lg:px-8 lg:py-7 max-w-[1360px] w-full mx-auto animate-fade-in">
           <Outlet />
         </main>
       </div>

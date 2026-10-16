@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Moon, Sun, Calendar, Droplets } from 'lucide-react';
+import { Menu, Moon, Sun, Calendar } from 'lucide-react';
 
 interface TopbarProps {
   onToggleSidebar: () => void;
@@ -15,48 +15,50 @@ export const Topbar: React.FC<TopbarProps> = ({
   onToggleDark,
 }) => {
   return (
-    <header className="sticky top-0 z-30 h-16 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 flex items-center justify-between px-4 sm:px-6">
+    <header className="sticky top-0 z-30 h-14 bg-white/90 dark:bg-ink-900/90 backdrop-blur-lg border-b border-ink-200/60 dark:border-ink-800/60 flex items-center justify-between px-4 sm:px-6">
       <div className="flex items-center gap-3">
         <button
           onClick={onToggleSidebar}
-          className="lg:hidden p-2 rounded-lg text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+          className="lg:hidden p-2 rounded-lg text-ink-500 hover:bg-ink-100 dark:hover:bg-ink-800 transition-colors"
           aria-label="Toggle navigation"
         >
-          <Menu size={20} />
+          <Menu size={18} />
         </button>
 
         {/* Mobile Brand */}
         <div className="flex lg:hidden items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white">
-            <Droplets size={16} />
-          </div>
-          <span className="font-bold text-slate-900 dark:text-white">Veriflow</span>
+          <img
+            src="/veriflow-logo.jpeg"
+            alt="Veriflow"
+            className="w-7 h-7 rounded-lg object-cover"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+          />
+          <span className="font-bold text-sm text-ink-900 dark:text-white">Veriflow</span>
         </div>
 
         {/* Desktop Tagline */}
         <div className="hidden lg:block">
-          <span className="text-xs font-medium text-slate-500 dark:text-slate-400">
+          <span className="text-xs font-medium text-ink-400 dark:text-ink-500">
             See where your money leaks, and why.
           </span>
         </div>
       </div>
 
       {/* Right Controls */}
-      <div className="flex items-center gap-2.5 sm:gap-3">
-        {/* Data Period Badge */}
-        <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs text-slate-600 dark:text-slate-300">
-          <Calendar size={13} className="text-slate-400" />
-          <span className="font-mono text-[11px] font-medium">{datePeriod}</span>
+      <div className="flex items-center gap-2">
+        {/* Data Period */}
+        <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-ink-50 dark:bg-ink-800/60 border border-ink-200/60 dark:border-ink-700/40 text-2xs text-ink-500 dark:text-ink-400">
+          <Calendar size={12} className="text-ink-400" />
+          <span className="font-mono font-medium">{datePeriod}</span>
         </div>
 
         {/* Dark Mode Toggle */}
         <button
           onClick={onToggleDark}
-          className="p-2 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-          aria-label="Toggle dark mode"
-          title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+          className="p-2 rounded-lg border border-ink-200/60 dark:border-ink-700/40 text-ink-500 dark:text-ink-400 hover:bg-ink-100 dark:hover:bg-ink-800 transition-colors"
+          aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
         >
-          {isDark ? <Sun size={17} className="text-amber-400" /> : <Moon size={17} />}
+          {isDark ? <Sun size={15} className="text-caution-500" /> : <Moon size={15} />}
         </button>
       </div>
     </header>
