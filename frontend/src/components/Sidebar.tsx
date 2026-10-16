@@ -47,9 +47,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           {/* Logo & Brand Header */}
           <div className="h-16 flex items-center justify-between px-5 border-b border-slate-200/80 dark:border-slate-800">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-brand-700 via-brand-600 to-indigo-500 flex items-center justify-center shadow-sm text-white">
-                <Droplets size={20} className="stroke-[2.2]" />
-              </div>
+              <img
+                src="/veriflow-logo.jpeg"
+                alt="Veriflow Logo"
+                className="w-9 h-9 rounded-xl object-cover shadow-sm"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = 'none';
+                }}
+              />
               <div>
                 <span className="font-bold text-lg text-slate-900 dark:text-white tracking-tight flex items-center gap-1">
                   Veriflow

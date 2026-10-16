@@ -1,200 +1,217 @@
-# Veriflow - Retail Loss Intelligence & Decision Support
+﻿<p align="center">
+  <img src="docs/screenshots/Veriflow_Logo.jpeg" alt="Veriflow Logo" width="120" height="120" style="border-radius:16px;" />
+</p>
 
-> **Datathon 2026 - Track: "The Money Leak"**  
-> *"See where your money leaks, and why."*
+<h1 align="center">Veriflow — Retail Loss Intelligence & Decision Support</h1>
 
-Veriflow is a decision-support tool for retail business managers. It answers three core operational questions:
-1. **What appears to be going wrong?**
-2. **What quantitative evidence supports it?**
-3. **What corrective action should be taken?**
+<p align="center">
+  <strong>Datathon 2026 · Track: "The Money Leak"</strong><br/>
+  <em>"See where your money leaks — and why."</em>
+</p>
 
-Its defining principle is **honesty**: every finding carries a definitive **REAL** or **NOISE** verdict based on empirical data and Benjamini-Hochberg multiple hypothesis correction. If the data shows no reliable driver, Veriflow explicitly states so rather than hallucinating false signals.
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi" />
+  <img src="https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/ML-Scikit--learn%20%7C%20IsolationForest-F7931E?style=flat-square&logo=scikit-learn" />
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python" />
+  <img src="https://img.shields.io/badge/TypeScript-Strict-3178C6?style=flat-square&logo=typescript" />
+</p>
 
 ---
 
-## 🚀 Quickstart & Setup
+## 📌 What is Veriflow?
+
+Veriflow is a full-stack decision-support tool for **retail business managers**. It ingests the Datathon dataset (18,000 orders, 1,200 campaigns, product inventory) and answers three core questions:
+
+| # | Question | Module |
+|---|---|---|
+| 1 | **What is going wrong?** | Leak Ledger — 7 ranked findings with dollar impact |
+| 2 | **What evidence supports it?** | Model & Data Trust — AUC CIs, permutation tests, BH correction |
+| 3 | **What action should be taken?** | Check Order / Investigate — live scoring & segment drilldowns |
+
+Its defining principle is **honesty**: every finding carries a definitive **REAL** or **NOISE** verdict backed by empirical data and Benjamini-Hochberg multiple hypothesis correction. If data shows no reliable signal, Veriflow says so explicitly — rather than surfacing spurious correlations.
+
+---
+
+## 🚀 Quickstart
 
 ### Prerequisites
-- Python 3.10+ (tested on Python 3.12)
-- Node.js 18+ and npm
 
-### 1. Backend Setup
+| Tool | Version |
+|---|---|
+| Python | 3.10+ (tested on 3.12) |
+| Node.js | 18+ |
+| npm | 9+ |
+
+### 1 · Backend
 
 ```bash
-# From workspace root or backend/
 pip install -r requirements.txt
-
-# Start FastAPI backend (runs at http://127.0.0.1:8000)
 cd backend
 uvicorn app.main:app --reload
 ```
 
-*Note: The backend automatically loads dataset files on startup and enables CORS for local development.*
+> The backend loads all dataset files on startup and warms in-memory caches for sub-millisecond API responses.
 
-### 2. Frontend Setup
+### 2 · Frontend
 
 ```bash
-# In another terminal from repository root:
-npm run dev
-
-# Alternatively, from frontend/:
-cd frontend
 npm run dev
 ```
 
-*Frontend dev server will be live at `http://localhost:5173`. API requests to `/api` are automatically proxied to `http://127.0.0.1:8000`.*
-
----
-
-## 📂 Architecture & Folder Structure
-
-```
-.
-├── README.md                      # Complete project documentation and guide
-├── package.json                   # Root script proxy for npm run dev
-├── requirements.txt               # Backend Python dependencies
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py                # FastAPI routes, CORS, and order scoring endpoint
-│   │   ├── data_loader.py         # Data aggregator, calculations, and JSON loaders
-│   │   └── schemas.py             # Pydantic request/response schemas
-│   ├── data/
-│   │   ├── findings.json          # 7 ranked findings with mathematical proof & verdicts
-│   │   ├── metrics.json           # Train/test split, Model A ROC-AUC, Model B metrics
-│   │   ├── scored_transactions.csv# 18,000 scored customer orders with revenue & profit
-│   │   └── campaigns_scored.csv   # 1,200 marketing campaigns with anomaly flags
-│   └── ml/
-│       ├── __init__.py
-│       ├── predict.py             # Scikit-learn inference pipeline for order scoring
-│       └── leaklens_model.joblib  # Pre-trained pipelines, product costs & feature columns
-└── frontend/
-    ├── index.html                 # HTML shell with meta tags & favicon
-    ├── vite.config.ts             # Vite configuration with /api backend proxy
-    ├── tailwind.config.js         # Custom SaaS design tokens & dark mode
-    ├── package.json               # React 18, Recharts, Lucide, Tailwind CSS
-    └── src/
-        ├── types/                 # Strict TypeScript schemas for all data models
-        ├── lib/
-        │   ├── api.ts             # Typed fetch client connecting to FastAPI
-        │   ├── constants.ts       # CURRENCY constant, verdict styling tokens
-        │   └── formatters.ts      # formatMoney(), formatPercent(), formatNumber()
-        ├── components/
-        │   ├── Layout.tsx         # Dark mode provider, Topbar, Sidebar wrapper
-        │   ├── Sidebar.tsx        # Responsive navigation with brand mark
-        │   ├── Topbar.tsx         # Date range, live status, theme toggle
-        │   ├── MetricCard.tsx     # Standardized SaaS KPI cards
-        │   ├── VerdictBadge.tsx   # Semantic pill badges (REAL, NOISE, etc.)
-        │   └── MoneyBar.tsx       # Animated relative impact progress bar
-        └── pages/
-            ├── LeakLedger.tsx     # Home: ranked findings, donut, impact bar chart
-            ├── FindingDetail.tsx  # Drilldown: evidence list, ROC-AUC CI charts, actions
-            ├── Investigate.tsx    # Monthly trends & category/region/channel breakdown
-            ├── CheckOrder.tsx     # Live order scorer with client-side what-if strip
-            ├── Inventory.tsx      # Low stock watchlist & stockout data conflict audit
-            ├── Campaigns.tsx      # Spend vs conversions scatter & funnel anomalies
-            └── ModelTrust.tsx     # ROC-AUC 95% CIs, multiple testing & data caveats
-```
-
----
-
-## 📡 API Endpoints
-
-All endpoints serve clean JSON data dynamically loaded from the `backend/data/` source files:
-
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/overview` | Total order volume ($9.39M), non-completed value ($2.09M), status split, findings summary |
-| `GET` | `/api/findings` | Full list of 7 ranked findings with verdicts and financial impacts |
-| `GET` | `/api/findings/{id}` | Granular details, numbered evidence, actions, and assumptions for finding `F1`-`F7` |
-| `GET` | `/api/trends` | Monthly order value and cancel/return/pending rates across all 12 months |
-| `GET` | `/api/breakdown?by=category\|region\|channel` | Segment volumes and failure rates with overall baseline benchmark |
-| `GET` | `/api/campaigns` | Marketing KPIs, 1,200 scatter points (spend vs conversions), flagged table |
-| `GET` | `/api/inventory` | Critical watchlist (34 products below reorder point) & stockout flag audit |
-| `GET` | `/api/model` | Split details, Model A predictive comparison table, Benjamini-Hochberg results |
-| `GET` | `/api/options` | Categorical dropdown choices and product catalog for order simulation |
-| `POST` | `/api/score-order` | Validates order payload, calls `predict.score_order`, returns margin & risk scores |
-
----
-
-## 🔍 The 7 Core Findings (Ranked)
-
-1. **F1 - Stacked Pricing Gap ($1,689,465)**: Orders sold below list price with stacked promotional discounts on top. Largest gap in Home ($324k) and Electronics ($303k).
-2. **F2 - Sales Below Unit Cost ($1,214,116)**: 38% of all completed orders sell below unit cost. 94 products run in persistent net loss.
-3. **F3 - Cancelled Orders ($861,850)**: **NOISE**. 9.4% overall cancellation rate. Model A test ROC-AUC is 0.524 with 95% CI spanning across 0.50 (random). No actionable segment driver exists.
-4. **F4 - Returned Orders ($760,322)**: **NOISE**. 8.0% overall return rate. Model A test ROC-AUC is 0.490 (worse than random). Zero segment differences survive Benjamini-Hochberg correction.
-5. **F5 - Stale Pending Orders ($417,527)**: Chronic operational freeze. 824 pending orders have been stalled for over 30 days (median age: 180 days).
-6. **F6 - Marketing Spend Anomalies ($197,854)**: 171 impossible conversion funnels (clicks > impressions or conv > clicks). Spend shows zero correlation with conversions.
-7. **F7 - Stockout Risk Before Supplier Delivers ($8,026)**: 34 priority products below reorder threshold. Inventory `stockout_flag` has no correlation with physical zero stock (0 of 10 zero-stock records flagged).
-
----
-
-## 🎯 Target Users & Problem Statement
-
-### Who is this for?
-- **Retail Business Managers & General Managers**: Need an executive loss ledger to prioritize operational fires by true financial damage ($) rather than vanity metrics.
-- **Merchandising & Pricing Planners**: Need guardrails to prevent stacked discounting and loss-making sales below unit cost.
-- **Marketing Directors**: Need to stop ad budget leakage from fraudulent or corrupted conversion funnels.
-- **Inventory & Supply Chain Leads**: Need early-warning lead-time shortfall alerts before products run out of stock.
-
-### The Problem
-Retail companies waste millions chasing false leads (e.g. blaming specific sales channels for cancellations when cancellations are actually uniform across the business) while ignoring silent arithmetic leaks (e.g. discounting items below manufacturing cost or ad campaigns recording more clicks than views). Veriflow solves this by providing mathematical proof and honest noise detection for every finding.
+> Frontend runs at `http://localhost:5173`. All `/api` requests are auto-proxied to `http://127.0.0.1:8000` via Vite config.
 
 ---
 
 ## 🖼️ Product Screenshots
 
-### 1. Leak Ledger (Executive Dashboard & Honesty Tally)
+### Leak Ledger — Executive Dashboard & Honesty Tally
 ![Leak Ledger](docs/screenshots/leak_ledger.png)
-*Executive dashboard ranking all financial leaks by dollar impact with verified statistical honesty verdicts.*
+*7 ranked financial leaks by dollar impact with REAL/NOISE statistical verdicts.*
 
-### 2. Marketing Funnel Anomaly Detection
+### Marketing Funnel Anomaly Detection
 ![Marketing Campaigns](docs/screenshots/campaigns.png)
-*Scatter plot of Spend vs. Conversions highlighting 180 corrupted campaigns and impossible funnels.*
+*Spend vs. Conversions scatter identifying 171 impossible funnel records and 180 anomalous campaigns.*
 
-### 3. Order Risk & Margin Protection Checker
+### Order Risk & Margin Protection Checker
 ![Order Risk Checker](docs/screenshots/check_order.png)
-*Live pre-confirmation simulator with unit economics warnings and interactive what-if discount slider.*
+*Live pre-confirmation simulator with unit economics warnings and interactive discount slider.*
 
-### 4. Segment Breakdown & 12-Month Trends
+### Segment Breakdown & 12-Month Trends
 ![Investigate & Breakdown](docs/screenshots/investigate.png)
-*Dual-axis monthly volume trends and categorical failure benchmarks against overall store baselines.*
+*Dual-axis monthly volume trends and categorical failure benchmarks vs. store-wide baseline.*
 
-### 5. Inventory Stockout Risk Watchlist
+### Inventory Stockout Risk Watchlist
 ![Inventory Watchlist](docs/screenshots/inventory.png)
-*Lead-time shortfall ranking identifying 34 products at risk of stocking out before supplier replenishment.*
+*34 products below reorder threshold ranked by lead-time shortfall risk.*
 
-### 6. Model & Data Trust Center
+### Model & Data Trust Center
 ![Model & Data Trust](docs/screenshots/model_trust.png)
-*Full statistical disclosure including train/test split verification and Benjamini-Hochberg correction logs.*
+*Full AUC disclosure, train/test split, permutation test p-values, and BH correction logs.*
 
 ---
 
-## 🧠 Machine Learning Training Pipeline & Methodology
+## 📂 Project Architecture
 
-All training code and evaluation scripts are stored directly in the repository:
-- **Python Training Script**: `backend/ml/train.py`
-- **Jupyter Notebook**: `backend/ml/model_training_pipeline.ipynb`
-- **Inference Pipeline**: `backend/ml/predict.py`
-- **Serialized Model Artifact**: `backend/ml/leaklens_model.joblib`
-
-### Models Implemented
-1. **Model A (Order Failure Risk - Logistic Regression & GBDT)**:
-   - Trained on a strict 70/30 chronological time-split.
-   - Out-of-time test AUC was 0.524 (95% CI `[0.493, 0.554]`).
-   - 100-run permutation test (p=0.139) confirmed predictions are indistinguishable from random noise, preventing costly and ineffective operational changes.
-2. **Model B (Marketing Anomaly Detection - Isolation Forest & Funnel Rules)**:
-   - Evaluates multi-dimensional funnel integrity (impressions, clicks, conversions, spend).
-   - Identified 171 impossible funnel records and 180 total anomalous campaigns.
-3. **Model C (Revenue Demand Runway Forecast)**:
-   - 30-day forward projection with 95% forecast intervals.
-4. **Model D (Customer RFM Segmentation)**:
-   - Classifies customer retention tiers (Gold, Silver, Bronze) based on recency, frequency, and monetary spend.
+```
+.
+├── README.md
+├── package.json                      # Root npm proxy (npm run dev launches both servers)
+├── requirements.txt                  # Python backend dependencies
+├── backend/
+│   ├── app/
+│   │   ├── main.py                   # FastAPI routes, CORS, startup cache-warm
+│   │   ├── data_loader.py            # Aggregator, calculations, NaN-safe JSON export
+│   │   └── schemas.py                # Pydantic models for all request/response types
+│   ├── data/
+│   │   ├── findings.json             # 7 ranked findings with proofs and verdicts
+│   │   ├── metrics.json              # AUC CI, permutation test, BH correction results
+│   │   ├── scored_transactions.csv   # 18,000 orders with margin, risk, revenue columns
+│   │   └── campaigns_scored.csv      # 1,200 campaigns with anomaly flags
+│   └── ml/
+│       ├── train.py                  # Full reproducible training pipeline
+│       ├── model_training_pipeline.ipynb  # Jupyter walkthrough of all 4 models
+│       ├── predict.py                # Inference: score_order() for real-time margin risk
+│       └── leaklens_model.joblib     # Serialized pipelines + product cost table
+└── frontend/
+    ├── vite.config.ts                # /api proxy to FastAPI backend
+    ├── tailwind.config.js            # Custom SaaS color tokens and dark mode
+    └── src/
+        ├── lib/api.ts                # Typed fetch client (all 10 endpoints)
+        ├── components/               # Layout, Sidebar, MetricCard, VerdictBadge, MoneyBar
+        └── pages/
+            ├── LeakLedger.tsx
+            ├── FindingDetail.tsx
+            ├── Investigate.tsx
+            ├── CheckOrder.tsx
+            ├── Inventory.tsx
+            ├── Campaigns.tsx
+            └── ModelTrust.tsx
+```
 
 ---
 
-## 🛡️ Honesty Rules in Action
+## 📡 API Reference
 
-- **Zero Spurious Correlations**: When Model A exhibits no predictive power, the UI clearly displays "NO RELIABLE SIGNAL" and paints finding badges in neutral slate **NOISE**.
-- **Transparency on Caveats**: The Model & Data Trust page discloses complete statistical benchmarks, details the time-based train/test split, and logs the multiple testing correction results.
-- **Client-Side What-If Simulation**: In the Order Checker, business managers can adjust prices and discounts live to instantly see whether unit margin turns red before submitting.
+| Method | Endpoint | Response Summary |
+|---|---|---|
+| `GET` | `/api/overview` | Total volume ($9.39M), non-completed ($2.09M), status splits |
+| `GET` | `/api/findings` | All 7 ranked findings with verdicts and dollar impacts |
+| `GET` | `/api/findings/{id}` | Evidence, numbered steps, recommended actions (F1–F7) |
+| `GET` | `/api/trends` | Monthly order value + cancel/return/pending rates |
+| `GET` | `/api/breakdown?by=category\|region\|channel` | Segment volumes vs baseline |
+| `GET` | `/api/campaigns` | 1,200 scatter points, 180 anomaly flags |
+| `GET` | `/api/inventory` | 34 products below reorder + stockout flag audit |
+| `GET` | `/api/model` | AUC CIs, permutation p-values, BH correction log |
+| `GET` | `/api/options` | Product catalog & dropdowns for order simulation |
+| `POST` | `/api/score-order` | Validates order → score_order() → margin & risk scores |
+
+---
+
+## 🔍 The 7 Core Findings
+
+| Rank | ID | Finding | Impact | Verdict |
+|---|---|---|---|---|
+| 1 | F1 | **Stacked Pricing Gap** — discounts on top of below-list prices | $1,689,465 | ✅ REAL |
+| 2 | F2 | **Sales Below Unit Cost** — 38% of orders net a loss; 94 loss products | $1,214,116 | ✅ REAL |
+| 3 | F3 | **Cancelled Orders** — AUC 0.524, CI spans 0.50; no segment survives BH | $861,850 | ❌ NOISE |
+| 4 | F4 | **Returned Orders** — AUC 0.490 (sub-random); zero segments survive correction | $760,322 | ❌ NOISE |
+| 5 | F5 | **Stale Pending Orders** — 824 orders frozen >30 days; median age 180 days | $417,527 | ✅ REAL |
+| 6 | F6 | **Marketing Anomalies** — 171 impossible funnels; spend vs. conv. correlation ≈ 0 | $197,854 | ✅ REAL |
+| 7 | F7 | **Stockout Risk** — 34 products below reorder; stockout_flag 0/10 accuracy | $8,026 | ✅ REAL |
+
+> **Honesty Rule**: F3 and F4 are NOISE — no actionable driver exists. Spending resources on them is worse than doing nothing.
+
+---
+
+## 🎯 Target Users
+
+| Role | Pain Point Solved |
+|---|---|
+| **Retail General Manager** | Prioritize operational fires by true financial damage ($) |
+| **Merchandising & Pricing Planner** | Guardrails preventing stacked discounting and below-cost sales |
+| **Marketing Director** | Identify and halt ad budget leakage from corrupted funnels |
+| **Inventory & Supply Chain Lead** | Early-warning alerts before stockout occurs |
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+| File | Purpose |
+|---|---|
+| `backend/ml/train.py` | Full Python training script — run to retrain all models |
+| `backend/ml/model_training_pipeline.ipynb` | Step-by-step Jupyter walkthrough |
+| `backend/ml/predict.py` | `score_order()` for live margin & cancellation risk |
+| `backend/ml/leaklens_model.joblib` | Serialized pipelines + product cost table |
+
+### Models
+
+| Model | Algorithm | Dataset | Key Result |
+|---|---|---|---|
+| **A — Order Failure Risk** | Logistic Regression + GBDT (70/30 time-split) | `scored_transactions.csv` | AUC 0.524, p=0.139 → noise |
+| **B — Marketing Anomaly** | Isolation Forest + funnel rules | `campaigns_scored.csv` | 171 impossible funnels |
+| **C — Revenue Forecast** | Time-series demand runway | `scored_transactions.csv` | 30-day forward + 95% CI |
+| **D — Customer RFM** | K-Means RFM segmentation | `scored_transactions.csv` | Gold / Silver / Bronze tiers |
+
+---
+
+## 🛡️ Honesty-First Design
+
+| Principle | Implementation |
+|---|---|
+| No spurious correlations | AUC with no signal → "NO RELIABLE SIGNAL" NOISE badge in UI |
+| Full statistical disclosure | BH correction, permutation p-values, and CI bounds on Model Trust page |
+| Live what-if simulation | Order Checker: adjust price/discount in real-time before submitting |
+| Zero mock data | All endpoints load and cache real CSV/JSON files at startup |
+
+---
+
+## ⚡ Performance
+
+- **Startup cache warming**: `DataLoader._warm_caches()` pre-loads all aggregated views on boot
+- **Sub-millisecond responses**: All GET endpoints return from memory — no repeated disk I/O
+- **NaN-safe JSON**: All `inf`/`NaN` values sanitized to `null` before serialization
+
+---
+
+*Built for Datathon 2026 · Track: "The Money Leak" · Team Veriflow*
