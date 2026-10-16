@@ -2,11 +2,11 @@
   <img src="docs/screenshots/Veriflow_Logo.jpeg" alt="Veriflow Logo" width="120" height="120" style="border-radius:16px;" />
 </p>
 
-<h1 align="center">Veriflow — Retail Loss Intelligence & Decision Support</h1>
+<h1 align="center">Veriflow - Retail Loss Intelligence & Decision Support</h1>
 
 <p align="center">
   <strong>Datathon 2026 · Track: "The Money Leak"</strong><br/>
-  <em>"See where your money leaks — and why."</em>
+  <em>"See where your money leaks - and why."</em>
 </p>
 
 <p align="center">
@@ -25,11 +25,11 @@ Veriflow is a full-stack decision-support tool for **retail business managers**.
 
 | # | Question | Module |
 |---|---|---|
-| 1 | **What is going wrong?** | Leak Ledger — 7 ranked findings with dollar impact |
-| 2 | **What evidence supports it?** | Model & Data Trust — AUC CIs, permutation tests, BH correction |
-| 3 | **What action should be taken?** | Check Order / Investigate — live scoring & segment drilldowns |
+| 1 | **What is going wrong?** | Leak Ledger - 7 ranked findings with dollar impact |
+| 2 | **What evidence supports it?** | Model & Data Trust - AUC CIs, permutation tests, BH correction |
+| 3 | **What action should be taken?** | Check Order / Investigate - live scoring & segment drilldowns |
 
-Its defining principle is **honesty**: every finding carries a definitive **REAL** or **NOISE** verdict backed by empirical data and Benjamini-Hochberg multiple hypothesis correction. If data shows no reliable signal, Veriflow says so explicitly — rather than surfacing spurious correlations.
+Its defining principle is **honesty**: every finding carries a definitive **REAL** or **NOISE** verdict backed by empirical data and Benjamini-Hochberg multiple hypothesis correction. If data shows no reliable signal, Veriflow says so explicitly - rather than surfacing spurious correlations.
 
 ---
 
@@ -65,7 +65,7 @@ npm run dev
 
 ## 🖼️ Product Screenshots
 
-### Leak Ledger — Executive Dashboard & Honesty Tally
+### Leak Ledger - Executive Dashboard & Honesty Tally
 ![Leak Ledger](docs/screenshots/leak_ledger.png)
 *7 ranked financial leaks by dollar impact with REAL/NOISE statistical verdicts.*
 
@@ -137,7 +137,7 @@ npm run dev
 |---|---|---|
 | `GET` | `/api/overview` | Total volume ($9.39M), non-completed ($2.09M), status splits |
 | `GET` | `/api/findings` | All 7 ranked findings with verdicts and dollar impacts |
-| `GET` | `/api/findings/{id}` | Evidence, numbered steps, recommended actions (F1–F7) |
+| `GET` | `/api/findings/{id}` | Evidence, numbered steps, recommended actions (F1-F7) |
 | `GET` | `/api/trends` | Monthly order value + cancel/return/pending rates |
 | `GET` | `/api/breakdown?by=category\|region\|channel` | Segment volumes vs baseline |
 | `GET` | `/api/campaigns` | 1,200 scatter points, 180 anomaly flags |
@@ -152,15 +152,15 @@ npm run dev
 
 | Rank | ID | Finding | Impact | Verdict |
 |---|---|---|---|---|
-| 1 | F1 | **Stacked Pricing Gap** — discounts on top of below-list prices | $1,689,465 | ✅ REAL |
-| 2 | F2 | **Sales Below Unit Cost** — 38% of orders net a loss; 94 loss products | $1,214,116 | ✅ REAL |
-| 3 | F3 | **Cancelled Orders** — AUC 0.524, CI spans 0.50; no segment survives BH | $861,850 | ❌ NOISE |
-| 4 | F4 | **Returned Orders** — AUC 0.490 (sub-random); zero segments survive correction | $760,322 | ❌ NOISE |
-| 5 | F5 | **Stale Pending Orders** — 824 orders frozen >30 days; median age 180 days | $417,527 | ✅ REAL |
-| 6 | F6 | **Marketing Anomalies** — 171 impossible funnels; spend vs. conv. correlation ≈ 0 | $197,854 | ✅ REAL |
-| 7 | F7 | **Stockout Risk** — 34 products below reorder; stockout_flag 0/10 accuracy | $8,026 | ✅ REAL |
+| 1 | F1 | **Stacked Pricing Gap** - discounts on top of below-list prices | $1,689,465 | ✅ REAL |
+| 2 | F2 | **Sales Below Unit Cost** - 38% of orders net a loss; 94 loss products | $1,214,116 | ✅ REAL |
+| 3 | F3 | **Cancelled Orders** - AUC 0.524, CI spans 0.50; no segment survives BH | $861,850 | ❌ NOISE |
+| 4 | F4 | **Returned Orders** - AUC 0.490 (sub-random); zero segments survive correction | $760,322 | ❌ NOISE |
+| 5 | F5 | **Stale Pending Orders** - 824 orders frozen >30 days; median age 180 days | $417,527 | ✅ REAL |
+| 6 | F6 | **Marketing Anomalies** - 171 impossible funnels; spend vs. conv. correlation ≈ 0 | $197,854 | ✅ REAL |
+| 7 | F7 | **Stockout Risk** - 34 products below reorder; stockout_flag 0/10 accuracy | $8,026 | ✅ REAL |
 
-> **Honesty Rule**: F3 and F4 are NOISE — no actionable driver exists. Spending resources on them is worse than doing nothing.
+> **Honesty Rule**: F3 and F4 are NOISE - no actionable driver exists. Spending resources on them is worse than doing nothing.
 
 ---
 
@@ -179,7 +179,7 @@ npm run dev
 
 | File | Purpose |
 |---|---|
-| `backend/ml/train.py` | Full Python training script — run to retrain all models |
+| `backend/ml/train.py` | Full Python training script - run to retrain all models |
 | `backend/ml/model_training_pipeline.ipynb` | Step-by-step Jupyter walkthrough |
 | `backend/ml/predict.py` | `score_order()` for live margin & cancellation risk |
 | `backend/ml/leaklens_model.joblib` | Serialized pipelines + product cost table |
@@ -188,10 +188,10 @@ npm run dev
 
 | Model | Algorithm | Dataset | Key Result |
 |---|---|---|---|
-| **A — Order Failure Risk** | Logistic Regression + GBDT (70/30 time-split) | `scored_transactions.csv` | AUC 0.524, p=0.139 → noise |
-| **B — Marketing Anomaly** | Isolation Forest + funnel rules | `campaigns_scored.csv` | 171 impossible funnels |
-| **C — Revenue Forecast** | Time-series demand runway | `scored_transactions.csv` | 30-day forward + 95% CI |
-| **D — Customer RFM** | K-Means RFM segmentation | `scored_transactions.csv` | Gold / Silver / Bronze tiers |
+| **A - Order Failure Risk** | Logistic Regression + GBDT (70/30 time-split) | `scored_transactions.csv` | AUC 0.524, p=0.139 → noise |
+| **B - Marketing Anomaly** | Isolation Forest + funnel rules | `campaigns_scored.csv` | 171 impossible funnels |
+| **C - Revenue Forecast** | Time-series demand runway | `scored_transactions.csv` | 30-day forward + 95% CI |
+| **D - Customer RFM** | K-Means RFM segmentation | `scored_transactions.csv` | Gold / Silver / Bronze tiers |
 
 ---
 
@@ -209,7 +209,7 @@ npm run dev
 ## ⚡ Performance
 
 - **Startup cache warming**: `DataLoader._warm_caches()` pre-loads all aggregated views on boot
-- **Sub-millisecond responses**: All GET endpoints return from memory — no repeated disk I/O
+- **Sub-millisecond responses**: All GET endpoints return from memory - no repeated disk I/O
 - **NaN-safe JSON**: All `inf`/`NaN` values sanitized to `null` before serialization
 
 ---
