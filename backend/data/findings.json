@@ -1,0 +1,385 @@
+[
+  {
+    "id": "F1",
+    "type": "pricing",
+    "title": "Orders sell well below list price and discounts stack on top",
+    "money_impact": 1689465.0,
+    "confidence": "High (measured)",
+    "verdict": "REAL (arithmetic from data)",
+    "evidence": [
+      "Order value is 9,390,803 against 11,080,268 at list price.",
+      "65% of orders are priced below list (price is 75-100% of list), costing 916,044.",
+      "discount_pct adds a further 773,421 on top.",
+      "Largest gap by category: Home (324,657)."
+    ],
+    "action": "Review who can set prices below list and cap stacked discounts (price cut + discount_pct).",
+    "assumptions": "list_price is treated as the reference price. Order prices track list price (correlation 0.99) at 75%-100% of list, so this is a systematic markdown, not noise.",
+    "metrics": {
+      "below_list": 916044,
+      "discount": 773421,
+      "gap_by_category": {
+        "Home": 324657.0,
+        "Electronics": 303746.0,
+        "Sports": 298131.0,
+        "Grocery": 291405.0,
+        "Fashion": 250748.0,
+        "Beauty": 220778.0
+      }
+    },
+    "rank": 1
+  },
+  {
+    "id": "F2",
+    "type": "margin",
+    "title": "A large share of orders are sold below unit cost",
+    "money_impact": 1214116.0,
+    "confidence": "Medium (depends on cost data)",
+    "verdict": "ASSUMPTION-DEPENDENT",
+    "evidence": [
+      "38% of all orders sell below unit cost; completed orders with negative profit lose 1,214,116.",
+      "94 of 250 products have negative total profit; 76 have unit cost above list price.",
+      "Lowest category margin: Beauty at 7.1% (others up to 35.2%)."
+    ],
+    "action": "Check cost and price master data first, then reprice or stop selling the worst products.",
+    "assumptions": "README says costs and prices were generated independently, so margins may be unrealistic. Treat as a data-quality and pricing alert, not proven loss.",
+    "metrics": {
+      "loss_products": 94,
+      "worst_products": {
+        "PR0192": -33515.0,
+        "PR0163": -32633.0,
+        "PR0210": -29971.0,
+        "PR0021": -29847.0,
+        "PR0037": -28904.0
+      }
+    },
+    "rank": 2
+  },
+  {
+    "id": "F3",
+    "type": "orders",
+    "title": "Cancelled orders (9.4% of orders): no reliable driver found",
+    "money_impact": 861850.0,
+    "confidence": "No driver detected in this data",
+    "verdict": "NOISE (no significant segment)",
+    "evidence": [
+      "1689 orders, value 861,850.",
+      "9 segment tests run; 1 passed p<0.05 before correction, 0 after Benjamini-Hochberg correction.",
+      "Most extreme gap: quantity=4 at 10.2% vs 9.4% overall (adjusted p=0.20).",
+      "Model A test AUC 0.524 (95% CI [0.493, 0.554]): NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+      "Permutation test (100 shuffles): real AUC 0.524 vs shuffled 0.5 +/- 0.019, p=0.139. NOT distinguishable from random labels."
+    ],
+    "action": "Do not target specific segments. Reduce cancelled with process fixes (checkout, delivery, product information) and track the rate monthly.",
+    "assumptions": "Benchmark data: absence of an empirical driver here does not prove none exists in general operations.",
+    "metrics": {
+      "model": {
+        "test_rows": 4419,
+        "test_positive_rate": 0.0892,
+        "baseline_category_rate": {
+          "roc_auc": 0.484,
+          "auc_95ci": [
+            0.454,
+            0.515
+          ],
+          "pr_auc": 0.086,
+          "lift_top10pct": 0.89
+        },
+        "logistic_regression": {
+          "roc_auc": 0.524,
+          "auc_95ci": [
+            0.493,
+            0.554
+          ],
+          "pr_auc": 0.1,
+          "lift_top10pct": 1.22
+        },
+        "gradient_boosting": {
+          "roc_auc": 0.511,
+          "auc_95ci": [
+            0.48,
+            0.543
+          ],
+          "pr_auc": 0.096,
+          "lift_top10pct": 1.04
+        },
+        "reliable_signal": false,
+        "verdict": "NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+        "permutation_test": {
+          "model": "logistic_regression",
+          "observed_auc": 0.524,
+          "shuffled_auc_mean": 0.5,
+          "shuffled_auc_sd": 0.019,
+          "n_permutations": 100,
+          "p_value": 0.139,
+          "verdict": "NOT distinguishable from random labels"
+        }
+      }
+    },
+    "rank": 3
+  },
+  {
+    "id": "F4",
+    "type": "orders",
+    "title": "Returned orders (8.0% of orders): no reliable driver found",
+    "money_impact": 760322.0,
+    "confidence": "No driver detected in this data",
+    "verdict": "NOISE (no significant segment)",
+    "evidence": [
+      "1431 orders, value 760,322.",
+      "9 segment tests run; 0 passed p<0.05 before correction, 0 after Benjamini-Hochberg correction.",
+      "Most extreme gap: discount_pct=0.0 at 8.7% vs 8.0% overall (adjusted p=0.72).",
+      "Model A test AUC 0.49 (95% CI [0.456, 0.52]): NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+      "Permutation test (100 shuffles): real AUC 0.49 vs shuffled 0.499 +/- 0.015, p=0.733. NOT distinguishable from random labels."
+    ],
+    "action": "Do not target specific segments. Reduce returned with process fixes (checkout, delivery, product information) and track the rate monthly.",
+    "assumptions": "Benchmark data: absence of an empirical driver here does not prove none exists in general operations.",
+    "metrics": {
+      "model": {
+        "test_rows": 4419,
+        "test_positive_rate": 0.0815,
+        "baseline_category_rate": {
+          "roc_auc": 0.473,
+          "auc_95ci": [
+            0.443,
+            0.508
+          ],
+          "pr_auc": 0.078,
+          "lift_top10pct": 1.11
+        },
+        "logistic_regression": {
+          "roc_auc": 0.49,
+          "auc_95ci": [
+            0.456,
+            0.52
+          ],
+          "pr_auc": 0.083,
+          "lift_top10pct": 1.09
+        },
+        "gradient_boosting": {
+          "roc_auc": 0.502,
+          "auc_95ci": [
+            0.475,
+            0.532
+          ],
+          "pr_auc": 0.081,
+          "lift_top10pct": 0.92
+        },
+        "reliable_signal": false,
+        "verdict": "NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+        "permutation_test": {
+          "model": "logistic_regression",
+          "observed_auc": 0.49,
+          "shuffled_auc_mean": 0.499,
+          "shuffled_auc_sd": 0.015,
+          "n_permutations": 100,
+          "p_value": 0.733,
+          "verdict": "NOT distinguishable from random labels"
+        }
+      }
+    },
+    "rank": 4
+  },
+  {
+    "id": "F5",
+    "type": "operations",
+    "title": "Pending orders stuck for months",
+    "money_impact": 417527.0,
+    "confidence": "High (measured)",
+    "verdict": "REAL (arithmetic from data)",
+    "evidence": [
+      "918 orders are Pending, worth 466,933.",
+      "824 of them are older than 30 days (median age 180 days), worth 417,527.",
+      "Pending share by month: chi-square p=0.14 (no month stands out, so not just recent orders)."
+    ],
+    "action": "Run a weekly pending-order sweep: confirm, cancel or escalate anything older than 30 days.",
+    "assumptions": "Age measured at the last data date (2025-12-31).",
+    "metrics": {
+      "stale_orders": 824,
+      "median_age_days": 180.0
+    },
+    "rank": 5
+  },
+  {
+    "id": "F6",
+    "type": "campaign",
+    "title": "Campaign spend with extreme cost per conversion and impossible funnels",
+    "money_impact": 197854.0,
+    "confidence": "Medium",
+    "verdict": "REAL (data anomalies) + ASSUMPTION (median efficiency)",
+    "evidence": [
+      "171 of 1200 campaigns report impossible funnels (clicks>impressions or conversions>clicks); spend on them is 674,503.",
+      "Isolation Forest flagged 180 campaigns; their spend above median efficiency (median cost per conversion 5.26) is 197,854.",
+      "Model B caught 104 of 171 impossible-funnel rows (recall 61%).",
+      "Correlation between spend and conversions is -0.005 (Spearman p=0.89): extra spend is not associated with more conversions."
+    ],
+    "action": "Pause or audit flagged campaigns and fix tracking so clicks and conversions are recorded correctly.",
+    "assumptions": "Excess spend assumes the median cost per conversion is achievable. Campaign conversions (895,411) cannot be reconciled with 18,000 orders.",
+    "metrics": {
+      "model": {
+        "campaigns": 1200,
+        "flagged": 180,
+        "impossible_funnel_rows": 171,
+        "impossible_rows_caught": 104,
+        "recall_on_impossible_rows": 0.608,
+        "precision_on_impossible_rows": 0.578,
+        "median_cost_per_conversion": 5.26,
+        "note": "Sanity check only: impossible-funnel rows (clicks>impressions or conversions>clicks) are a rule-based proxy, not ground truth."
+      }
+    },
+    "rank": 6
+  },
+  {
+    "id": "F7",
+    "type": "inventory",
+    "title": "Products likely to stock out before the supplier delivers",
+    "money_impact": 8026.0,
+    "confidence": "Medium (estimate)",
+    "verdict": "REAL (computed from stock, sales velocity, lead time)",
+    "evidence": [
+      "8 of 250 products have fewer days of cover than supplier lead time plus average delay; 26 more are below reorder point.",
+      "Estimated revenue at risk: 8,026 (shortfall days x average daily completed revenue per product).",
+      "stockout_flag is NOT related to stock level, supplier delay or reorder point (p=0.27, 0.72, 0.78), so it is ignored in this analysis."
+    ],
+    "action": "Reorder the listed products now, starting with the largest shortfall, and confirm how stockout_flag is defined.",
+    "assumptions": "Sales velocity is the average over the whole year from non-cancelled orders; inventory is not linked to sales, so lost sales are an estimate.",
+    "metrics": {
+      "top_risk": [
+        {
+          "product_id": "PR0071",
+          "category": "Electronics",
+          "stock_on_hand": 3,
+          "days_of_cover": 4.8,
+          "effective_lead_days": 37.8,
+          "shortfall_days": 33.0,
+          "est_revenue_at_risk": 3411.0
+        },
+        {
+          "product_id": "PR0239",
+          "category": "Grocery",
+          "stock_on_hand": 3,
+          "days_of_cover": 5.1,
+          "effective_lead_days": 26.9,
+          "shortfall_days": 21.8,
+          "est_revenue_at_risk": 647.0
+        },
+        {
+          "product_id": "PR0211",
+          "category": "Fashion",
+          "stock_on_hand": 10,
+          "days_of_cover": 16.2,
+          "effective_lead_days": 34.5,
+          "shortfall_days": 18.3,
+          "est_revenue_at_risk": 273.0
+        },
+        {
+          "product_id": "PR0039",
+          "category": "Grocery",
+          "stock_on_hand": 2,
+          "days_of_cover": 3.4,
+          "effective_lead_days": 17.6,
+          "shortfall_days": 14.2,
+          "est_revenue_at_risk": 1685.0
+        },
+        {
+          "product_id": "PR0132",
+          "category": "Electronics",
+          "stock_on_hand": 3,
+          "days_of_cover": 5.8,
+          "effective_lead_days": 18.4,
+          "shortfall_days": 12.6,
+          "est_revenue_at_risk": 513.0
+        },
+        {
+          "product_id": "PR0166",
+          "category": "Beauty",
+          "stock_on_hand": 4,
+          "days_of_cover": 6.4,
+          "effective_lead_days": 15.8,
+          "shortfall_days": 9.4,
+          "est_revenue_at_risk": 534.0
+        },
+        {
+          "product_id": "PR0010",
+          "category": "Beauty",
+          "stock_on_hand": 5,
+          "days_of_cover": 8.6,
+          "effective_lead_days": 13.2,
+          "shortfall_days": 4.6,
+          "est_revenue_at_risk": 771.0
+        },
+        {
+          "product_id": "PR0184",
+          "category": "Electronics",
+          "stock_on_hand": 5,
+          "days_of_cover": 7.3,
+          "effective_lead_days": 11.2,
+          "shortfall_days": 3.9,
+          "est_revenue_at_risk": 192.0
+        },
+        {
+          "product_id": "PR0230",
+          "category": "Grocery",
+          "stock_on_hand": 55,
+          "days_of_cover": 141.5,
+          "effective_lead_days": 25.9,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0017",
+          "category": "Grocery",
+          "stock_on_hand": 75,
+          "days_of_cover": 154.0,
+          "effective_lead_days": 17.4,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0084",
+          "category": "Sports",
+          "stock_on_hand": 287,
+          "days_of_cover": 492.4,
+          "effective_lead_days": 21.7,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0079",
+          "category": "Beauty",
+          "stock_on_hand": 103,
+          "days_of_cover": 205.4,
+          "effective_lead_days": 29.9,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0011",
+          "category": "Fashion",
+          "stock_on_hand": 266,
+          "days_of_cover": 536.6,
+          "effective_lead_days": 29.4,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0186",
+          "category": "Fashion",
+          "stock_on_hand": 226,
+          "days_of_cover": 360.4,
+          "effective_lead_days": 25.4,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        },
+        {
+          "product_id": "PR0062",
+          "category": "Fashion",
+          "stock_on_hand": 71,
+          "days_of_cover": 153.4,
+          "effective_lead_days": 22.7,
+          "shortfall_days": 0.0,
+          "est_revenue_at_risk": 0.0
+        }
+      ]
+    },
+    "rank": 7
+  }
+]

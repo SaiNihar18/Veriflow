@@ -1,0 +1,228 @@
+{
+  "split": {
+    "train": "2025-01-01 to 2025-09-30",
+    "test": "2025-10-01 to 2025-12-31",
+    "type": "time-based"
+  },
+  "model_a_order_outcome": {
+    "cancel": {
+      "test_rows": 4419,
+      "test_positive_rate": 0.0892,
+      "baseline_category_rate": {
+        "roc_auc": 0.484,
+        "auc_95ci": [
+          0.454,
+          0.515
+        ],
+        "pr_auc": 0.086,
+        "lift_top10pct": 0.89
+      },
+      "logistic_regression": {
+        "roc_auc": 0.524,
+        "auc_95ci": [
+          0.493,
+          0.554
+        ],
+        "pr_auc": 0.1,
+        "lift_top10pct": 1.22
+      },
+      "gradient_boosting": {
+        "roc_auc": 0.511,
+        "auc_95ci": [
+          0.48,
+          0.543
+        ],
+        "pr_auc": 0.096,
+        "lift_top10pct": 1.04
+      },
+      "reliable_signal": false,
+      "verdict": "NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+      "permutation_test": {
+        "model": "logistic_regression",
+        "observed_auc": 0.524,
+        "shuffled_auc_mean": 0.5,
+        "shuffled_auc_sd": 0.019,
+        "n_permutations": 100,
+        "p_value": 0.139,
+        "verdict": "NOT distinguishable from random labels"
+      }
+    },
+    "return": {
+      "test_rows": 4419,
+      "test_positive_rate": 0.0815,
+      "baseline_category_rate": {
+        "roc_auc": 0.473,
+        "auc_95ci": [
+          0.443,
+          0.508
+        ],
+        "pr_auc": 0.078,
+        "lift_top10pct": 1.11
+      },
+      "logistic_regression": {
+        "roc_auc": 0.49,
+        "auc_95ci": [
+          0.456,
+          0.52
+        ],
+        "pr_auc": 0.083,
+        "lift_top10pct": 1.09
+      },
+      "gradient_boosting": {
+        "roc_auc": 0.502,
+        "auc_95ci": [
+          0.475,
+          0.532
+        ],
+        "pr_auc": 0.081,
+        "lift_top10pct": 0.92
+      },
+      "reliable_signal": false,
+      "verdict": "NO RELIABLE SIGNAL: AUC interval includes 0.50 (random). Do not use for decisions.",
+      "permutation_test": {
+        "model": "logistic_regression",
+        "observed_auc": 0.49,
+        "shuffled_auc_mean": 0.499,
+        "shuffled_auc_sd": 0.015,
+        "n_permutations": 100,
+        "p_value": 0.733,
+        "verdict": "NOT distinguishable from random labels"
+      }
+    }
+  },
+  "model_b_campaign_anomaly": {
+    "campaigns": 1200,
+    "flagged": 180,
+    "impossible_funnel_rows": 171,
+    "impossible_rows_caught": 104,
+    "recall_on_impossible_rows": 0.608,
+    "precision_on_impossible_rows": 0.578,
+    "median_cost_per_conversion": 5.26,
+    "note": "Sanity check only: impossible-funnel rows (clicks>impressions or conversions>clicks) are a rule-based proxy, not ground truth."
+  },
+  "significance_tests": {
+    "n_tests": 18,
+    "sig_before_correction": 1,
+    "sig_after_correction": 0,
+    "method": "chi-square + Benjamini-Hochberg"
+  },
+  "data_caveats": [
+    "Standard benchmark dataset, subject to integrity validation",
+    "Costs and prices generated independently (README): 76 of 250 products have cost above list price",
+    "Orders priced 75-100% of list price; discount_pct stacks on top",
+    "4.4% of orders are dated before the customer's signup date",
+    "stockout_flag does not match stock_on_hand",
+    "Campaign conversions cannot be reconciled with transaction count",
+    "Pending orders are spread evenly through the year"
+  ],
+  "disclosure": {
+    "libraries": [
+      "pandas",
+      "numpy",
+      "scipy",
+      "scikit-learn",
+      "joblib"
+    ],
+    "pretrained_models": "none",
+    "external_apis": "none",
+    "external_data": "none"
+  },
+  "model_c_demand_forecast": {
+    "method": "4-week rolling mean forecast with a 95% interval from train-period residuals (one-step-ahead)",
+    "split_week": "2025-09-29",
+    "unit": "orders per category-week",
+    "mae_test": {
+      "train category mean": 5.76,
+      "last week (naive)": 7.47,
+      "4-week rolling average": 5.68,
+      "gradient boosting (lags, trained)": 6.07
+    },
+    "best_method": "4-week rolling average",
+    "interval_coverage_test": 0.987,
+    "n_test_points": 78,
+    "alerts_total": 14,
+    "points_total": 282,
+    "alerts_expected_by_chance": 14.1,
+    "alerts_in_test": 1,
+    "verdict": "Alerts are about as frequent as chance, so no unusual demand drops or spikes were detected.",
+    "note": "Gradient boosting did not beat the simple rolling average, so the simple method is used."
+  },
+  "model_d_customer_tiers": {
+    "method": "k-means (k=3) on standardized recency, order count and spend",
+    "silhouette_by_k": {
+      "2": 0.359,
+      "3": 0.359,
+      "4": 0.305,
+      "5": 0.311
+    },
+    "tiers": [
+      {
+        "tier": "Tier 1: highest value",
+        "customers": 1035,
+        "orders": 8768,
+        "non_completed_rate": 0.228,
+        "cancel_rate": 0.095,
+        "return_rate": 0.082,
+        "avg_orders": 8.471,
+        "avg_spend": 4841.585,
+        "avg_recency_days": 36.662
+      },
+      {
+        "tier": "Tier 2: core",
+        "customers": 1463,
+        "orders": 7430,
+        "non_completed_rate": 0.222,
+        "cancel_rate": 0.094,
+        "return_rate": 0.078,
+        "avg_orders": 5.079,
+        "avg_spend": 2377.713,
+        "avg_recency_days": 42.261
+      },
+      {
+        "tier": "Tier 3: lowest value",
+        "customers": 489,
+        "orders": 1802,
+        "non_completed_rate": 0.214,
+        "cancel_rate": 0.088,
+        "return_rate": 0.074,
+        "avg_orders": 3.685,
+        "avg_spend": 1842.88,
+        "avg_recency_days": 167.685
+      }
+    ],
+    "status_vs_tier_p_value": 0.815,
+    "verdict": "Tiers differ in value and activity, not in cancellation/return behavior.",
+    "note": "Supporting view only. Silhouette is moderate and tiers are mainly driven by order count and spend."
+  },
+  "inventory_risk": {
+    "method": "days of cover = stock_on_hand / weekly velocity vs supplier_lead_days + mean supplier_delay_days",
+    "products_stockout_before_restock": 8,
+    "est_revenue_at_risk": 8026.0,
+    "stockout_flag_tests_p": {
+      "vs_stock": 0.268,
+      "vs_supplier_delay": 0.723,
+      "vs_reorder": 0.777
+    }
+  },
+  "campaign_checks": {
+    "spend_conversions_pearson": -0.005,
+    "total_conversions": 895411
+  },
+  "forecast_interval_note": "Interval coverage 98.7% vs 95% target: slightly conservative (wide) intervals.",
+  "file_manifest": [
+    "breakdown_by_segment.csv",
+    "campaigns_scored.csv",
+    "customer_tiers.csv",
+    "data_quality.csv",
+    "findings.json",
+    "forecast.json",
+    "inventory_risk.csv",
+    "leaklens_model.joblib",
+    "metrics.json",
+    "monthly_trend.csv",
+    "pending_orders.csv",
+    "predict.py",
+    "product_performance.csv",
+    "scored_transactions.csv"
+  ]
+}

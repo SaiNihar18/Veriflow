@@ -1,0 +1,1201 @@
+campaign_id,date,channel,category,spend,impressions,clicks,conversions,ctr,conv_rate,cost_per_conv,anomaly_score,flagged,excess_spend,why_flagged,invalid_funnel
+CA0001,2025-04-26,Email,Electronics,3467.47,67776,5355,1047,0.079,0.1955,3.3118,-0.1066,0,0.0,very high cost per conversion,0
+CA0002,2025-06-28,Web,Home,1974.23,32286,5864,1084,0.1816,0.1849,1.8212,-0.0862,0,0.0,very high cost per conversion,0
+CA0003,2025-01-22,App,Home,7577.51,69685,9452,949,0.1356,0.1004,7.9847,-0.085,0,2585.3408,unusually high/low spend,0
+CA0004,2025-10-30,Email,Home,138.93,5470,7840,1000,1.4333,0.1276,0.1389,0.1529,1,0.0,click-through rate impossible or extreme,1
+CA0005,2025-12-17,App,Beauty,2730.23,99159,1529,1075,0.0154,0.7031,2.5397,-0.0647,0,0.0,conversion rate impossible or extreme,0
+CA0006,2025-09-22,Social,Beauty,2338.33,59598,2918,458,0.049,0.157,5.1055,-0.1022,0,0.0,unusually high/low spend,0
+CA0007,2025-09-28,App,Sports,2200.3,55224,1445,563,0.0262,0.3896,3.9082,-0.0954,0,0.0,conversion rate impossible or extreme,0
+CA0008,2025-10-11,Store,Beauty,2277.44,76091,1368,295,0.018,0.2156,7.7201,-0.09,0,725.6066,click-through rate impossible or extreme,0
+CA0009,2025-01-10,Store,Sports,7456.45,88410,8343,44,0.0944,0.0053,169.4648,0.0004,1,7224.9901,very high cost per conversion,0
+CA0010,2025-01-17,Store,Beauty,1520.58,16813,371,372,0.0221,1.0027,4.0876,-0.0415,0,0.0,conversion rate impossible or extreme,1
+CA0011,2025-01-11,Store,Fashion,6778.97,27963,7608,123,0.2721,0.0162,55.1136,-0.0437,0,6131.9344,very high cost per conversion,0
+CA0012,2025-04-05,App,Beauty,6859.53,86819,1550,57,0.0179,0.0368,120.3426,-0.0195,0,6559.6842,very high cost per conversion,0
+CA0013,2025-09-04,Social,Fashion,7883.93,65506,1310,1327,0.02,1.013,5.9412,-0.06,0,903.3098,conversion rate impossible or extreme,1
+CA0014,2025-03-18,Store,Grocery,5552.18,79759,7746,1242,0.0971,0.1603,4.4704,-0.0998,0,0.0,unusual impressions,0
+CA0015,2025-01-26,App,Fashion,1574.93,8608,4540,945,0.5274,0.2081,1.6666,-0.0314,0,0.0,click-through rate impossible or extreme,0
+CA0016,2025-08-11,Store,Beauty,6773.3,81542,6657,569,0.0816,0.0855,11.9039,-0.0963,0,3780.1027,very high cost per conversion,0
+CA0017,2025-12-31,Social,Home,4966.51,17557,6035,351,0.3437,0.0582,14.1496,-0.0857,0,3120.0913,click-through rate impossible or extreme,0
+CA0018,2025-01-01,App,Grocery,4399.14,26272,8865,1269,0.3374,0.1431,3.4666,-0.0915,0,0.0,click-through rate impossible or extreme,0
+CA0019,2025-08-24,Social,Electronics,7180.68,67937,8583,1283,0.1263,0.1495,5.5968,-0.0957,0,431.5197,unusually high/low spend,0
+CA0020,2025-10-02,Social,Grocery,1184.34,47706,7858,1369,0.1647,0.1742,0.8651,-0.0624,0,0.0,very high cost per conversion,0
+CA0021,2025-12-21,Social,Home,3212.14,16270,2263,203,0.1391,0.0897,15.8233,-0.0778,0,2144.2682,unusual impressions,0
+CA0022,2025-08-23,Email,Electronics,2364.95,32577,9659,106,0.2965,0.011,22.3108,-0.0525,0,1807.3421,click-through rate impossible or extreme,0
+CA0023,2025-04-17,Email,Home,2162.47,28359,3103,150,0.1094,0.0483,14.4165,-0.08,0,1373.4022,very high cost per conversion,0
+CA0024,2025-02-19,Store,Fashion,6729.1,65210,9771,288,0.1498,0.0295,23.3649,-0.0763,0,5214.0897,very high cost per conversion,0
+CA0025,2025-06-03,Web,Grocery,1018.27,98748,3862,1245,0.0391,0.3224,0.8179,-0.0388,0,0.0,unusually high/low spend,0
+CA0026,2025-02-23,Web,Grocery,1622.57,74618,1962,341,0.0263,0.1738,4.7583,-0.0855,0,0.0,unusually high/low spend,0
+CA0027,2025-09-20,Email,Grocery,1370.4,24358,7678,1211,0.3152,0.1577,1.1316,-0.0569,0,0.0,click-through rate impossible or extreme,0
+CA0028,2025-04-15,Store,Grocery,5680.89,32175,8032,1322,0.2496,0.1646,4.2972,-0.0951,0,0.0,click-through rate impossible or extreme,0
+CA0029,2025-10-08,Email,Fashion,5282.92,27207,8417,1196,0.3094,0.1421,4.4172,-0.0944,0,0.0,click-through rate impossible or extreme,0
+CA0030,2025-09-05,Web,Fashion,4564.66,61049,3985,1058,0.0653,0.2655,4.3144,-0.1071,0,0.0,conversion rate impossible or extreme,0
+CA0031,2025-01-13,Web,Electronics,2597.95,60028,4489,0,0.0748,0.0,,0.066,1,2597.95,very high cost per conversion,0
+CA0032,2025-07-20,App,Grocery,7727.7,46232,8404,928,0.1818,0.1104,8.3273,-0.087,0,2846.0003,unusually high/low spend,0
+CA0033,2025-03-24,App,Beauty,134.51,10060,7714,131,0.7668,0.017,1.0268,0.0865,1,0.0,click-through rate impossible or extreme,0
+CA0034,2025-10-10,Email,Electronics,2687.76,75326,1906,611,0.0253,0.3206,4.399,-0.0959,0,0.0,conversion rate impossible or extreme,0
+CA0035,2025-04-22,Store,Beauty,3119.55,33983,9581,578,0.2819,0.0603,5.3971,-0.0902,0,79.0086,click-through rate impossible or extreme,0
+CA0036,2025-10-24,Web,Sports,3805.4,66997,2836,355,0.0423,0.1252,10.7194,-0.1017,0,1937.9394,very high cost per conversion,0
+CA0037,2025-11-14,Social,Grocery,5567.28,41646,9707,955,0.2331,0.0984,5.8296,-0.0967,0,543.5481,click-through rate impossible or extreme,0
+CA0038,2025-09-22,App,Beauty,1027.34,85335,5207,1113,0.061,0.2138,0.923,-0.0576,0,0.0,unusually high/low spend,0
+CA0039,2025-12-17,Web,Grocery,2821.33,44496,1250,1066,0.0281,0.8528,2.6467,-0.0809,0,0.0,conversion rate impossible or extreme,0
+CA0040,2025-01-06,Store,Electronics,540.74,17418,9890,1306,0.5678,0.1321,0.414,0.016,1,0.0,click-through rate impossible or extreme,0
+CA0041,2025-06-10,Social,Grocery,4412.06,23736,3898,471,0.1642,0.1208,9.3674,-0.1028,0,1934.387,unusual impressions,0
+CA0042,2025-09-23,Store,Grocery,3548.26,63443,2747,419,0.0433,0.1525,8.4684,-0.107,0,1344.1305,click-through rate impossible or extreme,0
+CA0043,2025-09-14,Store,Beauty,3987.63,55320,359,1178,0.0065,3.2813,3.3851,-0.0173,0,0.0,conversion rate impossible or extreme,1
+CA0044,2025-10-26,Store,Sports,3530.57,92213,7183,268,0.0779,0.0373,13.1738,-0.0896,0,2120.7688,very high cost per conversion,0
+CA0045,2025-02-25,Store,Grocery,4678.04,61546,1621,364,0.0263,0.2246,12.8518,-0.0999,0,2763.2354,very high cost per conversion,0
+CA0046,2025-11-24,Email,Home,7592.03,83039,166,360,0.002,2.1687,21.089,0.0108,1,5698.2672,conversion rate impossible or extreme,1
+CA0047,2025-05-03,Social,Fashion,2537.21,7214,7083,81,0.9818,0.0114,31.3236,0.0217,1,2111.1134,click-through rate impossible or extreme,0
+CA0048,2025-09-17,Store,Grocery,1503.92,74075,6592,631,0.089,0.0957,2.3834,-0.0896,0,0.0,unusually high/low spend,0
+CA0049,2025-06-09,Web,Grocery,2498.24,421,7866,1197,18.6841,0.1522,2.0871,0.1984,1,0.0,click-through rate impossible or extreme,1
+CA0050,2025-07-20,App,Home,7469.84,50449,3211,1335,0.0636,0.4158,5.5954,-0.09,0,447.1362,conversion rate impossible or extreme,0
+CA0051,2025-05-29,Store,Sports,1985.32,283,2447,283,8.6466,0.1157,7.0153,0.1593,1,496.612,click-through rate impossible or extreme,1
+CA0052,2025-05-08,App,Fashion,175.15,14488,9540,705,0.6585,0.0739,0.2484,0.0808,1,0.0,click-through rate impossible or extreme,0
+CA0053,2025-04-22,Web,Sports,4621.97,41068,4978,697,0.1212,0.14,6.6312,-0.1097,0,955.4348,unusual impressions,0
+CA0054,2025-07-13,Web,Grocery,273.61,76082,3964,1340,0.0521,0.338,0.2042,0.0397,1,0.0,unusually high/low spend,0
+CA0055,2025-08-26,Social,Beauty,1807.6,22691,673,91,0.0297,0.1352,19.8637,-0.0503,0,1328.8988,very high cost per conversion,0
+CA0056,2025-06-19,Web,Electronics,2356.27,54357,276,1229,0.0051,4.4529,1.9172,0.0258,1,0.0,conversion rate impossible or extreme,1
+CA0057,2025-02-16,Web,Home,2326.56,15320,2128,18,0.1389,0.0085,129.2533,0.0113,1,2231.8719,very high cost per conversion,0
+CA0058,2025-09-21,Email,Home,5756.43,91872,462,1349,0.005,2.9199,4.2672,-0.0113,0,0.0,conversion rate impossible or extreme,1
+CA0059,2025-10-29,Store,Beauty,6369.1,84579,2782,275,0.0329,0.0988,23.1604,-0.0756,0,4922.4756,very high cost per conversion,0
+CA0060,2025-05-30,Email,Sports,1800.21,51192,9242,223,0.1805,0.0241,8.0727,-0.0773,0,627.1291,unusually high/low spend,0
+CA0061,2025-10-22,App,Sports,7472.37,34329,8373,1293,0.2439,0.1544,5.7791,-0.0881,0,670.6052,click-through rate impossible or extreme,0
+CA0062,2025-01-25,Web,Electronics,6028.66,5365,1944,1347,0.3623,0.6929,4.4756,-0.0112,0,0.0,conversion rate impossible or extreme,0
+CA0063,2025-09-21,Social,Fashion,5155.66,38125,7955,960,0.2087,0.1207,5.3705,-0.1002,0,105.6258,click-through rate impossible or extreme,0
+CA0064,2025-06-13,App,Electronics,7743.7,54561,3276,1114,0.06,0.34,6.9513,-0.0875,0,1883.5562,conversion rate impossible or extreme,0
+CA0065,2025-04-10,Social,Beauty,5095.07,23835,5199,152,0.2181,0.0292,33.5202,-0.0693,0,4295.4813,very high cost per conversion,0
+CA0066,2025-09-26,App,Home,936.66,79588,9916,348,0.1246,0.0351,2.6916,-0.0589,0,0.0,unusually high/low spend,0
+CA0067,2025-12-22,Web,Beauty,4503.16,21052,5895,1179,0.28,0.2,3.8195,-0.0941,0,0.0,click-through rate impossible or extreme,0
+CA0068,2025-11-11,Web,Sports,518.29,60975,2118,1281,0.0347,0.6048,0.4046,-0.002,0,0.0,conversion rate impossible or extreme,0
+CA0069,2025-06-22,Social,Beauty,1638.52,92215,7413,1293,0.0804,0.1744,1.2672,-0.0767,0,0.0,very high cost per conversion,0
+CA0070,2025-10-20,App,Home,2798.41,98544,5664,1098,0.0575,0.1939,2.5486,-0.0857,0,0.0,unusual impressions,0
+CA0071,2025-01-29,App,Electronics,7903.17,12158,2719,1174,0.2236,0.4318,6.7318,-0.0482,0,1727.399,conversion rate impossible or extreme,0
+CA0072,2025-03-02,App,Beauty,7676.25,35424,5283,41,0.1491,0.0078,187.2256,0.0038,1,7460.5715,very high cost per conversion,0
+CA0073,2025-06-30,Store,Home,1150.48,58980,600,17,0.0102,0.0283,67.6753,-0.0149,0,1061.0523,very high cost per conversion,0
+CA0074,2025-05-11,App,Grocery,885.35,154,875,1098,5.6818,1.2549,0.8063,0.212,1,0.0,click-through rate impossible or extreme,1
+CA0075,2025-10-13,App,Home,3034.88,43676,6461,1000,0.1479,0.1548,3.0349,-0.1009,0,0.0,very high cost per conversion,0
+CA0076,2025-10-13,Email,Sports,7712.77,59503,5370,1022,0.0902,0.1903,7.5467,-0.0908,0,2336.5878,unusually high/low spend,0
+CA0077,2025-11-23,Email,Fashion,7782.26,50934,8629,960,0.1694,0.1113,8.1065,-0.0868,0,2732.2258,unusually high/low spend,0
+CA0078,2025-09-14,Store,Home,2311.34,55018,1316,997,0.0239,0.7576,2.3183,-0.0842,0,0.0,conversion rate impossible or extreme,0
+CA0079,2025-04-07,App,Grocery,1485.94,33335,6382,959,0.1915,0.1503,1.5495,-0.0794,0,0.0,unusually high/low spend,0
+CA0080,2025-04-20,App,Sports,7642.06,63364,5414,762,0.0854,0.1407,10.029,-0.0936,0,3633.5954,unusually high/low spend,0
+CA0081,2025-07-18,App,Electronics,1473.9,70836,731,1094,0.0103,1.4966,1.3473,-0.0377,0,0.0,conversion rate impossible or extreme,1
+CA0082,2025-04-13,Store,Sports,7954.3,95969,5658,788,0.059,0.1393,10.0943,-0.0678,0,3809.0636,unusually high/low spend,0
+CA0083,2025-07-13,Email,Electronics,4444.37,1909,9944,828,5.209,0.0833,5.3676,0.0601,1,88.7155,click-through rate impossible or extreme,1
+CA0084,2025-06-10,Email,Fashion,5902.87,35219,6762,1226,0.192,0.1813,4.8147,-0.0979,0,0.0,click-through rate impossible or extreme,0
+CA0085,2025-08-21,Social,Grocery,1809.09,4983,9348,645,1.876,0.069,2.8048,0.0176,1,0.0,click-through rate impossible or extreme,1
+CA0086,2025-08-31,Web,Electronics,5153.12,86357,4386,379,0.0508,0.0864,13.5966,-0.0948,0,3159.4086,very high cost per conversion,0
+CA0087,2025-12-28,App,Electronics,2479.38,56805,603,1325,0.0106,2.1973,1.8712,-0.0414,0,0.0,conversion rate impossible or extreme,1
+CA0088,2025-11-29,Email,Beauty,5622.02,28074,9239,248,0.3291,0.0268,22.6694,-0.0685,0,4317.4278,click-through rate impossible or extreme,0
+CA0089,2025-04-02,Social,Beauty,4179.83,42854,4084,1290,0.0953,0.3159,3.2402,-0.1016,0,0.0,conversion rate impossible or extreme,0
+CA0090,2025-07-03,Store,Home,4532.9,43746,5649,326,0.1291,0.0577,13.9046,-0.1031,0,2817.9926,very high cost per conversion,0
+CA0091,2025-02-27,Store,Grocery,3473.93,8433,4161,1159,0.4934,0.2785,2.9974,-0.0547,0,0.0,click-through rate impossible or extreme,0
+CA0092,2025-12-02,Social,Beauty,2889.77,3688,5205,828,1.4113,0.1591,3.4901,-0.0127,0,0.0,click-through rate impossible or extreme,1
+CA0093,2025-12-19,Store,Beauty,3503.1,44626,9498,257,0.2128,0.0271,13.6307,-0.0909,0,2151.1638,click-through rate impossible or extreme,0
+CA0094,2025-04-09,App,Fashion,1225.09,49566,6914,1383,0.1395,0.2,0.8858,-0.0662,0,0.0,very high cost per conversion,0
+CA0095,2025-07-29,Social,Beauty,7621.24,1358,6180,734,4.5508,0.1188,10.3832,0.0941,1,3760.068,click-through rate impossible or extreme,1
+CA0096,2025-09-15,Social,Sports,4269.66,47589,5120,1066,0.1076,0.2082,4.0053,-0.1087,0,0.0,conversion rate impossible or extreme,0
+CA0097,2025-06-15,Email,Home,3778.23,7586,2889,1058,0.3808,0.3662,3.5711,-0.0523,0,0.0,click-through rate impossible or extreme,0
+CA0098,2025-03-17,App,Sports,4815.52,54612,7146,593,0.1309,0.083,8.1206,-0.1076,0,1696.0718,conversion rate impossible or extreme,0
+CA0099,2025-04-07,Email,Electronics,2896.51,65254,4407,263,0.0675,0.0597,11.0133,-0.1006,0,1513.0111,very high cost per conversion,0
+CA0100,2025-06-02,App,Home,532.84,41788,8911,1376,0.2132,0.1544,0.3872,-0.0062,0,0.0,unusually high/low spend,0
+CA0101,2025-03-19,App,Home,1769.54,94030,9661,691,0.1027,0.0715,2.5608,-0.0778,0,0.0,unusually high/low spend,0
+CA0102,2025-10-12,Store,Electronics,644.45,58335,1773,781,0.0304,0.4405,0.8252,-0.0412,0,0.0,unusually high/low spend,0
+CA0103,2025-05-28,Social,Electronics,888.78,76859,1780,1347,0.0232,0.7567,0.6598,-0.025,0,0.0,conversion rate impossible or extreme,0
+CA0104,2025-11-07,App,Grocery,6521.76,43283,3797,437,0.0877,0.1151,14.9239,-0.098,0,4222.9424,very high cost per conversion,0
+CA0105,2025-02-11,Web,Beauty,7634.49,25982,284,441,0.0109,1.5528,17.3118,-0.016,0,5314.6306,conversion rate impossible or extreme,1
+CA0106,2025-08-01,Store,Fashion,7014.1,20115,1778,1456,0.0884,0.8189,4.8174,-0.0687,0,0.0,conversion rate impossible or extreme,0
+CA0107,2025-09-15,Store,Fashion,1743.61,27225,3993,1442,0.1467,0.3611,1.2092,-0.0696,0,0.0,conversion rate impossible or extreme,0
+CA0108,2025-06-26,App,Electronics,5777.79,15651,3780,185,0.2415,0.0489,31.2313,-0.0602,0,4804.6063,very high cost per conversion,0
+CA0109,2025-11-23,Web,Fashion,2894.39,37615,2280,530,0.0606,0.2325,5.4611,-0.1018,0,106.3503,conversion rate impossible or extreme,0
+CA0110,2025-06-27,Email,Beauty,4962.29,11726,4513,94,0.3849,0.0208,52.7903,-0.0231,0,4467.8075,click-through rate impossible or extreme,0
+CA0111,2025-02-08,App,Home,4188.62,8646,8665,405,1.0022,0.0467,10.3423,-0.0261,0,2058.1368,click-through rate impossible or extreme,1
+CA0112,2025-09-28,App,Home,5995.57,964,5631,589,5.8413,0.1046,10.1792,0.1093,1,2897.1636,click-through rate impossible or extreme,1
+CA0113,2025-03-09,Social,Electronics,6624.93,5606,6527,283,1.1643,0.0434,23.4096,0.0212,1,5136.222,click-through rate impossible or extreme,1
+CA0114,2025-12-28,Social,Beauty,4486.04,11881,1711,1467,0.144,0.8574,3.058,-0.0476,0,0.0,conversion rate impossible or extreme,0
+CA0115,2025-01-06,Web,Fashion,1338.14,1198,5512,316,4.601,0.0573,4.2346,0.091,1,0.0,click-through rate impossible or extreme,1
+CA0116,2025-12-31,App,Grocery,2541.25,6460,9758,718,1.5105,0.0736,3.5393,-0.0087,0,0.0,click-through rate impossible or extreme,1
+CA0117,2025-05-29,Store,Electronics,4416.58,35089,5008,874,0.1427,0.1745,5.0533,-0.106,0,0.0,unusual impressions,0
+CA0118,2025-06-23,Email,Sports,7665.69,19414,5675,1088,0.2923,0.1917,7.0457,-0.0782,0,1942.3179,click-through rate impossible or extreme,0
+CA0119,2025-10-19,App,Electronics,7691.68,39464,7181,532,0.182,0.0741,14.458,-0.0799,0,4893.1194,very high cost per conversion,0
+CA0120,2025-02-23,Social,Fashion,5511.92,51462,9901,466,0.1924,0.0471,11.8282,-0.0978,0,3060.5492,click-through rate impossible or extreme,0
+CA0121,2025-06-24,Web,Beauty,7669.05,25376,5602,138,0.2208,0.0246,55.5728,-0.0386,0,6943.1076,very high cost per conversion,0
+CA0122,2025-06-18,Email,Grocery,1154.06,17164,4509,864,0.2627,0.1916,1.3357,-0.0574,0,0.0,click-through rate impossible or extreme,0
+CA0123,2025-08-04,Store,Electronics,2674.74,86769,5264,389,0.0607,0.0739,6.8759,-0.0972,0,628.4241,unusual impressions,0
+CA0124,2025-10-23,Social,Grocery,2236.87,93383,2249,115,0.0241,0.0511,19.451,-0.0619,0,1631.918,very high cost per conversion,0
+CA0125,2025-02-14,App,Home,7660.72,15197,8230,1404,0.5416,0.1706,5.4564,-0.0617,0,275.045,click-through rate impossible or extreme,0
+CA0126,2025-06-03,Social,Home,3706.3,37057,6901,1193,0.1862,0.1729,3.1067,-0.0996,0,0.0,click-through rate impossible or extreme,0
+CA0127,2025-05-03,Email,Electronics,6628.31,53616,5932,941,0.1106,0.1586,7.0439,-0.1041,0,1678.2244,unusually high/low spend,0
+CA0128,2025-08-10,Social,Grocery,2653.14,6159,7836,1333,1.2723,0.1701,1.9904,-0.0094,0,0.0,click-through rate impossible or extreme,1
+CA0129,2025-07-21,Web,Beauty,2970.37,34493,4018,889,0.1165,0.2213,3.3412,-0.1037,0,0.0,conversion rate impossible or extreme,0
+CA0130,2025-03-30,Social,Electronics,1400.66,53604,9306,1348,0.1736,0.1449,1.0391,-0.0698,0,0.0,very high cost per conversion,0
+CA0131,2025-07-12,Social,Electronics,7535.23,14361,8352,560,0.5816,0.067,13.4558,-0.0534,0,4589.3767,click-through rate impossible or extreme,0
+CA0132,2025-01-13,Store,Grocery,6093.44,32687,6806,400,0.2082,0.0588,15.2336,-0.0921,0,3989.2591,click-through rate impossible or extreme,0
+CA0133,2025-10-12,Web,Sports,1688.67,36840,3299,44,0.0895,0.0133,38.3789,-0.04,0,1457.2101,very high cost per conversion,0
+CA0134,2025-01-31,App,Beauty,5060.66,38863,438,1138,0.0113,2.5982,4.447,-0.0246,0,0.0,conversion rate impossible or extreme,1
+CA0135,2025-05-01,App,Beauty,7582.23,14032,5908,260,0.421,0.044,29.1624,-0.0353,0,6214.5124,click-through rate impossible or extreme,0
+CA0136,2025-01-20,Email,Sports,6433.63,45011,1257,387,0.0279,0.3079,16.6244,-0.0816,0,4397.835,conversion rate impossible or extreme,0
+CA0137,2025-08-12,Store,Grocery,4679.86,53504,3140,879,0.0587,0.2799,5.3241,-0.1055,0,55.9225,conversion rate impossible or extreme,0
+CA0138,2025-06-27,Store,Grocery,4206.0,83578,4992,558,0.0597,0.1118,7.5376,-0.1018,0,1270.6676,unusual impressions,0
+CA0139,2025-03-07,Social,Fashion,4512.68,44308,9215,36,0.208,0.0039,125.3522,-0.0236,0,4323.3037,very high cost per conversion,0
+CA0140,2025-02-15,Social,Home,4580.51,31609,6571,163,0.2079,0.0248,28.1013,-0.078,0,3723.0563,very high cost per conversion,0
+CA0141,2025-01-31,Web,Home,7860.27,20260,5865,1270,0.2895,0.2165,6.1892,-0.0747,0,1179.4956,click-through rate impossible or extreme,0
+CA0142,2025-09-17,Web,Home,2617.63,66905,9753,440,0.1458,0.0451,5.9492,-0.0967,0,303.031,conversion rate impossible or extreme,0
+CA0143,2025-09-24,Email,Fashion,7263.01,4773,8891,1203,1.8628,0.1353,6.0374,0.0131,1,934.6859,click-through rate impossible or extreme,1
+CA0144,2025-05-17,App,Beauty,2343.28,23618,3609,781,0.1528,0.2164,3.0004,-0.0907,0,0.0,unusual impressions,0
+CA0145,2025-06-28,App,Electronics,1131.76,69404,1775,729,0.0256,0.4107,1.5525,-0.0699,0,0.0,conversion rate impossible or extreme,0
+CA0146,2025-01-15,Store,Beauty,3240.02,68794,2141,1304,0.0311,0.6091,2.4847,-0.0828,0,0.0,conversion rate impossible or extreme,0
+CA0147,2025-02-10,Email,Sports,4827.54,56004,9556,561,0.1706,0.0587,8.6052,-0.1036,0,1876.4263,click-through rate impossible or extreme,0
+CA0148,2025-02-14,App,Grocery,1279.32,14333,1781,293,0.1243,0.1645,4.3663,-0.0642,0,0.0,unusual impressions,0
+CA0149,2025-04-13,Store,Beauty,3829.49,50905,2314,970,0.0455,0.4192,3.9479,-0.1041,0,0.0,conversion rate impossible or extreme,0
+CA0150,2025-01-21,Store,Beauty,4444.38,39506,8712,360,0.2205,0.0413,12.3455,-0.0977,0,2550.6172,click-through rate impossible or extreme,0
+CA0151,2025-01-13,Social,Home,5478.88,97413,1482,558,0.0152,0.3765,9.8188,-0.0765,0,2543.5476,conversion rate impossible or extreme,0
+CA0152,2025-06-12,App,Sports,2729.99,81538,4454,295,0.0546,0.0662,9.2542,-0.0956,0,1178.1566,unusual impressions,0
+CA0153,2025-05-17,Web,Beauty,1953.52,83566,4359,223,0.0522,0.0512,8.7602,-0.0823,0,780.4391,unusually high/low spend,0
+CA0154,2025-11-05,Email,Grocery,6212.6,79974,1222,1326,0.0153,1.0851,4.6852,-0.0679,0,0.0,conversion rate impossible or extreme,1
+CA0155,2025-04-05,Store,Fashion,5010.16,81811,3486,1244,0.0426,0.3569,4.0275,-0.0948,0,0.0,conversion rate impossible or extreme,0
+CA0156,2025-05-28,App,Sports,6305.31,47398,7713,990,0.1627,0.1284,6.369,-0.1027,0,1097.4623,click-through rate impossible or extreme,0
+CA0157,2025-02-16,Social,Fashion,7616.79,28622,9030,21,0.3155,0.0023,362.7043,0.0495,1,7506.3205,very high cost per conversion,0
+CA0158,2025-07-31,Email,Grocery,3027.12,27011,4659,698,0.1725,0.1498,4.3368,-0.1008,0,0.0,unusual impressions,0
+CA0159,2025-10-15,Web,Sports,1880.64,269,9351,1165,34.7621,0.1246,1.6143,0.252,1,0.0,click-through rate impossible or extreme,1
+CA0160,2025-12-11,Web,Fashion,6243.95,7654,1120,1292,0.1463,1.1536,4.8328,-0.0124,0,0.0,conversion rate impossible or extreme,1
+CA0161,2025-07-07,App,Home,3133.87,78316,5600,618,0.0715,0.1104,5.071,-0.103,0,0.0,unusual impressions,0
+CA0162,2025-01-16,Social,Grocery,3089.67,72686,3676,58,0.0506,0.0158,53.2702,-0.0586,0,2784.5638,very high cost per conversion,0
+CA0163,2025-03-08,Store,Home,975.04,3132,9142,820,2.9189,0.0897,1.1891,0.0704,1,0.0,click-through rate impossible or extreme,1
+CA0164,2025-01-31,Social,Electronics,3842.99,10950,2909,1297,0.2657,0.4459,2.963,-0.0597,0,0.0,conversion rate impossible or extreme,0
+CA0165,2025-11-20,Social,Fashion,7167.69,12044,7920,659,0.6576,0.0832,10.8766,-0.0503,0,3701.052,click-through rate impossible or extreme,0
+CA0166,2025-10-31,Store,Grocery,5102.15,54914,5074,646,0.0924,0.1273,7.8981,-0.1089,0,1703.8978,very high cost per conversion,0
+CA0167,2025-03-05,Web,Electronics,1106.96,46552,9342,984,0.2007,0.1053,1.125,-0.0632,0,0.0,unusually high/low spend,0
+CA0168,2025-06-07,Email,Home,1401.88,64453,9657,1244,0.1498,0.1288,1.1269,-0.0731,0,0.0,very high cost per conversion,0
+CA0169,2025-04-12,Store,Fashion,4103.68,35064,7401,1393,0.2111,0.1882,2.9459,-0.0936,0,0.0,click-through rate impossible or extreme,0
+CA0170,2025-10-17,App,Beauty,4394.38,20800,7457,1247,0.3585,0.1672,3.524,-0.0903,0,0.0,click-through rate impossible or extreme,0
+CA0171,2025-05-20,App,Beauty,98.2,48499,5256,711,0.1084,0.1353,0.1381,0.0877,1,0.0,unusually high/low spend,0
+CA0172,2025-05-10,Email,Beauty,1685.89,71464,3605,118,0.0504,0.0327,14.2872,-0.069,0,1065.1566,unusually high/low spend,0
+CA0173,2025-08-24,Store,Beauty,7150.41,20537,4021,458,0.1958,0.1139,15.6122,-0.0846,0,4741.1229,unusual impressions,0
+CA0174,2025-06-08,Web,Fashion,2114.53,59814,6018,1478,0.1006,0.2456,1.4307,-0.0911,0,0.0,very high cost per conversion,0
+CA0175,2025-11-13,Social,Sports,2995.87,95556,9140,486,0.0957,0.0532,6.1643,-0.0887,0,439.2902,unusual impressions,0
+CA0176,2025-12-25,Store,Beauty,4190.24,98905,5879,1309,0.0594,0.2227,3.2011,-0.0856,0,0.0,unusual impressions,0
+CA0177,2025-04-30,Web,Electronics,1381.64,95098,9503,759,0.0999,0.0799,1.8203,-0.0675,0,0.0,unusually high/low spend,0
+CA0178,2025-04-05,Web,Beauty,6687.18,34056,9229,422,0.271,0.0457,15.8464,-0.0828,0,4467.2691,click-through rate impossible or extreme,0
+CA0179,2025-05-22,Social,Beauty,7802.23,9404,9184,1317,0.9766,0.1434,5.9242,-0.018,0,874.2144,click-through rate impossible or extreme,0
+CA0180,2025-05-01,Social,Fashion,6483.63,22268,1383,1302,0.0621,0.9414,4.9797,-0.0667,0,0.0,conversion rate impossible or extreme,0
+CA0181,2025-07-10,Email,Home,2903.85,92822,3870,1119,0.0417,0.2891,2.595,-0.0902,0,0.0,conversion rate impossible or extreme,0
+CA0182,2025-11-25,Email,Sports,445.36,81911,3654,326,0.0446,0.0892,1.3661,-0.0302,0,0.0,unusually high/low spend,0
+CA0183,2025-12-22,Store,Electronics,5708.87,17606,9379,1141,0.5327,0.1217,5.0034,-0.0825,0,0.0,click-through rate impossible or extreme,0
+CA0184,2025-05-11,Email,Electronics,5720.45,18432,8739,1073,0.4741,0.1228,5.3313,-0.0858,0,75.9847,click-through rate impossible or extreme,0
+CA0185,2025-11-27,Store,Fashion,7671.3,49252,7714,1304,0.1566,0.169,5.8829,-0.0891,0,811.6703,unusually high/low spend,0
+CA0186,2025-06-01,Social,Fashion,6279.4,30450,6298,66,0.2068,0.0105,95.1424,-0.0393,0,5932.2102,very high cost per conversion,0
+CA0187,2025-04-11,Store,Home,5825.34,49976,2238,571,0.0448,0.2551,10.202,-0.1,0,2821.6218,conversion rate impossible or extreme,0
+CA0188,2025-09-28,App,Home,5259.22,55206,1155,447,0.0209,0.387,11.7656,-0.0952,0,2907.7978,conversion rate impossible or extreme,0
+CA0189,2025-03-09,Store,Grocery,5453.08,1307,8465,1090,6.4767,0.1288,5.0028,0.09,1,0.0,click-through rate impossible or extreme,1
+CA0190,2025-09-01,Social,Beauty,5408.96,80384,5679,475,0.0706,0.0836,11.3873,-0.1013,0,2910.2452,very high cost per conversion,0
+CA0191,2025-12-11,Web,Beauty,4827.4,14483,7644,1018,0.5278,0.1332,4.742,-0.0814,0,0.0,click-through rate impossible or extreme,0
+CA0192,2025-07-21,Store,Electronics,2018.09,21967,4977,313,0.2266,0.0629,6.4476,-0.0828,0,371.5684,click-through rate impossible or extreme,0
+CA0193,2025-12-03,App,Beauty,3707.72,98010,2782,944,0.0284,0.3393,3.9277,-0.0833,0,0.0,conversion rate impossible or extreme,0
+CA0194,2025-06-07,Web,Grocery,485.13,90620,7092,461,0.0783,0.065,1.0523,-0.0252,0,0.0,unusually high/low spend,0
+CA0195,2025-02-19,Social,Beauty,4484.99,76890,5564,907,0.0724,0.163,4.9449,-0.1067,0,0.0,unusual impressions,0
+CA0196,2025-04-07,Social,Grocery,4163.84,5318,9855,426,1.8531,0.0432,9.7743,0.0084,1,1922.8873,click-through rate impossible or extreme,1
+CA0197,2025-11-21,Email,Electronics,6522.98,65068,9322,143,0.1433,0.0153,45.6152,-0.0633,0,5770.7353,very high cost per conversion,0
+CA0198,2025-02-20,App,Fashion,4080.29,47596,2805,1144,0.0589,0.4078,3.5667,-0.0995,0,0.0,conversion rate impossible or extreme,0
+CA0199,2025-03-15,Social,Electronics,2692.92,47551,4034,1192,0.0848,0.2955,2.2592,-0.0996,0,0.0,conversion rate impossible or extreme,0
+CA0200,2025-10-14,Social,Home,7201.02,43537,3005,273,0.069,0.0908,26.3774,-0.0763,0,5764.9165,very high cost per conversion,0
+CA0201,2025-04-29,Web,Electronics,3070.08,37458,4689,377,0.1252,0.0804,8.1434,-0.1029,0,1086.8895,conversion rate impossible or extreme,0
+CA0202,2025-03-16,App,Beauty,1075.13,59190,7763,976,0.1312,0.1257,1.1016,-0.0709,0,0.0,unusually high/low spend,0
+CA0203,2025-05-25,Store,Sports,3836.34,50484,9013,1317,0.1785,0.1461,2.9129,-0.0988,0,0.0,click-through rate impossible or extreme,0
+CA0204,2025-11-15,Email,Fashion,1036.01,71633,3283,1175,0.0458,0.3579,0.8817,-0.0577,0,0.0,unusually high/low spend,0
+CA0205,2025-04-01,Email,Beauty,4793.35,68977,3378,352,0.049,0.1042,13.6175,-0.1029,0,2941.6708,very high cost per conversion,0
+CA0206,2025-01-17,App,Beauty,3841.93,75444,520,631,0.0069,1.2135,6.0886,-0.0723,0,522.5846,conversion rate impossible or extreme,1
+CA0207,2025-04-06,Social,Beauty,7956.29,51847,5349,333,0.1032,0.0623,23.8928,-0.0736,0,6204.5594,very high cost per conversion,0
+CA0208,2025-11-14,Social,Home,640.03,395,9546,390,24.1671,0.0409,1.6411,0.2339,1,0.0,click-through rate impossible or extreme,1
+CA0209,2025-08-17,Social,Sports,6050.06,58623,2168,452,0.037,0.2085,13.3851,-0.0975,0,3672.3356,very high cost per conversion,0
+CA0210,2025-05-21,Web,Beauty,4767.64,35284,1753,795,0.0497,0.4535,5.997,-0.0988,0,585.5805,conversion rate impossible or extreme,0
+CA0211,2025-02-28,Email,Home,1458.79,22187,722,1099,0.0325,1.5222,1.3274,-0.0235,0,0.0,conversion rate impossible or extreme,1
+CA0212,2025-01-18,Store,Grocery,937.12,33853,178,773,0.0053,4.3427,1.2123,0.0567,1,0.0,conversion rate impossible or extreme,1
+CA0213,2025-08-03,App,Home,1328.64,43782,1478,1322,0.0338,0.8945,1.005,-0.048,0,0.0,conversion rate impossible or extreme,0
+CA0214,2025-05-21,Social,Beauty,7039.1,38179,734,1323,0.0192,1.8025,5.3206,-0.0439,0,79.5217,conversion rate impossible or extreme,1
+CA0215,2025-01-18,Social,Electronics,7373.75,95695,3622,924,0.0378,0.2551,7.9802,-0.0768,0,2513.0921,unusual impressions,0
+CA0216,2025-01-02,App,Electronics,7591.06,4635,5670,648,1.2233,0.1143,11.7146,0.0112,1,4182.2869,click-through rate impossible or extreme,1
+CA0217,2025-12-15,App,Grocery,2498.6,1312,8101,932,6.1745,0.115,2.6809,0.0925,1,0.0,click-through rate impossible or extreme,1
+CA0218,2025-01-20,Web,Sports,2029.93,35460,6286,597,0.1773,0.095,3.4002,-0.0953,0,0.0,unusually high/low spend,0
+CA0219,2025-10-17,App,Beauty,1375.3,28025,3737,959,0.1333,0.2566,1.4341,-0.0734,0,0.0,unusually high/low spend,0
+CA0220,2025-07-05,Store,Grocery,4062.27,35410,7567,524,0.2137,0.0692,7.7524,-0.1008,0,1305.793,click-through rate impossible or extreme,0
+CA0221,2025-11-11,Web,Sports,2443.01,73966,935,718,0.0126,0.7679,3.4025,-0.0831,0,0.0,conversion rate impossible or extreme,0
+CA0222,2025-07-18,App,Fashion,7212.11,88420,4049,908,0.0458,0.2243,7.9429,-0.0864,0,2435.6193,unusually high/low spend,0
+CA0223,2025-03-12,Email,Sports,4588.96,74223,4416,716,0.0595,0.1621,6.4092,-0.1069,0,822.4762,unusual impressions,0
+CA0224,2025-02-21,Email,Grocery,751.84,97998,6573,106,0.0671,0.0161,7.0928,-0.0256,0,194.2321,unusually high/low spend,0
+CA0225,2025-08-22,Email,Electronics,3014.28,79001,4106,951,0.052,0.2316,3.1696,-0.1003,0,0.0,conversion rate impossible or extreme,0
+CA0226,2025-05-12,Store,Grocery,7191.13,33549,5113,1454,0.1524,0.2844,4.9458,-0.09,0,0.0,conversion rate impossible or extreme,0
+CA0227,2025-02-07,Email,Fashion,3621.85,9877,1959,134,0.1983,0.0684,27.0287,-0.0425,0,2916.9494,unusual impressions,0
+CA0228,2025-07-31,Store,Sports,7753.75,27865,816,69,0.0293,0.0846,112.3732,-0.0079,0,7390.7788,very high cost per conversion,0
+CA0229,2025-10-27,App,Fashion,6022.75,29653,1686,68,0.0569,0.0403,88.5699,-0.0433,0,5665.0392,very high cost per conversion,0
+CA0230,2025-04-08,Social,Fashion,2308.64,19935,4970,460,0.2493,0.0926,5.0188,-0.0855,0,0.0,click-through rate impossible or extreme,0
+CA0231,2025-11-13,Web,Sports,5677.55,92404,3518,797,0.0381,0.2265,7.1237,-0.0934,0,1484.9695,unusual impressions,0
+CA0232,2025-04-08,Email,Beauty,5531.13,55444,4475,578,0.0807,0.1292,9.5694,-0.1093,0,2490.5886,very high cost per conversion,0
+CA0233,2025-06-11,Social,Beauty,2198.42,15324,7030,1176,0.4588,0.1673,1.8694,-0.0621,0,0.0,click-through rate impossible or extreme,0
+CA0234,2025-08-09,Store,Grocery,609.89,22988,7,1288,0.0003,184.0,0.4735,0.2241,1,0.0,conversion rate impossible or extreme,1
+CA0235,2025-05-03,Store,Grocery,4224.98,26605,9918,4,0.3728,0.0004,1056.245,0.0682,1,4203.9382,very high cost per conversion,0
+CA0236,2025-11-01,Email,Electronics,168.05,69197,6280,516,0.0908,0.0822,0.3257,0.0327,1,0.0,unusually high/low spend,0
+CA0237,2025-06-27,Store,Sports,902.71,94367,7773,668,0.0824,0.0859,1.3514,-0.0541,0,0.0,unusually high/low spend,0
+CA0238,2025-04-24,Social,Grocery,7003.05,449,5994,962,13.3497,0.1605,7.2797,0.1838,1,1942.4949,click-through rate impossible or extreme,1
+CA0239,2025-06-21,Social,Fashion,3442.63,7626,8811,705,1.1554,0.08,4.8832,-0.0342,0,0.0,click-through rate impossible or extreme,1
+CA0240,2025-01-15,Store,Electronics,2519.3,37546,5842,773,0.1556,0.1323,3.2591,-0.1011,0,0.0,unusually high/low spend,0
+CA0241,2025-10-11,Email,Electronics,7524.01,85262,2896,376,0.034,0.1298,20.0107,-0.0732,0,5546.0799,very high cost per conversion,0
+CA0242,2025-12-04,Store,Home,4184.65,32877,9540,802,0.2902,0.0841,5.2178,-0.0955,0,0.0,click-through rate impossible or extreme,0
+CA0243,2025-11-23,Email,Fashion,4877.54,21525,1241,806,0.0577,0.6495,6.0515,-0.0835,0,637.6155,conversion rate impossible or extreme,0
+CA0244,2025-09-24,Web,Electronics,2149.79,6222,505,716,0.0812,1.4178,3.0025,0.0122,1,0.0,conversion rate impossible or extreme,1
+CA0245,2025-11-11,Email,Grocery,7359.36,59704,2675,1179,0.0448,0.4407,6.242,-0.0922,0,1157.2868,conversion rate impossible or extreme,0
+CA0246,2025-03-12,Web,Sports,818.14,14208,9660,1086,0.6799,0.1124,0.7534,-0.0075,0,0.0,click-through rate impossible or extreme,0
+CA0247,2025-06-02,Email,Beauty,1852.43,88547,2668,1180,0.0301,0.4423,1.5699,-0.0712,0,0.0,conversion rate impossible or extreme,0
+CA0248,2025-05-18,Web,Electronics,3571.11,43818,4911,1408,0.1121,0.2867,2.5363,-0.098,0,0.0,conversion rate impossible or extreme,0
+CA0249,2025-09-08,Email,Sports,3827.95,96667,3485,784,0.0361,0.225,4.8826,-0.0896,0,0.0,unusual impressions,0
+CA0250,2025-01-11,Web,Grocery,2894.38,56293,9921,458,0.1762,0.0462,6.3196,-0.0957,0,485.0929,click-through rate impossible or extreme,0
+CA0251,2025-09-04,Email,Beauty,4392.09,39500,3216,677,0.0814,0.2105,6.4876,-0.1079,0,830.7638,conversion rate impossible or extreme,0
+CA0252,2025-08-04,Social,Sports,1893.17,65109,8672,1018,0.1332,0.1174,1.8597,-0.0886,0,0.0,very high cost per conversion,0
+CA0253,2025-07-05,Email,Grocery,353.58,51741,431,258,0.0083,0.5986,1.3705,-0.0104,0,0.0,conversion rate impossible or extreme,0
+CA0254,2025-09-22,Web,Electronics,7668.52,69888,491,345,0.007,0.7026,22.2276,-0.0482,0,5853.664,conversion rate impossible or extreme,0
+CA0255,2025-01-05,App,Grocery,4869.52,14080,9696,1341,0.6886,0.1383,3.6313,-0.0673,0,0.0,click-through rate impossible or extreme,0
+CA0256,2025-09-04,App,Grocery,5487.82,51776,7742,1177,0.1495,0.152,4.6625,-0.1022,0,0.0,click-through rate impossible or extreme,0
+CA0257,2025-02-21,Store,Fashion,2631.94,86901,1415,357,0.0163,0.2523,7.3724,-0.0882,0,753.9585,click-through rate impossible or extreme,0
+CA0258,2025-01-10,Email,Grocery,4007.52,18103,3629,1153,0.2005,0.3177,3.4757,-0.0857,0,0.0,unusual impressions,0
+CA0259,2025-11-11,Email,Fashion,5804.31,52894,1939,1317,0.0367,0.6792,4.4072,-0.0875,0,0.0,conversion rate impossible or extreme,0
+CA0260,2025-03-16,Social,Grocery,1351.67,99422,5167,1189,0.052,0.2301,1.1368,-0.0576,0,0.0,very high cost per conversion,0
+CA0261,2025-04-21,App,Sports,2263.64,47299,4995,197,0.1056,0.0394,11.4906,-0.0907,0,1227.3309,conversion rate impossible or extreme,0
+CA0262,2025-03-21,Email,Grocery,2331.79,36805,8063,0,0.2191,0.0,,0.0838,1,2331.79,very high cost per conversion,0
+CA0263,2025-02-13,Web,Home,932.22,6282,1084,608,0.1726,0.5609,1.5333,0.0097,1,0.0,conversion rate impossible or extreme,0
+CA0264,2025-07-06,Social,Electronics,6600.86,32044,112,1132,0.0035,10.1071,5.8311,0.0962,1,646.028,conversion rate impossible or extreme,1
+CA0265,2025-04-03,Social,Beauty,4741.11,35401,185,1126,0.0052,6.0865,4.2106,0.0528,1,0.0,conversion rate impossible or extreme,1
+CA0266,2025-08-05,Email,Electronics,6675.51,79750,762,94,0.0096,0.1234,71.0161,-0.0431,0,6181.0275,very high cost per conversion,0
+CA0267,2025-12-08,Store,Electronics,2215.87,73354,6320,881,0.0862,0.1394,2.5152,-0.1005,0,0.0,unusually high/low spend,0
+CA0268,2025-04-13,Email,Grocery,1530.09,65979,9981,887,0.1513,0.0889,1.725,-0.0809,0,0.0,unusually high/low spend,0
+CA0269,2025-07-04,App,Sports,1975.53,73070,9640,120,0.1319,0.0124,16.4628,-0.0628,0,1344.2757,very high cost per conversion,0
+CA0270,2025-01-13,Web,Electronics,6640.72,72087,5361,408,0.0744,0.0761,16.2763,-0.0934,0,4494.4555,very high cost per conversion,0
+CA0271,2025-05-14,Store,Home,1588.78,24865,8509,812,0.3422,0.0954,1.9566,-0.0699,0,0.0,click-through rate impossible or extreme,0
+CA0272,2025-07-24,Social,Beauty,3650.08,71992,3438,1142,0.0478,0.3322,3.1962,-0.0991,0,0.0,conversion rate impossible or extreme,0
+CA0273,2025-05-18,Store,Fashion,2634.78,1440,3956,37,2.7472,0.0094,71.2103,0.1129,1,2440.1433,click-through rate impossible or extreme,1
+CA0274,2025-10-15,Store,Grocery,2936.52,75303,1936,145,0.0257,0.0749,20.2519,-0.0792,0,2173.7544,very high cost per conversion,0
+CA0275,2025-01-10,App,Fashion,3916.75,41668,1219,1023,0.0293,0.8392,3.8287,-0.0874,0,0.0,conversion rate impossible or extreme,0
+CA0276,2025-05-17,Web,Beauty,6849.74,18267,1735,314,0.095,0.181,21.8145,-0.0669,0,5197.958,unusual impressions,0
+CA0277,2025-03-15,App,Home,3923.07,42021,1527,1137,0.0363,0.7446,3.4504,-0.0902,0,0.0,conversion rate impossible or extreme,0
+CA0278,2025-06-22,Social,Fashion,3665.55,45806,9197,595,0.2008,0.0647,6.1606,-0.0987,0,535.5809,click-through rate impossible or extreme,0
+CA0279,2025-05-19,App,Electronics,2239.69,65712,5499,1004,0.0837,0.1826,2.2308,-0.1001,0,0.0,very high cost per conversion,0
+CA0280,2025-11-24,App,Home,3063.94,88829,8430,1038,0.0949,0.1231,2.9518,-0.094,0,0.0,unusual impressions,0
+CA0281,2025-09-13,Store,Grocery,3229.95,35931,2780,1356,0.0774,0.4878,2.382,-0.0882,0,0.0,conversion rate impossible or extreme,0
+CA0282,2025-05-11,Store,Grocery,1606.55,95667,9641,1168,0.1008,0.1211,1.3755,-0.0688,0,0.0,very high cost per conversion,0
+CA0283,2025-11-04,Social,Fashion,1897.9,48731,9264,538,0.1901,0.0581,3.5277,-0.0886,0,0.0,unusually high/low spend,0
+CA0284,2025-08-21,Web,Electronics,6839.33,32589,7935,60,0.2435,0.0076,113.9888,-0.0218,0,6523.7029,very high cost per conversion,0
+CA0285,2025-02-26,Web,Grocery,1643.42,68070,8920,668,0.131,0.0749,2.4602,-0.0886,0,0.0,unusually high/low spend,0
+CA0286,2025-04-20,Web,Home,6549.58,55077,1420,1014,0.0258,0.7141,6.4592,-0.0854,0,1215.4814,conversion rate impossible or extreme,0
+CA0287,2025-09-16,Web,Grocery,412.72,11078,5983,1115,0.5401,0.1864,0.3702,0.0464,1,0.0,click-through rate impossible or extreme,0
+CA0288,2025-02-28,Web,Sports,994.89,98141,2155,856,0.022,0.3972,1.1623,-0.0377,0,0.0,conversion rate impossible or extreme,0
+CA0289,2025-09-12,Email,Grocery,1904.77,8384,6560,211,0.7824,0.0322,9.0273,-0.0163,0,794.8146,click-through rate impossible or extreme,0
+CA0290,2025-02-14,Social,Sports,3667.47,54747,5726,184,0.1046,0.0321,19.9319,-0.0905,0,2699.5468,very high cost per conversion,0
+CA0291,2025-04-21,Store,Home,1145.55,88117,4256,858,0.0483,0.2016,1.3351,-0.0699,0,0.0,unusually high/low spend,0
+CA0292,2025-08-28,Web,Sports,6723.05,54172,8513,736,0.1571,0.0865,9.1346,-0.0992,0,2851.3571,unusually high/low spend,0
+CA0293,2025-10-26,Web,Sports,2776.06,46286,7083,1496,0.153,0.2112,1.8557,-0.0924,0,0.0,very high cost per conversion,0
+CA0294,2025-08-13,App,Fashion,6476.0,64266,8067,970,0.1255,0.1202,6.6763,-0.1032,0,1373.3613,unusually high/low spend,0
+CA0295,2025-10-31,Store,Home,6172.88,44125,1204,755,0.0273,0.6271,8.176,-0.0832,0,2201.2385,conversion rate impossible or extreme,0
+CA0296,2025-01-27,Email,Fashion,3038.23,3304,7701,720,2.3308,0.0935,4.2198,0.013,1,0.0,click-through rate impossible or extreme,1
+CA0297,2025-04-10,Social,Beauty,7325.34,78033,576,54,0.0074,0.0938,135.6544,-0.0125,0,7041.2756,very high cost per conversion,0
+CA0298,2025-05-13,Social,Home,7351.21,16156,8724,1324,0.54,0.1518,5.5523,-0.0692,0,386.3712,click-through rate impossible or extreme,0
+CA0299,2025-11-24,Social,Grocery,2929.09,50926,2818,258,0.0553,0.0916,11.3531,-0.0996,0,1571.8933,very high cost per conversion,0
+CA0300,2025-09-19,Social,Fashion,5639.11,90848,5120,686,0.0564,0.134,8.2203,-0.0953,0,2030.4397,unusual impressions,0
+CA0301,2025-01-31,Email,Grocery,2140.1,51644,8605,1192,0.1666,0.1385,1.7954,-0.0893,0,0.0,very high cost per conversion,0
+CA0302,2025-02-08,App,Home,3765.9,99778,8270,415,0.0829,0.0502,9.0745,-0.0854,0,1582.8123,unusual impressions,0
+CA0303,2025-07-19,Email,Home,7334.86,38202,5778,32,0.1512,0.0055,229.2144,0.0066,1,7166.5255,very high cost per conversion,0
+CA0304,2025-08-30,Web,Grocery,6531.73,76180,3756,1197,0.0493,0.3187,5.4568,-0.0944,0,234.9686,conversion rate impossible or extreme,0
+CA0305,2025-09-27,App,Electronics,7467.71,35511,3111,933,0.0876,0.2999,8.004,-0.0912,0,2559.708,conversion rate impossible or extreme,0
+CA0306,2025-11-06,App,Fashion,4184.91,97711,5259,363,0.0538,0.069,11.5287,-0.0858,0,2275.3658,unusual impressions,0
+CA0307,2025-07-30,Web,Home,6981.32,22076,6950,715,0.3148,0.1029,9.7641,-0.0893,0,3220.0966,click-through rate impossible or extreme,0
+CA0308,2025-09-18,Store,Electronics,3461.23,45738,7554,406,0.1652,0.0537,8.5252,-0.1036,0,1325.4864,conversion rate impossible or extreme,0
+CA0309,2025-04-20,Email,Fashion,7178.53,1364,8715,1439,6.3893,0.1651,4.9886,0.1003,1,0.0,click-through rate impossible or extreme,1
+CA0310,2025-11-05,Social,Home,963.46,98148,1578,897,0.0161,0.5684,1.0741,-0.0285,0,0.0,conversion rate impossible or extreme,0
+CA0311,2025-02-10,App,Beauty,6290.25,93360,8676,128,0.0929,0.0148,49.1426,-0.0573,0,5616.9121,very high cost per conversion,0
+CA0312,2025-04-24,Web,Grocery,2440.65,78520,265,725,0.0034,2.7358,3.3664,-0.0255,0,0.0,conversion rate impossible or extreme,1
+CA0313,2025-11-08,Web,Grocery,2067.18,76659,9176,1207,0.1197,0.1315,1.7127,-0.0897,0,0.0,very high cost per conversion,0
+CA0314,2025-11-22,App,Beauty,747.0,9660,8087,790,0.8372,0.0977,0.9456,0.013,1,0.0,click-through rate impossible or extreme,0
+CA0315,2025-11-18,Email,Fashion,6300.95,23097,8069,186,0.3494,0.0231,33.8761,-0.0514,0,5322.5059,click-through rate impossible or extreme,0
+CA0316,2025-03-14,Social,Electronics,1726.81,55574,4593,434,0.0826,0.0945,3.9788,-0.0993,0,0.0,unusually high/low spend,0
+CA0317,2025-12-02,Social,Electronics,2684.89,68270,461,247,0.0068,0.5358,10.87,-0.0778,0,1385.5583,conversion rate impossible or extreme,0
+CA0318,2025-12-16,App,Home,5765.32,4691,3531,708,0.7527,0.2005,8.1431,-0.0278,0,2040.9198,click-through rate impossible or extreme,0
+CA0319,2025-01-27,App,Sports,5014.87,48434,2473,447,0.0511,0.1808,11.2189,-0.1055,0,2663.4478,very high cost per conversion,0
+CA0320,2025-11-21,Email,Fashion,7553.41,21543,1630,1322,0.0757,0.811,5.7136,-0.0651,0,599.0921,conversion rate impossible or extreme,0
+CA0321,2025-09-19,Social,Beauty,4132.83,75677,1462,1388,0.0193,0.9494,2.9775,-0.0779,0,0.0,conversion rate impossible or extreme,0
+CA0322,2025-12-30,App,Grocery,4287.47,94970,8586,957,0.0904,0.1115,4.4801,-0.094,0,0.0,unusual impressions,0
+CA0323,2025-10-15,Web,Grocery,1901.94,72647,9755,363,0.1343,0.0372,5.2395,-0.0833,0,0.0,unusually high/low spend,0
+CA0324,2025-08-23,App,Beauty,742.03,78852,2577,333,0.0327,0.1292,2.2283,-0.0551,0,0.0,unusually high/low spend,0
+CA0325,2025-04-27,Social,Electronics,138.44,27860,3925,497,0.1409,0.1266,0.2786,0.0536,1,0.0,unusually high/low spend,0
+CA0326,2025-09-19,Store,Grocery,3908.97,17822,5563,1005,0.3121,0.1807,3.8895,-0.0932,0,0.0,click-through rate impossible or extreme,0
+CA0327,2025-11-27,Email,Home,3102.74,51904,8759,434,0.1688,0.0495,7.1492,-0.099,0,819.7037,conversion rate impossible or extreme,0
+CA0328,2025-05-16,App,Home,7859.77,87920,8839,714,0.1005,0.0808,11.0081,-0.0756,0,4103.8071,unusually high/low spend,0
+CA0329,2025-01-09,Store,Beauty,683.06,18033,8173,1435,0.4532,0.1756,0.476,-0.0039,0,0.0,click-through rate impossible or extreme,0
+CA0330,2025-05-18,App,Sports,2100.99,51475,1400,478,0.0272,0.3414,4.3954,-0.0971,0,0.0,conversion rate impossible or extreme,0
+CA0331,2025-08-16,App,Sports,1058.42,53653,2992,338,0.0558,0.113,3.1314,-0.0807,0,0.0,unusually high/low spend,0
+CA0332,2025-04-16,Web,Home,3898.77,11077,602,1493,0.0543,2.4801,2.6114,0.0136,1,0.0,conversion rate impossible or extreme,1
+CA0333,2025-03-27,Social,Sports,1862.41,27902,7338,967,0.263,0.1318,1.926,-0.0754,0,0.0,click-through rate impossible or extreme,0
+CA0334,2025-09-21,Social,Home,970.2,93217,2685,1451,0.0288,0.5404,0.6686,-0.0267,0,0.0,conversion rate impossible or extreme,0
+CA0335,2025-12-18,Email,Grocery,1851.09,48696,4542,222,0.0933,0.0489,8.3382,-0.0895,0,683.2696,unusually high/low spend,0
+CA0336,2025-12-07,Email,Grocery,274.84,51046,8481,7,0.1661,0.0008,39.2629,0.0425,1,238.0168,unusually high/low spend,0
+CA0337,2025-09-17,Web,Sports,1179.31,3295,381,585,0.1156,1.5354,2.0159,0.0539,1,0.0,conversion rate impossible or extreme,1
+CA0338,2025-10-03,Email,Home,1979.33,39005,1823,743,0.0467,0.4076,2.664,-0.0905,0,0.0,conversion rate impossible or extreme,0
+CA0339,2025-09-10,Email,Sports,4056.48,24884,2974,959,0.1195,0.3225,4.2299,-0.0999,0,0.0,conversion rate impossible or extreme,0
+CA0340,2025-09-18,Social,Sports,6744.1,78529,2611,988,0.0332,0.3784,6.826,-0.09,0,1546.7732,conversion rate impossible or extreme,0
+CA0341,2025-03-02,Email,Grocery,1056.83,58135,934,495,0.0161,0.53,2.135,-0.0645,0,0.0,conversion rate impossible or extreme,0
+CA0342,2025-08-17,Social,Fashion,2661.49,60757,8106,614,0.1334,0.0757,4.3347,-0.1022,0,0.0,conversion rate impossible or extreme,0
+CA0343,2025-12-18,Email,Beauty,4340.43,11103,7870,276,0.7088,0.0351,15.7262,-0.0427,0,2888.5452,click-through rate impossible or extreme,0
+CA0344,2025-04-16,Store,Home,2411.92,46089,3510,596,0.0762,0.1698,4.0468,-0.1074,0,0.0,unusually high/low spend,0
+CA0345,2025-07-08,Store,Grocery,3345.54,58073,7842,460,0.135,0.0587,7.2729,-0.1033,0,925.732,conversion rate impossible or extreme,0
+CA0346,2025-09-28,Web,Fashion,5731.44,92635,2176,210,0.0235,0.0965,27.2926,-0.066,0,4626.745,very high cost per conversion,0
+CA0347,2025-02-01,App,Grocery,4741.78,4094,2827,450,0.6905,0.1592,10.5373,-0.0217,0,2374.5765,click-through rate impossible or extreme,0
+CA0348,2025-05-17,Web,Grocery,3052.74,81849,5977,940,0.073,0.1573,3.2476,-0.1021,0,0.0,unusual impressions,0
+CA0349,2025-07-08,Email,Grocery,6391.7,60464,2244,441,0.0371,0.1965,14.4937,-0.0946,0,4071.8406,very high cost per conversion,0
+CA0350,2025-10-28,App,Grocery,1564.97,39562,7566,344,0.1912,0.0455,4.5493,-0.0818,0,0.0,unusually high/low spend,0
+CA0351,2025-12-06,App,Home,4115.31,89177,6500,916,0.0729,0.1409,4.4927,-0.0986,0,0.0,unusual impressions,0
+CA0352,2025-05-21,Web,Electronics,6342.01,87805,2489,990,0.0283,0.3978,6.4061,-0.0817,0,1134.1623,conversion rate impossible or extreme,0
+CA0353,2025-05-13,Store,Electronics,4092.66,70200,6939,271,0.0988,0.0391,15.1021,-0.0954,0,2667.0774,very high cost per conversion,0
+CA0354,2025-01-04,Email,Beauty,186.96,90877,2,507,0.0,253.5,0.3688,0.2606,1,0.0,conversion rate impossible or extreme,1
+CA0355,2025-04-29,App,Fashion,2384.67,91356,5899,1195,0.0646,0.2026,1.9955,-0.0888,0,0.0,very high cost per conversion,0
+CA0356,2025-04-05,Store,Electronics,3311.79,10132,5112,76,0.5045,0.0149,43.5762,-0.0124,0,2911.9956,click-through rate impossible or extreme,0
+CA0357,2025-01-16,Web,Fashion,5926.86,30395,2639,527,0.0868,0.1997,11.2464,-0.1003,0,3154.6017,very high cost per conversion,0
+CA0358,2025-01-08,Store,Fashion,3005.92,39946,7491,407,0.1875,0.0543,7.3856,-0.1009,0,864.9159,click-through rate impossible or extreme,0
+CA0359,2025-08-20,Social,Home,2819.45,92767,9899,1179,0.1067,0.1191,2.3914,-0.089,0,0.0,unusual impressions,0
+CA0360,2025-10-14,Email,Grocery,58.36,47476,4553,405,0.0959,0.089,0.1441,0.1267,1,0.0,unusually high/low spend,0
+CA0361,2025-01-22,Email,Beauty,1921.34,57854,2056,677,0.0355,0.3293,2.838,-0.0942,0,0.0,conversion rate impossible or extreme,0
+CA0362,2025-06-15,App,Fashion,4295.55,43716,5759,1394,0.1317,0.2421,3.0815,-0.0981,0,0.0,conversion rate impossible or extreme,0
+CA0363,2025-01-31,Web,Home,748.62,2931,4031,914,1.3753,0.2267,0.8191,0.0523,1,0.0,click-through rate impossible or extreme,1
+CA0364,2025-03-31,Store,Home,5180.86,63220,1033,623,0.0163,0.6031,8.316,-0.0889,0,1903.5982,conversion rate impossible or extreme,0
+CA0365,2025-03-11,App,Sports,5917.76,61291,4791,642,0.0782,0.134,9.2177,-0.1083,0,2540.5496,unusually high/low spend,0
+CA0366,2025-01-28,Web,Grocery,87.46,77353,6348,195,0.0821,0.0307,0.4485,0.0674,1,0.0,unusually high/low spend,0
+CA0367,2025-06-03,Store,Sports,6075.17,67234,4990,371,0.0742,0.0743,16.3751,-0.096,0,4123.5422,very high cost per conversion,0
+CA0368,2025-08-13,Social,Fashion,5189.13,15414,3251,510,0.2109,0.1569,10.1748,-0.09,0,2506.2993,unusual impressions,0
+CA0369,2025-01-01,Email,Sports,4208.0,78459,125,1285,0.0016,10.28,3.2747,0.094,1,0.0,conversion rate impossible or extreme,1
+CA0370,2025-05-03,App,Grocery,4370.79,83078,2567,945,0.0309,0.3681,4.6252,-0.0925,0,0.0,conversion rate impossible or extreme,0
+CA0371,2025-12-30,App,Sports,4467.85,9417,5849,959,0.6211,0.164,4.6589,-0.0623,0,0.0,click-through rate impossible or extreme,0
+CA0372,2025-09-06,Social,Electronics,467.05,5795,2051,1012,0.3539,0.4934,0.4615,0.0629,1,0.0,unusual impressions,0
+CA0373,2025-11-01,Store,Electronics,6532.94,74130,6673,1077,0.09,0.1614,6.0659,-0.1009,0,867.4329,unusually high/low spend,0
+CA0374,2025-05-08,Web,Home,6431.46,32954,5401,796,0.1639,0.1474,8.0797,-0.1021,0,2244.14,click-through rate impossible or extreme,0
+CA0375,2025-08-28,Email,Grocery,824.64,93138,1948,1148,0.0209,0.5893,0.7183,-0.0206,0,0.0,conversion rate impossible or extreme,0
+CA0376,2025-02-16,Store,Sports,2123.58,45008,2826,723,0.0628,0.2558,2.9372,-0.0999,0,0.0,unusually high/low spend,0
+CA0377,2025-02-11,Web,Sports,6084.32,1305,3103,1055,2.3778,0.34,5.7671,0.0629,1,534.5429,click-through rate impossible or extreme,1
+CA0378,2025-10-11,Social,Beauty,6326.12,3723,8677,352,2.3306,0.0406,17.9719,0.0489,1,4474.4408,click-through rate impossible or extreme,1
+CA0379,2025-05-08,App,Grocery,5868.36,54007,8589,688,0.159,0.0801,8.5296,-0.1034,0,2249.1688,click-through rate impossible or extreme,0
+CA0380,2025-04-08,App,Fashion,1922.66,36314,3165,151,0.0872,0.0477,12.7328,-0.0781,0,1128.3317,unusually high/low spend,0
+CA0381,2025-02-24,App,Beauty,2695.94,56502,487,514,0.0086,1.0554,5.245,-0.0784,0,0.0,conversion rate impossible or extreme,1
+CA0382,2025-04-04,Social,Fashion,5670.76,46864,6521,1337,0.1391,0.205,4.2414,-0.101,0,0.0,unusually high/low spend,0
+CA0383,2025-11-21,Web,Fashion,6474.36,22208,4936,370,0.2223,0.075,17.4983,-0.0829,0,4527.9927,click-through rate impossible or extreme,0
+CA0384,2025-06-07,Social,Grocery,3061.84,81805,246,486,0.003,1.9756,6.3001,-0.0407,0,505.2602,conversion rate impossible or extreme,1
+CA0385,2025-01-08,Email,Fashion,2711.83,18711,3159,1383,0.1688,0.4378,1.9608,-0.0719,0,0.0,conversion rate impossible or extreme,0
+CA0386,2025-01-18,Web,Fashion,5758.21,28403,2145,16,0.0755,0.0075,359.8881,0.0222,1,5674.0428,very high cost per conversion,0
+CA0387,2025-05-01,Email,Home,1725.71,99860,4907,1288,0.0491,0.2625,1.3398,-0.0684,0,0.0,very high cost per conversion,0
+CA0388,2025-01-02,Web,Sports,2237.99,7746,430,1193,0.0555,2.7744,1.8759,0.0451,1,0.0,conversion rate impossible or extreme,1
+CA0389,2025-05-16,Web,Home,409.8,62971,4768,230,0.0757,0.0482,1.7817,-0.0343,0,0.0,unusually high/low spend,0
+CA0390,2025-08-01,Social,Sports,5582.24,25720,8688,80,0.3378,0.0092,69.778,-0.0339,0,5161.4038,very high cost per conversion,0
+CA0391,2025-10-22,App,Grocery,3020.47,37791,1804,1243,0.0477,0.689,2.43,-0.0849,0,0.0,conversion rate impossible or extreme,0
+CA0392,2025-07-10,Store,Home,1127.84,40095,388,317,0.0097,0.817,3.5579,-0.056,0,0.0,conversion rate impossible or extreme,0
+CA0393,2025-11-14,App,Sports,1187.4,64243,7592,396,0.1182,0.0522,2.9985,-0.0873,0,0.0,unusually high/low spend,0
+CA0394,2025-01-20,App,Fashion,6880.18,88129,9210,1202,0.1045,0.1305,5.7239,-0.0907,0,557.1164,unusually high/low spend,0
+CA0395,2025-12-10,Store,Fashion,1946.7,64496,2797,914,0.0434,0.3268,2.1299,-0.0948,0,0.0,conversion rate impossible or extreme,0
+CA0396,2025-11-25,Social,Sports,7755.5,43268,8384,676,0.1938,0.0806,11.4726,-0.0799,0,4199.4343,click-through rate impossible or extreme,0
+CA0397,2025-02-05,Social,Electronics,5940.65,96180,4203,1033,0.0437,0.2458,5.7509,-0.0875,0,506.6028,unusual impressions,0
+CA0398,2025-01-25,Store,Electronics,3541.18,86546,4622,1317,0.0534,0.2849,2.6888,-0.0933,0,0.0,conversion rate impossible or extreme,0
+CA0399,2025-04-08,Social,Electronics,7971.63,95890,7098,255,0.074,0.0359,31.2613,-0.047,0,6630.2147,very high cost per conversion,0
+CA0400,2025-02-02,Web,Grocery,426.49,1016,9778,486,9.624,0.0497,0.8776,0.1775,1,0.0,click-through rate impossible or extreme,1
+CA0401,2025-10-04,App,Electronics,7421.57,17802,5028,1251,0.2824,0.2488,5.9325,-0.0791,0,840.7442,click-through rate impossible or extreme,0
+CA0402,2025-11-02,Social,Fashion,6057.67,93931,8450,1273,0.09,0.1507,4.7586,-0.0865,0,0.0,unusual impressions,0
+CA0403,2025-07-13,Store,Home,5593.69,7581,9715,415,1.2815,0.0427,13.4788,-0.0132,0,3410.6023,click-through rate impossible or extreme,1
+CA0404,2025-06-26,Web,Home,7561.12,29442,2553,1262,0.0867,0.4943,5.9914,-0.0834,0,922.4292,conversion rate impossible or extreme,0
+CA0405,2025-11-29,Web,Grocery,7989.61,93453,5931,501,0.0635,0.0845,15.9473,-0.0676,0,5354.1234,very high cost per conversion,0
+CA0406,2025-06-04,Web,Electronics,3802.3,41881,4625,879,0.1104,0.1901,4.3257,-0.1087,0,0.0,conversion rate impossible or extreme,0
+CA0407,2025-07-12,Web,Grocery,3813.61,55891,4126,1014,0.0738,0.2458,3.761,-0.1086,0,0.0,conversion rate impossible or extreme,0
+CA0408,2025-09-26,Web,Sports,6202.88,87710,5581,163,0.0636,0.0292,38.0545,-0.0664,0,5345.4263,very high cost per conversion,0
+CA0409,2025-05-01,Web,Grocery,7928.93,15276,5265,22,0.3447,0.0042,360.4059,0.0638,1,7813.2001,very high cost per conversion,0
+CA0410,2025-07-02,Social,Home,1912.94,78592,7006,1382,0.0891,0.1973,1.3842,-0.0851,0,0.0,very high cost per conversion,0
+CA0411,2025-10-28,Email,Electronics,3431.76,94212,1127,420,0.012,0.3727,8.1709,-0.0808,0,1222.3701,conversion rate impossible or extreme,0
+CA0412,2025-02-07,Email,Home,4664.63,76772,263,315,0.0034,1.1977,14.8083,-0.0539,0,3007.5875,conversion rate impossible or extreme,1
+CA0413,2025-04-09,Store,Fashion,3922.0,6781,2836,1085,0.4182,0.3826,3.6147,-0.046,0,0.0,click-through rate impossible or extreme,0
+CA0414,2025-07-07,Web,Fashion,5896.58,89655,5666,468,0.0632,0.0826,12.5995,-0.0943,0,3434.6883,very high cost per conversion,0
+CA0415,2025-06-16,Social,Fashion,6484.06,97971,5212,778,0.0532,0.1493,8.3343,-0.0851,0,2391.4281,unusual impressions,0
+CA0416,2025-09-23,Web,Sports,6090.53,8021,6781,1116,0.8454,0.1646,5.4575,-0.0443,0,219.8653,click-through rate impossible or extreme,0
+CA0417,2025-11-09,Email,Beauty,6077.88,4486,6615,643,1.4746,0.0972,9.4524,0.0026,1,2695.4092,click-through rate impossible or extreme,1
+CA0418,2025-04-20,Store,Beauty,5226.68,71554,209,518,0.0029,2.4785,10.0901,-0.0138,0,2501.7657,conversion rate impossible or extreme,1
+CA0419,2025-05-20,Web,Sports,5126.49,40930,2657,485,0.0649,0.1825,10.5701,-0.1033,0,2575.1707,very high cost per conversion,0
+CA0420,2025-01-06,Store,Sports,4374.27,75695,5134,635,0.0678,0.1237,6.8886,-0.1075,0,1033.8828,unusual impressions,0
+CA0421,2025-05-04,Store,Sports,2209.07,72299,2713,759,0.0375,0.2798,2.9105,-0.0975,0,0.0,conversion rate impossible or extreme,0
+CA0422,2025-11-07,Social,Beauty,1191.11,80095,9257,1208,0.1156,0.1305,0.986,-0.0628,0,0.0,unusually high/low spend,0
+CA0423,2025-08-07,Web,Beauty,7856.1,28752,462,307,0.0161,0.6645,25.5899,-0.0383,0,6241.1412,conversion rate impossible or extreme,0
+CA0424,2025-04-05,Email,Beauty,2573.89,71099,1557,195,0.0219,0.1252,13.1994,-0.0873,0,1548.1018,very high cost per conversion,0
+CA0425,2025-07-12,Email,Home,2337.98,24077,326,747,0.0135,2.2914,3.1298,-0.0275,0,0.0,conversion rate impossible or extreme,1
+CA0426,2025-05-24,Store,Sports,1469.57,25715,894,831,0.0348,0.9295,1.7684,-0.0512,0,0.0,conversion rate impossible or extreme,0
+CA0427,2025-07-24,App,Sports,2873.96,95990,8150,1266,0.0849,0.1553,2.2701,-0.0865,0,0.0,unusual impressions,0
+CA0428,2025-02-04,Social,Electronics,6572.14,5025,6652,1486,1.3238,0.2234,4.4227,-0.0084,0,0.0,click-through rate impossible or extreme,1
+CA0429,2025-06-01,App,Sports,95.92,57032,6325,178,0.1109,0.0281,0.5389,0.0568,1,0.0,unusually high/low spend,0
+CA0430,2025-06-13,Social,Home,6316.77,28404,6616,1147,0.2329,0.1734,5.5072,-0.0927,0,283.0313,click-through rate impossible or extreme,0
+CA0431,2025-04-08,App,Beauty,2609.69,61874,8005,118,0.1294,0.0147,22.116,-0.0759,0,1988.9566,very high cost per conversion,0
+CA0432,2025-06-28,App,Home,3597.33,81419,1684,1156,0.0207,0.6865,3.1119,-0.0852,0,0.0,conversion rate impossible or extreme,0
+CA0433,2025-03-25,Email,Electronics,3861.36,21903,7750,638,0.3538,0.0823,6.0523,-0.0934,0,505.1915,click-through rate impossible or extreme,0
+CA0434,2025-01-17,Email,Electronics,6402.14,98984,4502,752,0.0455,0.167,8.5135,-0.0851,0,2446.2799,unusual impressions,0
+CA0435,2025-02-25,Store,Sports,1075.24,7345,3280,1117,0.4466,0.3405,0.9626,0.0046,1,0.0,click-through rate impossible or extreme,0
+CA0436,2025-07-18,Social,Home,6957.92,11830,6412,1111,0.542,0.1733,6.2628,-0.0653,0,1113.5575,click-through rate impossible or extreme,0
+CA0437,2025-08-12,Email,Sports,3844.28,28398,2944,1002,0.1037,0.3404,3.8366,-0.1029,0,0.0,conversion rate impossible or extreme,0
+CA0438,2025-12-18,Store,Fashion,3323.0,99760,5524,1003,0.0554,0.1816,3.3131,-0.0879,0,0.0,unusual impressions,0
+CA0439,2025-02-27,Email,Grocery,7276.66,70653,5052,1134,0.0715,0.2245,6.4168,-0.098,0,1311.3071,unusually high/low spend,0
+CA0440,2025-10-03,Store,Home,5274.39,67504,5591,1300,0.0828,0.2325,4.0572,-0.1047,0,0.0,conversion rate impossible or extreme,0
+CA0441,2025-05-09,Social,Sports,5596.18,13147,2431,462,0.1849,0.19,12.1129,-0.0771,0,3165.8511,unusual impressions,0
+CA0442,2025-12-31,Email,Sports,2951.09,12081,9322,583,0.7716,0.0625,5.0619,-0.0592,0,0.0,click-through rate impossible or extreme,0
+CA0443,2025-08-25,Store,Sports,5207.88,80044,5342,199,0.0667,0.0373,26.1703,-0.0825,0,4161.05,very high cost per conversion,0
+CA0444,2025-10-23,Store,Grocery,207.17,81018,166,809,0.002,4.8735,0.2561,0.1433,1,0.0,conversion rate impossible or extreme,1
+CA0445,2025-11-04,App,Fashion,6540.84,55549,3212,189,0.0578,0.0588,34.6076,-0.0757,0,5546.6145,very high cost per conversion,0
+CA0446,2025-12-04,App,Grocery,175.51,4515,4094,1402,0.9068,0.3425,0.1252,0.1411,1,0.0,click-through rate impossible or extreme,0
+CA0447,2025-02-02,Email,Electronics,2610.12,4826,4283,1414,0.8875,0.3301,1.8459,-0.0029,0,0.0,click-through rate impossible or extreme,0
+CA0448,2025-04-21,App,Sports,7055.23,56558,1748,57,0.0309,0.0326,123.776,-0.0272,0,6755.3842,very high cost per conversion,0
+CA0449,2025-08-05,Social,Fashion,584.9,47534,8927,1021,0.1878,0.1144,0.5729,-0.0263,0,0.0,unusually high/low spend,0
+CA0450,2025-08-11,Email,Sports,89.65,32225,1795,133,0.0557,0.0741,0.6741,0.062,1,0.0,unusually high/low spend,0
+CA0451,2025-11-11,Store,Fashion,7399.02,24532,3431,904,0.1399,0.2635,8.1848,-0.0868,0,2643.5712,unusual impressions,0
+CA0452,2025-11-09,Store,Electronics,3471.14,64622,6669,1257,0.1032,0.1885,2.7614,-0.102,0,0.0,very high cost per conversion,0
+CA0453,2025-10-07,Store,Fashion,5938.64,67622,3941,3,0.0583,0.0008,1979.5467,0.06,1,5922.8586,very high cost per conversion,0
+CA0454,2025-05-01,App,Sports,7469.01,5458,4110,576,0.753,0.1401,12.967,-0.0087,0,4438.9895,click-through rate impossible or extreme,0
+CA0455,2025-01-06,Email,Fashion,4498.75,74605,6629,554,0.0889,0.0836,8.1205,-0.1055,0,1584.4594,unusual impressions,0
+CA0456,2025-06-25,Store,Home,6796.39,40206,5757,1466,0.1432,0.2546,4.636,-0.0933,0,0.0,conversion rate impossible or extreme,0
+CA0457,2025-04-02,Social,Fashion,4661.24,43683,283,1172,0.0065,4.1413,3.9772,0.016,1,0.0,conversion rate impossible or extreme,1
+CA0458,2025-04-20,Email,Fashion,3367.62,6326,6299,869,0.9957,0.138,3.8753,-0.0366,0,0.0,click-through rate impossible or extreme,0
+CA0459,2025-02-03,Social,Home,2762.82,37560,4014,779,0.1069,0.1941,3.5466,-0.1047,0,0.0,unusually high/low spend,0
+CA0460,2025-03-30,App,Fashion,405.62,91797,7990,774,0.087,0.0969,0.5241,-0.0054,0,0.0,unusually high/low spend,0
+CA0461,2025-06-10,App,Electronics,4150.44,47311,6684,437,0.1413,0.0654,9.4976,-0.1053,0,1851.6224,conversion rate impossible or extreme,0
+CA0462,2025-03-22,Web,Home,4004.53,42475,6171,125,0.1453,0.0203,32.0362,-0.0752,0,3346.9735,very high cost per conversion,0
+CA0463,2025-01-23,Email,Grocery,2173.99,1806,5217,688,2.8887,0.1319,3.1599,0.0441,1,0.0,click-through rate impossible or extreme,1
+CA0464,2025-09-13,Web,Home,7161.07,12287,2391,1007,0.1946,0.4212,7.1113,-0.0623,0,1863.7946,conversion rate impossible or extreme,0
+CA0465,2025-06-13,Social,Home,316.92,22691,3134,1113,0.1381,0.3551,0.2847,0.0287,1,0.0,unusually high/low spend,0
+CA0466,2025-05-27,Web,Electronics,7697.42,48508,5698,118,0.1175,0.0207,65.2324,-0.0457,0,7076.6866,very high cost per conversion,0
+CA0467,2025-08-23,Store,Beauty,2808.55,7361,3108,736,0.4222,0.2368,3.816,-0.0564,0,0.0,click-through rate impossible or extreme,0
+CA0468,2025-06-17,Social,Grocery,102.95,3447,1871,145,0.5428,0.0775,0.71,0.1193,1,0.0,unusually high/low spend,0
+CA0469,2025-02-02,App,Sports,3043.21,25575,5938,802,0.2322,0.1351,3.7945,-0.0963,0,0.0,click-through rate impossible or extreme,0
+CA0470,2025-11-05,App,Fashion,4663.86,34471,9918,637,0.2877,0.0642,7.3216,-0.0978,0,1312.9519,click-through rate impossible or extreme,0
+CA0471,2025-07-29,Store,Home,1284.96,73922,5476,1134,0.0741,0.2071,1.1331,-0.0751,0,0.0,unusually high/low spend,0
+CA0472,2025-09-18,Email,Beauty,333.75,62888,793,377,0.0126,0.4754,0.8853,-0.0066,0,0.0,unusually high/low spend,0
+CA0473,2025-07-04,Web,Beauty,5575.84,519,6888,184,13.2717,0.0267,30.3035,0.1987,1,4607.9168,click-through rate impossible or extreme,1
+CA0474,2025-06-12,Web,Beauty,4797.97,24244,8711,1205,0.3593,0.1383,3.9817,-0.091,0,0.0,click-through rate impossible or extreme,0
+CA0475,2025-07-30,Email,Home,3446.46,43161,1051,666,0.0244,0.6337,5.1749,-0.0902,0,0.0,conversion rate impossible or extreme,0
+CA0476,2025-06-13,Email,Electronics,2752.53,39228,3171,752,0.0808,0.2371,3.6603,-0.1025,0,0.0,conversion rate impossible or extreme,0
+CA0477,2025-11-10,Social,Fashion,4627.45,6709,8831,1025,1.3163,0.1161,4.5146,-0.03,0,0.0,click-through rate impossible or extreme,1
+CA0478,2025-09-23,Web,Grocery,6717.16,85502,2508,525,0.0293,0.2093,12.7946,-0.0845,0,3955.4226,very high cost per conversion,0
+CA0479,2025-09-08,Store,Sports,6340.93,68627,8026,750,0.117,0.0934,8.4546,-0.1011,0,2395.5908,unusually high/low spend,0
+CA0480,2025-07-04,Social,Electronics,833.89,89964,5693,1172,0.0633,0.2059,0.7115,-0.0429,0,0.0,unusually high/low spend,0
+CA0481,2025-07-31,Email,Fashion,2830.23,48484,2746,729,0.0566,0.2655,3.8823,-0.1067,0,0.0,conversion rate impossible or extreme,0
+CA0482,2025-04-25,Email,Electronics,1266.15,67944,1664,692,0.0245,0.4159,1.8297,-0.0771,0,0.0,conversion rate impossible or extreme,0
+CA0483,2025-07-20,Email,Electronics,1214.89,33447,9877,888,0.2953,0.0899,1.3681,-0.061,0,0.0,click-through rate impossible or extreme,0
+CA0484,2025-12-24,Web,Sports,5837.51,64718,9876,32,0.1526,0.0032,182.4222,-0.0095,0,5669.1755,very high cost per conversion,0
+CA0485,2025-02-11,Email,Fashion,4230.72,16343,8702,292,0.5325,0.0336,14.4888,-0.0703,0,2694.6679,click-through rate impossible or extreme,0
+CA0486,2025-02-16,App,Electronics,6259.42,94746,3575,461,0.0377,0.129,13.5779,-0.0839,0,3834.3515,very high cost per conversion,0
+CA0487,2025-04-03,Email,Beauty,5764.48,2405,2946,552,1.2249,0.1874,10.4429,0.0139,1,2860.7104,click-through rate impossible or extreme,1
+CA0488,2025-08-16,App,Beauty,4388.4,2280,7318,1386,3.2096,0.1894,3.1662,0.0329,1,0.0,click-through rate impossible or extreme,1
+CA0489,2025-03-09,Social,Sports,6780.06,63626,446,322,0.007,0.722,21.0561,-0.0612,0,5086.1944,conversion rate impossible or extreme,0
+CA0490,2025-04-27,Social,Grocery,4994.11,3287,8866,1238,2.6973,0.1396,4.034,0.0158,1,0.0,click-through rate impossible or extreme,1
+CA0491,2025-10-17,Store,Home,6476.67,51384,1570,1233,0.0306,0.7854,5.2528,-0.0811,0,0.0,conversion rate impossible or extreme,0
+CA0492,2025-02-28,Web,Grocery,7495.81,29478,3238,224,0.1098,0.0692,33.4634,-0.0655,0,6317.4687,very high cost per conversion,0
+CA0493,2025-01-28,Store,Beauty,4533.33,14227,3068,150,0.2156,0.0489,30.2222,-0.0568,0,3744.2622,unusual impressions,0
+CA0494,2025-03-03,App,Home,6165.35,98865,1095,1362,0.0111,1.2438,4.5267,-0.045,0,0.0,conversion rate impossible or extreme,1
+CA0495,2025-10-28,Web,Grocery,6305.67,12561,9346,181,0.744,0.0194,34.838,-0.008,0,5353.5281,click-through rate impossible or extreme,0
+CA0496,2025-04-08,App,Grocery,1248.47,30462,9648,345,0.3167,0.0358,3.6188,-0.0669,0,0.0,click-through rate impossible or extreme,0
+CA0497,2025-08-18,Web,Grocery,2252.82,47053,6802,562,0.1446,0.0826,4.0086,-0.0999,0,0.0,unusually high/low spend,0
+CA0498,2025-08-19,App,Fashion,3512.2,96237,7943,1052,0.0825,0.1324,3.3386,-0.0926,0,0.0,unusual impressions,0
+CA0499,2025-11-04,Social,Grocery,3196.08,62603,3343,1082,0.0534,0.3237,2.9539,-0.1002,0,0.0,conversion rate impossible or extreme,0
+CA0500,2025-03-07,Store,Home,6830.46,57390,5990,1255,0.1044,0.2095,5.4426,-0.1018,0,228.5924,unusually high/low spend,0
+CA0501,2025-02-01,Store,Electronics,7300.42,8953,7012,906,0.7832,0.1292,8.0579,-0.0386,0,2534.4503,click-through rate impossible or extreme,0
+CA0502,2025-11-24,Web,Sports,4122.42,39770,724,1375,0.0182,1.8992,2.9981,-0.0529,0,0.0,conversion rate impossible or extreme,1
+CA0503,2025-04-01,App,Fashion,7612.9,18914,2812,178,0.1487,0.0633,42.7691,-0.0467,0,6676.5395,very high cost per conversion,0
+CA0504,2025-02-10,App,Electronics,362.14,41339,8741,463,0.2114,0.053,0.7822,-0.0135,0,0.0,unusually high/low spend,0
+CA0505,2025-03-25,Web,Grocery,6578.94,8550,1218,1201,0.1425,0.986,5.4779,-0.0216,0,261.1368,conversion rate impossible or extreme,0
+CA0506,2025-12-02,Store,Home,123.98,57085,387,392,0.0068,1.0129,0.3163,0.0864,1,0.0,conversion rate impossible or extreme,1
+CA0507,2025-05-07,Web,Electronics,4520.41,39591,6921,779,0.1748,0.1126,5.8028,-0.1061,0,422.5177,click-through rate impossible or extreme,0
+CA0508,2025-10-20,Email,Sports,6665.52,36581,6254,716,0.171,0.1145,9.3094,-0.1032,0,2899.0362,click-through rate impossible or extreme,0
+CA0509,2025-04-24,App,Beauty,4652.92,74331,423,21,0.0057,0.0496,221.5676,0.0028,1,4542.4505,very high cost per conversion,0
+CA0510,2025-07-10,Email,Electronics,1156.48,48483,3622,590,0.0747,0.1629,1.9601,-0.0884,0,0.0,unusually high/low spend,0
+CA0511,2025-04-08,Email,Sports,1021.08,14615,7609,1333,0.5206,0.1752,0.766,-0.0254,0,0.0,click-through rate impossible or extreme,0
+CA0512,2025-06-08,Social,Fashion,2413.01,26518,9651,962,0.3639,0.0997,2.5083,-0.0829,0,0.0,click-through rate impossible or extreme,0
+CA0513,2025-01-10,Store,Fashion,4771.74,59300,6812,79,0.1149,0.0116,60.4018,-0.062,0,4356.1643,very high cost per conversion,0
+CA0514,2025-07-12,Web,Beauty,1310.36,51637,4504,383,0.0872,0.085,3.4213,-0.092,0,0.0,unusually high/low spend,0
+CA0515,2025-02-16,Store,Beauty,679.0,63516,7940,1033,0.125,0.1301,0.6573,-0.0449,0,0.0,unusually high/low spend,0
+CA0516,2025-01-18,Store,Electronics,1145.3,61998,8036,376,0.1296,0.0468,3.046,-0.0828,0,0.0,unusually high/low spend,0
+CA0517,2025-04-15,Social,Grocery,4695.84,95838,1768,947,0.0184,0.5356,4.9586,-0.0743,0,0.0,conversion rate impossible or extreme,0
+CA0518,2025-05-08,Email,Electronics,4545.4,36481,5326,1411,0.146,0.2649,3.2214,-0.0958,0,0.0,conversion rate impossible or extreme,0
+CA0519,2025-01-11,Store,Sports,2311.58,38388,7206,1337,0.1877,0.1855,1.7289,-0.0863,0,0.0,very high cost per conversion,0
+CA0520,2025-01-21,Web,Fashion,1116.48,89220,6188,1188,0.0694,0.192,0.9398,-0.0578,0,0.0,unusually high/low spend,0
+CA0521,2025-10-16,Social,Home,1494.15,99314,4542,15,0.0457,0.0033,99.61,-0.001,0,1415.2432,very high cost per conversion,0
+CA0522,2025-09-13,App,Sports,3531.69,5438,929,956,0.1708,1.0291,3.6942,-0.0132,0,0.0,conversion rate impossible or extreme,1
+CA0523,2025-11-03,Social,Beauty,2964.19,87512,6153,1432,0.0703,0.2327,2.07,-0.0901,0,0.0,very high cost per conversion,0
+CA0524,2025-07-20,Store,Sports,2544.63,26354,5461,355,0.2072,0.065,7.168,-0.094,0,677.1694,click-through rate impossible or extreme,0
+CA0525,2025-04-23,Web,Electronics,6076.73,8266,7457,877,0.9021,0.1176,6.929,-0.0369,0,1463.3134,click-through rate impossible or extreme,0
+CA0526,2025-07-12,App,Sports,5308.25,3181,7576,1087,2.3816,0.1435,4.8834,0.0094,1,0.0,click-through rate impossible or extreme,1
+CA0527,2025-10-09,Web,Grocery,4807.87,19669,1187,773,0.0603,0.6512,6.2198,-0.0821,0,741.5404,conversion rate impossible or extreme,0
+CA0528,2025-04-05,Store,Grocery,5983.39,6283,6641,50,1.057,0.0075,119.6678,0.0627,1,5720.3674,click-through rate impossible or extreme,1
+CA0529,2025-12-13,App,Home,6231.82,47584,2587,46,0.0544,0.0178,135.4743,-0.0295,0,5989.8392,very high cost per conversion,0
+CA0530,2025-12-17,Social,Sports,7428.02,12172,842,677,0.0692,0.804,10.972,-0.0363,0,3866.6938,conversion rate impossible or extreme,0
+CA0531,2025-02-24,Social,Fashion,747.59,62929,6120,550,0.0973,0.0899,1.3593,-0.0632,0,0.0,unusually high/low spend,0
+CA0532,2025-07-02,Email,Electronics,1701.78,84085,4151,493,0.0494,0.1188,3.4519,-0.091,0,0.0,unusually high/low spend,0
+CA0533,2025-03-07,Email,Beauty,7463.78,22355,9649,426,0.4316,0.0441,17.5206,-0.0609,0,5222.8273,click-through rate impossible or extreme,0
+CA0534,2025-11-07,Store,Electronics,2020.4,81515,7661,1117,0.094,0.1458,1.8088,-0.0929,0,0.0,very high cost per conversion,0
+CA0535,2025-02-27,Email,Beauty,7805.08,88367,9362,713,0.1059,0.0762,10.9468,-0.0753,0,4054.3775,unusually high/low spend,0
+CA0536,2025-05-09,Social,Electronics,5064.3,46978,59,651,0.0013,11.0339,7.7793,0.1003,1,1639.7456,conversion rate impossible or extreme,1
+CA0537,2025-09-21,Email,Grocery,6725.43,51827,218,297,0.0042,1.3624,22.6445,-0.0352,0,5163.0757,conversion rate impossible or extreme,1
+CA0538,2025-06-27,Social,Grocery,7567.85,76605,622,1145,0.0081,1.8408,6.6095,-0.0354,0,1544.6322,conversion rate impossible or extreme,1
+CA0539,2025-01-18,App,Sports,260.26,23086,8936,409,0.3871,0.0458,0.6363,0.0177,1,0.0,unusually high/low spend,0
+CA0540,2025-05-17,Store,Home,4135.2,58791,1899,558,0.0323,0.2938,7.4108,-0.1008,0,1199.8676,conversion rate impossible or extreme,0
+CA0541,2025-09-04,Store,Sports,7234.71,80090,4162,209,0.052,0.0502,34.6158,-0.0697,0,6135.2755,very high cost per conversion,0
+CA0542,2025-04-28,Store,Grocery,3166.95,28720,7679,949,0.2674,0.1236,3.3371,-0.0922,0,0.0,click-through rate impossible or extreme,0
+CA0543,2025-02-13,Store,Grocery,1541.31,58291,4487,15,0.077,0.0033,102.754,-0.0127,0,1462.4032,very high cost per conversion,0
+CA0544,2025-12-09,Web,Grocery,3520.32,4959,7232,458,1.4584,0.0633,7.6863,-0.0058,0,1111.0329,click-through rate impossible or extreme,1
+CA0545,2025-09-10,Store,Electronics,1286.64,50265,6447,1342,0.1283,0.2082,0.9587,-0.0708,0,0.0,very high cost per conversion,0
+CA0546,2025-02-12,Social,Beauty,7919.03,60919,1654,163,0.0272,0.0985,48.583,-0.0524,0,7061.5763,very high cost per conversion,0
+CA0547,2025-08-25,Web,Home,1677.54,40185,408,333,0.0102,0.8162,5.0377,-0.068,0,0.0,conversion rate impossible or extreme,0
+CA0548,2025-05-31,Social,Beauty,4326.96,53266,9948,481,0.1868,0.0484,8.9958,-0.0987,0,1796.6825,click-through rate impossible or extreme,0
+CA0549,2025-06-11,Store,Beauty,4055.94,88864,4406,569,0.0496,0.1291,7.1282,-0.0959,0,1062.7427,unusual impressions,0
+CA0550,2025-11-27,Email,Fashion,7906.22,1522,9070,1155,5.9593,0.1273,6.8452,0.1026,1,1830.3976,click-through rate impossible or extreme,1
+CA0551,2025-04-19,App,Home,4236.34,72712,5067,588,0.0697,0.116,7.2047,-0.1062,0,1143.1941,unusual impressions,0
+CA0552,2025-07-31,App,Beauty,7729.82,72900,1486,1304,0.0204,0.8775,5.9278,-0.0629,0,870.1903,conversion rate impossible or extreme,0
+CA0553,2025-10-07,App,Home,1613.17,83834,3652,969,0.0436,0.2653,1.6648,-0.0826,0,0.0,unusually high/low spend,0
+CA0554,2025-04-08,Store,Fashion,236.0,74632,7659,1239,0.1026,0.1618,0.1905,0.0484,1,0.0,unusually high/low spend,0
+CA0555,2025-10-10,Store,Fashion,7943.1,48169,2342,797,0.0486,0.3403,9.9662,-0.0811,0,3750.5195,conversion rate impossible or extreme,0
+CA0556,2025-10-23,Store,Electronics,57.15,93748,6741,34,0.0719,0.005,1.6809,0.0926,1,0.0,unusually high/low spend,0
+CA0557,2025-11-25,Social,Sports,1620.85,97393,4924,385,0.0506,0.0782,4.21,-0.0764,0,0.0,unusually high/low spend,0
+CA0558,2025-07-15,Email,Home,3263.76,84630,5808,556,0.0686,0.0957,5.8701,-0.1004,0,338.9485,unusual impressions,0
+CA0559,2025-04-28,Store,Beauty,1244.22,80908,740,880,0.0091,1.1892,1.4139,-0.0394,0,0.0,conversion rate impossible or extreme,1
+CA0560,2025-06-04,Web,Home,7617.45,76218,9134,1201,0.1198,0.1315,6.3426,-0.0867,0,1299.6468,unusually high/low spend,0
+CA0561,2025-06-03,Web,Sports,4951.89,4516,4648,471,1.0292,0.1013,10.5136,-0.0157,0,2474.217,click-through rate impossible or extreme,1
+CA0562,2025-03-05,Store,Fashion,3545.58,13891,3631,470,0.2614,0.1294,7.5438,-0.0857,0,1073.1674,unusual impressions,0
+CA0563,2025-04-03,Web,Electronics,1038.67,76272,8524,452,0.1118,0.053,2.2979,-0.0686,0,0.0,unusually high/low spend,0
+CA0564,2025-05-23,Store,Sports,3538.82,15044,3333,1420,0.2216,0.426,2.4921,-0.0704,0,0.0,conversion rate impossible or extreme,0
+CA0565,2025-07-02,App,Home,5643.29,5665,8614,984,1.5206,0.1142,5.7351,-0.0126,0,467.005,click-through rate impossible or extreme,1
+CA0566,2025-01-01,App,Grocery,3637.76,89182,7235,531,0.0811,0.0734,6.8508,-0.0963,0,844.4598,unusual impressions,0
+CA0567,2025-05-28,App,Electronics,7050.94,98283,9490,334,0.0966,0.0352,21.1106,-0.0636,0,5293.9489,very high cost per conversion,0
+CA0568,2025-01-01,Web,Fashion,893.36,96673,9541,347,0.0987,0.0364,2.5745,-0.0456,0,0.0,unusually high/low spend,0
+CA0569,2025-04-01,Social,Electronics,3473.14,58079,8569,840,0.1475,0.098,4.1347,-0.1054,0,0.0,click-through rate impossible or extreme,0
+CA0570,2025-02-05,Store,Fashion,1589.19,11995,735,1182,0.0613,1.6082,1.3445,0.0044,1,0.0,conversion rate impossible or extreme,1
+CA0571,2025-06-20,App,Beauty,4049.19,56401,6406,956,0.1136,0.1492,4.2356,-0.1083,0,0.0,very high cost per conversion,0
+CA0572,2025-05-19,Web,Electronics,2788.82,6039,5176,473,0.8571,0.0914,5.896,-0.0332,0,300.6261,click-through rate impossible or extreme,0
+CA0573,2025-03-23,Store,Home,194.72,98627,3162,65,0.0321,0.0206,2.9957,0.0295,1,0.0,unusually high/low spend,0
+CA0574,2025-11-05,Store,Electronics,2079.79,81222,9229,582,0.1136,0.0631,3.5735,-0.0928,0,0.0,unusually high/low spend,0
+CA0575,2025-11-13,Email,Grocery,7237.01,66398,5186,632,0.0781,0.1219,11.451,-0.0977,0,3912.4042,unusually high/low spend,0
+CA0576,2025-09-01,Store,Electronics,3766.35,63435,8777,1011,0.1384,0.1152,3.7254,-0.1016,0,0.0,click-through rate impossible or extreme,0
+CA0577,2025-11-21,App,Sports,7677.84,76236,8228,928,0.1079,0.1128,8.2735,-0.0918,0,2796.1403,unusually high/low spend,0
+CA0578,2025-03-24,Web,Home,6461.02,50440,4644,566,0.0921,0.1219,11.4152,-0.1019,0,3483.604,very high cost per conversion,0
+CA0579,2025-02-28,Web,Home,4311.42,76723,8509,1338,0.1109,0.1572,3.2223,-0.0971,0,0.0,unusual impressions,0
+CA0580,2025-09-20,Web,Sports,7981.98,75865,4080,1435,0.0538,0.3517,5.5624,-0.079,0,433.231,conversion rate impossible or extreme,0
+CA0581,2025-06-22,Social,Home,6713.14,80812,8637,1450,0.1069,0.1679,4.6298,-0.093,0,0.0,unusually high/low spend,0
+CA0582,2025-09-17,App,Home,5859.81,48037,8541,405,0.1778,0.0474,14.4687,-0.0993,0,3729.3268,very high cost per conversion,0
+CA0583,2025-02-18,App,Beauty,6825.17,84752,1762,713,0.0208,0.4047,9.5725,-0.082,0,3074.4675,conversion rate impossible or extreme,0
+CA0584,2025-10-07,Social,Beauty,3647.61,85703,2094,524,0.0244,0.2502,6.9611,-0.0931,0,891.133,conversion rate impossible or extreme,0
+CA0585,2025-07-27,Store,Sports,3814.66,46185,9948,359,0.2154,0.0361,10.6258,-0.0948,0,1926.1576,click-through rate impossible or extreme,0
+CA0586,2025-07-20,Social,Sports,6719.11,45823,3100,520,0.0677,0.1677,12.9214,-0.0984,0,3983.6748,very high cost per conversion,0
+CA0587,2025-03-11,Store,Beauty,6102.69,18898,1931,503,0.1022,0.2605,12.1326,-0.0883,0,3456.6825,unusual impressions,0
+CA0588,2025-01-31,Store,Electronics,7304.63,32378,7650,889,0.2363,0.1162,8.2167,-0.092,0,2628.0879,click-through rate impossible or extreme,0
+CA0589,2025-04-16,Store,Fashion,2615.11,39395,4142,725,0.1051,0.175,3.607,-0.1042,0,0.0,unusually high/low spend,0
+CA0590,2025-04-08,Web,Beauty,7520.01,78960,5976,1447,0.0757,0.2421,5.197,-0.0879,0,0.0,unusually high/low spend,0
+CA0591,2025-08-01,Web,Beauty,5488.55,21328,7487,412,0.351,0.055,13.3217,-0.0852,0,3321.2437,click-through rate impossible or extreme,0
+CA0592,2025-04-12,App,Fashion,1884.22,61474,8680,1241,0.1412,0.143,1.5183,-0.0862,0,0.0,very high cost per conversion,0
+CA0593,2025-10-10,Web,Sports,2330.78,77775,3320,327,0.0427,0.0985,7.1278,-0.0963,0,610.6121,unusually high/low spend,0
+CA0594,2025-09-01,App,Electronics,52.5,29030,9186,47,0.3164,0.0051,1.117,0.1143,1,0.0,unusually high/low spend,0
+CA0595,2025-07-28,Social,Electronics,2669.92,48478,2776,534,0.0573,0.1924,4.9999,-0.1075,0,0.0,unusually high/low spend,0
+CA0596,2025-05-17,Email,Home,6266.03,85189,3419,1017,0.0401,0.2975,6.1613,-0.0908,0,916.1501,conversion rate impossible or extreme,0
+CA0597,2025-08-23,App,Electronics,7318.48,92820,8911,75,0.096,0.0084,97.5797,-0.0304,0,6923.9461,very high cost per conversion,0
+CA0598,2025-05-17,Social,Beauty,2988.71,83117,1411,1190,0.017,0.8434,2.5115,-0.0763,0,0.0,conversion rate impossible or extreme,0
+CA0599,2025-10-13,Email,Beauty,1146.04,19464,9321,390,0.4789,0.0418,2.9386,-0.0535,0,0.0,click-through rate impossible or extreme,0
+CA0600,2025-09-11,Social,Grocery,5284.26,45982,9491,104,0.2064,0.011,50.8102,-0.062,0,4737.173,very high cost per conversion,0
+CA0601,2025-08-27,Social,Sports,828.06,661,863,391,1.3056,0.4531,2.1178,0.1076,1,0.0,click-through rate impossible or extreme,1
+CA0602,2025-10-12,Email,Grocery,1996.66,38162,7477,1163,0.1959,0.1555,1.7168,-0.0861,0,0.0,very high cost per conversion,0
+CA0603,2025-11-04,App,Beauty,7081.17,15418,6446,1157,0.4181,0.1795,6.1203,-0.0791,0,994.8267,click-through rate impossible or extreme,0
+CA0604,2025-04-03,Email,Sports,7231.0,75636,5543,975,0.0733,0.1759,7.4164,-0.1,0,2102.059,unusually high/low spend,0
+CA0605,2025-08-13,Store,Beauty,6688.39,65738,6806,358,0.1035,0.0526,18.6827,-0.0918,0,4805.1481,very high cost per conversion,0
+CA0606,2025-07-07,Email,Home,1697.33,43793,8885,1247,0.2029,0.1403,1.3611,-0.0792,0,0.0,very high cost per conversion,0
+CA0607,2025-04-13,Store,Fashion,7616.92,73574,9323,278,0.1267,0.0298,27.399,-0.0612,0,6154.5143,very high cost per conversion,0
+CA0608,2025-12-05,Web,Electronics,5711.7,38046,2911,1296,0.0765,0.4452,4.4072,-0.0959,0,0.0,conversion rate impossible or extreme,0
+CA0609,2025-08-20,Email,Home,1306.38,90535,5689,1380,0.0628,0.2426,0.9467,-0.0607,0,0.0,very high cost per conversion,0
+CA0610,2025-06-17,Email,Grocery,218.71,18619,9612,1041,0.5162,0.1083,0.2101,0.0701,1,0.0,click-through rate impossible or extreme,0
+CA0611,2025-12-31,Store,Fashion,3057.9,88236,8849,1282,0.1003,0.1449,2.3853,-0.0901,0,0.0,very high cost per conversion,0
+CA0612,2025-08-17,Email,Electronics,7179.09,47689,8008,876,0.1679,0.1094,8.1953,-0.0995,0,2570.9338,unusually high/low spend,0
+CA0613,2025-10-25,Store,Electronics,6741.96,38832,2968,384,0.0764,0.1294,17.5572,-0.0907,0,4721.9463,very high cost per conversion,0
+CA0614,2025-01-17,Social,Fashion,5257.71,86584,8977,54,0.1037,0.006,97.365,-0.0431,0,4973.6456,very high cost per conversion,0
+CA0615,2025-01-22,Email,Sports,7842.56,78594,8094,692,0.103,0.0855,11.3332,-0.0812,0,4202.327,unusually high/low spend,0
+CA0616,2025-03-23,App,Sports,4755.22,51561,4163,319,0.0807,0.0766,14.9066,-0.1045,0,3077.1357,very high cost per conversion,0
+CA0617,2025-07-31,Email,Beauty,6012.72,37192,2485,746,0.0668,0.3002,8.0599,-0.0998,0,2088.4226,conversion rate impossible or extreme,0
+CA0618,2025-06-29,Social,Grocery,5935.05,88203,3276,1177,0.0371,0.3593,5.0425,-0.0866,0,0.0,conversion rate impossible or extreme,0
+CA0619,2025-04-26,Social,Electronics,4453.99,95398,189,662,0.002,3.5026,6.7281,0.0163,1,971.5706,conversion rate impossible or extreme,1
+CA0620,2025-04-19,Store,Sports,1034.9,76460,6313,345,0.0826,0.0546,2.9997,-0.0753,0,0.0,unusually high/low spend,0
+CA0621,2025-11-01,Web,Home,2442.28,83342,4296,1434,0.0515,0.3338,1.7031,-0.0878,0,0.0,conversion rate impossible or extreme,0
+CA0622,2025-12-27,Store,Fashion,7095.45,38013,9400,900,0.2473,0.0957,7.8838,-0.0909,0,2361.043,click-through rate impossible or extreme,0
+CA0623,2025-02-12,Social,Sports,1798.44,90006,4395,602,0.0488,0.137,2.9874,-0.0889,0,0.0,unusually high/low spend,0
+CA0624,2025-11-08,Web,Grocery,5971.0,82716,2672,441,0.0323,0.165,13.5397,-0.0914,0,3651.1406,very high cost per conversion,0
+CA0625,2025-01-12,App,Beauty,2767.5,61053,9102,959,0.1491,0.1054,2.8858,-0.0989,0,0.0,very high cost per conversion,0
+CA0626,2025-10-02,Web,Sports,189.64,8486,6752,1159,0.7957,0.1717,0.1636,0.1127,1,0.0,click-through rate impossible or extreme,0
+CA0627,2025-11-13,Email,Fashion,1729.32,54182,2740,337,0.0506,0.123,5.1315,-0.0947,0,0.0,unusually high/low spend,0
+CA0628,2025-09-06,Social,Grocery,7179.62,36156,2542,116,0.0703,0.0456,61.8933,-0.0532,0,6569.4075,very high cost per conversion,0
+CA0629,2025-08-22,Web,Fashion,6925.5,18430,1121,1449,0.0608,1.2926,4.7795,-0.0424,0,0.0,conversion rate impossible or extreme,1
+CA0630,2025-11-28,Store,Home,6777.8,9376,7056,776,0.7526,0.11,8.7343,-0.0474,0,2695.689,click-through rate impossible or extreme,0
+CA0631,2025-03-13,App,Beauty,3596.22,49569,9157,1082,0.1847,0.1182,3.3237,-0.1005,0,0.0,click-through rate impossible or extreme,0
+CA0632,2025-09-23,App,Grocery,629.16,20159,8965,380,0.4447,0.0424,1.6557,-0.027,0,0.0,click-through rate impossible or extreme,0
+CA0633,2025-07-22,App,Electronics,5634.59,91008,4953,16,0.0544,0.0032,352.1619,0.02,1,5550.4228,very high cost per conversion,0
+CA0634,2025-09-28,Social,Fashion,1956.76,89338,8347,1293,0.0934,0.1549,1.5133,-0.0819,0,0.0,very high cost per conversion,0
+CA0635,2025-09-14,Social,Home,7349.7,98749,8753,305,0.0886,0.0348,24.0974,-0.0616,0,5745.2621,very high cost per conversion,0
+CA0636,2025-11-07,App,Electronics,925.36,28375,9034,670,0.3184,0.0742,1.3811,-0.0468,0,0.0,click-through rate impossible or extreme,0
+CA0637,2025-04-15,Store,Electronics,720.71,22239,7282,56,0.3274,0.0077,12.8698,-0.007,0,426.1247,click-through rate impossible or extreme,0
+CA0638,2025-04-06,Store,Electronics,7651.72,27328,8229,1299,0.3011,0.1579,5.8905,-0.0794,0,818.3925,click-through rate impossible or extreme,0
+CA0639,2025-11-01,Web,Fashion,290.02,93760,6593,1297,0.0703,0.1967,0.2236,0.0396,1,0.0,unusually high/low spend,0
+CA0640,2025-07-28,App,Electronics,1437.03,12763,2206,779,0.1728,0.3531,1.8447,-0.0538,0,0.0,unusual impressions,0
+CA0641,2025-04-30,Store,Beauty,7694.22,66852,6368,164,0.0953,0.0258,46.916,-0.0559,0,6831.5058,very high cost per conversion,0
+CA0642,2025-07-09,Email,Sports,5056.74,76737,5290,169,0.0689,0.0319,29.9215,-0.0816,0,4167.7236,very high cost per conversion,0
+CA0643,2025-03-15,Email,Beauty,6513.44,11001,4904,741,0.4458,0.1511,8.7901,-0.0665,0,2615.4449,click-through rate impossible or extreme,0
+CA0644,2025-09-25,App,Fashion,6725.48,73038,4641,1194,0.0635,0.2573,5.6327,-0.0972,0,444.5,conversion rate impossible or extreme,0
+CA0645,2025-03-18,Email,Beauty,1629.18,14023,8497,398,0.6059,0.0468,4.0934,-0.0523,0,0.0,click-through rate impossible or extreme,0
+CA0646,2025-08-20,App,Home,5043.03,56131,1331,601,0.0237,0.4515,8.3911,-0.0996,0,1881.4982,conversion rate impossible or extreme,0
+CA0647,2025-10-29,Web,Grocery,6744.7,98332,3807,1389,0.0387,0.3649,4.8558,-0.0773,0,0.0,conversion rate impossible or extreme,0
+CA0648,2025-03-26,Store,Electronics,5296.87,19117,3506,1361,0.1834,0.3882,3.8919,-0.0848,0,0.0,conversion rate impossible or extreme,0
+CA0649,2025-05-02,Email,Electronics,5424.16,98520,1471,880,0.0149,0.5982,6.1638,-0.0687,0,794.962,conversion rate impossible or extreme,0
+CA0650,2025-03-11,Email,Sports,5818.74,64446,7162,997,0.1111,0.1392,5.8362,-0.1056,0,574.0691,unusually high/low spend,0
+CA0651,2025-10-25,App,Sports,1639.52,26223,4253,454,0.1622,0.1067,3.6113,-0.087,0,0.0,unusually high/low spend,0
+CA0652,2025-04-12,App,Beauty,6635.09,14008,1567,1134,0.1119,0.7237,5.851,-0.0637,0,669.7371,conversion rate impossible or extreme,0
+CA0653,2025-11-10,Social,Grocery,6496.08,64178,3954,469,0.0616,0.1186,13.8509,-0.099,0,4028.9279,very high cost per conversion,0
+CA0654,2025-10-14,Social,Fashion,120.27,58793,4293,594,0.073,0.1384,0.2025,0.0622,1,0.0,unusually high/low spend,0
+CA0655,2025-08-03,App,Electronics,2813.85,78764,1818,1054,0.0231,0.5798,2.6697,-0.0874,0,0.0,conversion rate impossible or extreme,0
+CA0656,2025-04-05,Web,Electronics,3510.83,66628,1999,1292,0.03,0.6463,2.7174,-0.0863,0,0.0,conversion rate impossible or extreme,0
+CA0657,2025-07-04,Social,Electronics,1600.38,52134,635,150,0.0122,0.2362,10.6692,-0.0674,0,811.3122,unusually high/low spend,0
+CA0658,2025-03-16,Email,Grocery,2882.97,15785,7719,951,0.489,0.1232,3.0315,-0.0766,0,0.0,click-through rate impossible or extreme,0
+CA0659,2025-08-30,Email,Electronics,6755.84,25121,2437,944,0.097,0.3874,7.1566,-0.0905,0,1789.9731,conversion rate impossible or extreme,0
+CA0660,2025-03-30,Email,Home,2885.98,71913,1141,1494,0.0159,1.3094,1.9317,-0.0643,0,0.0,conversion rate impossible or extreme,1
+CA0661,2025-08-29,Store,Fashion,759.38,74445,1096,5,0.0147,0.0046,151.876,0.0438,1,733.0777,very high cost per conversion,0
+CA0662,2025-08-18,Web,Grocery,5693.41,99058,6234,1145,0.0629,0.1837,4.9724,-0.0887,0,0.0,unusual impressions,0
+CA0663,2025-07-13,Email,Fashion,4572.54,75969,4590,401,0.0604,0.0874,11.4028,-0.1031,0,2463.0986,very high cost per conversion,0
+CA0664,2025-03-16,Email,Grocery,4436.15,85384,3883,1025,0.0455,0.264,4.328,-0.0975,0,0.0,conversion rate impossible or extreme,0
+CA0665,2025-08-18,Email,Grocery,4380.67,19481,5429,79,0.2787,0.0146,55.4515,-0.0448,0,3965.0943,very high cost per conversion,0
+CA0666,2025-01-09,Web,Fashion,266.18,41607,6713,555,0.1613,0.0827,0.4796,0.0045,1,0.0,unusually high/low spend,0
+CA0667,2025-12-10,Social,Beauty,2736.7,55737,3059,1244,0.0549,0.4067,2.1999,-0.0973,0,0.0,conversion rate impossible or extreme,0
+CA0668,2025-11-02,Email,Electronics,4861.48,32548,9903,406,0.3043,0.041,11.9741,-0.0912,0,2725.7364,click-through rate impossible or extreme,0
+CA0669,2025-07-26,Store,Electronics,7580.13,11691,9046,482,0.7738,0.0533,15.7264,-0.0223,0,5044.592,click-through rate impossible or extreme,0
+CA0670,2025-03-29,App,Fashion,660.74,21297,8429,81,0.3958,0.0096,8.1573,-0.014,0,234.6434,click-through rate impossible or extreme,0
+CA0671,2025-10-20,Social,Beauty,3653.24,28155,2133,608,0.0758,0.285,6.0086,-0.101,0,454.885,conversion rate impossible or extreme,0
+CA0672,2025-01-07,Web,Beauty,4644.01,89499,1602,1139,0.0179,0.711,4.0773,-0.0795,0,0.0,conversion rate impossible or extreme,0
+CA0673,2025-10-21,Web,Sports,2172.38,24107,2887,945,0.1198,0.3273,2.2988,-0.084,0,0.0,conversion rate impossible or extreme,0
+CA0674,2025-09-24,Email,Home,1626.4,68839,4963,252,0.0721,0.0508,6.454,-0.0846,0,300.766,unusually high/low spend,0
+CA0675,2025-05-02,App,Grocery,2861.46,47341,3801,983,0.0803,0.2586,2.9109,-0.1052,0,0.0,conversion rate impossible or extreme,0
+CA0676,2025-01-20,Store,Fashion,6807.91,85926,4332,1127,0.0504,0.2602,6.0407,-0.092,0,879.3803,conversion rate impossible or extreme,0
+CA0677,2025-08-28,Email,Electronics,359.24,68886,3414,824,0.0496,0.2414,0.436,-0.0051,0,0.0,unusually high/low spend,0
+CA0678,2025-08-22,Store,Grocery,7646.54,91215,5025,655,0.0551,0.1303,11.6741,-0.0771,0,4200.9438,unusually high/low spend,0
+CA0679,2025-05-06,Social,Electronics,5821.59,15098,5379,453,0.3563,0.0842,12.8512,-0.0804,0,3438.6051,click-through rate impossible or extreme,0
+CA0680,2025-08-18,Store,Beauty,2281.54,88399,7909,190,0.0895,0.024,12.0081,-0.0783,0,1282.0541,conversion rate impossible or extreme,0
+CA0681,2025-01-22,Social,Electronics,3087.49,77850,4272,1336,0.0549,0.3127,2.311,-0.0929,0,0.0,conversion rate impossible or extreme,0
+CA0682,2025-10-08,App,Grocery,135.37,64104,7296,865,0.1138,0.1186,0.1565,0.0636,1,0.0,unusually high/low spend,0
+CA0683,2025-11-03,Store,Fashion,2430.8,34855,1837,73,0.0527,0.0397,33.2986,-0.0625,0,2046.787,very high cost per conversion,0
+CA0684,2025-03-17,Web,Home,7265.78,67151,6942,797,0.1034,0.1148,9.1164,-0.0999,0,3073.1995,unusually high/low spend,0
+CA0685,2025-09-15,Web,Home,330.99,77026,273,1423,0.0035,5.2125,0.2326,0.1356,1,0.0,conversion rate impossible or extreme,1
+CA0686,2025-01-15,Web,Electronics,3492.69,72563,9031,854,0.1245,0.0946,4.0898,-0.1032,0,0.0,unusual impressions,0
+CA0687,2025-11-23,Web,Home,1553.13,33007,8324,1456,0.2522,0.1749,1.0667,-0.063,0,0.0,click-through rate impossible or extreme,0
+CA0688,2025-08-02,Email,Sports,3285.66,84393,8397,839,0.0995,0.0999,3.9162,-0.0986,0,0.0,unusual impressions,0
+CA0689,2025-01-09,Web,Grocery,5409.97,54839,2827,134,0.0516,0.0474,40.3729,-0.078,0,4705.0694,very high cost per conversion,0
+CA0690,2025-11-15,Email,Grocery,4459.48,6240,3276,1073,0.525,0.3275,4.1561,-0.0449,0,0.0,click-through rate impossible or extreme,0
+CA0691,2025-11-12,Web,Beauty,453.58,57493,9266,642,0.1612,0.0693,0.7065,-0.0233,0,0.0,unusually high/low spend,0
+CA0692,2025-12-04,Social,Electronics,3525.98,5487,7930,933,1.4452,0.1177,3.7792,-0.0188,0,0.0,click-through rate impossible or extreme,1
+CA0693,2025-06-06,Social,Grocery,6281.36,45153,3311,1188,0.0733,0.3588,5.2873,-0.0968,0,31.9427,conversion rate impossible or extreme,0
+CA0694,2025-03-04,App,Fashion,7661.73,38841,6061,204,0.156,0.0337,37.5575,-0.0581,0,6588.5977,very high cost per conversion,0
+CA0695,2025-08-07,App,Sports,2186.07,96348,2194,1057,0.0228,0.4818,2.0682,-0.066,0,0.0,conversion rate impossible or extreme,0
+CA0696,2025-10-04,App,Grocery,6506.31,4979,2856,1078,0.5736,0.3775,6.0355,-0.022,0,835.5425,click-through rate impossible or extreme,0
+CA0697,2025-05-20,Email,Home,704.44,36404,1729,371,0.0475,0.2146,1.8988,-0.055,0,0.0,unusually high/low spend,0
+CA0698,2025-05-31,Social,Fashion,6560.48,93014,2973,845,0.032,0.2842,7.7639,-0.0827,0,2115.3978,conversion rate impossible or extreme,0
+CA0699,2025-02-25,Store,Grocery,799.17,2616,5863,1176,2.2412,0.2006,0.6796,0.0754,1,0.0,click-through rate impossible or extreme,1
+CA0700,2025-06-18,Email,Grocery,6053.66,74834,8539,501,0.1141,0.0587,12.0832,-0.0973,0,3418.1734,very high cost per conversion,0
+CA0701,2025-11-14,Social,Electronics,7245.37,20535,2404,746,0.1171,0.3103,9.7123,-0.0862,0,3321.0726,conversion rate impossible or extreme,0
+CA0702,2025-01-10,App,Home,5234.15,2869,3260,995,1.1363,0.3052,5.2605,-0.0077,0,0.0,click-through rate impossible or extreme,1
+CA0703,2025-05-26,Web,Electronics,51.53,80897,3181,646,0.0393,0.2031,0.0798,0.1361,1,0.0,unusually high/low spend,0
+CA0704,2025-02-21,App,Home,5185.32,34547,3433,1413,0.0994,0.4116,3.6697,-0.0965,0,0.0,conversion rate impossible or extreme,0
+CA0705,2025-12-21,Web,Fashion,4914.71,64517,6795,651,0.1053,0.0958,7.5495,-0.1092,0,1490.1556,conversion rate impossible or extreme,0
+CA0706,2025-07-22,Social,Beauty,2621.07,50895,4796,597,0.0942,0.1245,4.3904,-0.1083,0,0.0,unusually high/low spend,0
+CA0707,2025-08-31,Social,Home,4206.01,61692,4931,1292,0.0799,0.262,3.2554,-0.1045,0,0.0,conversion rate impossible or extreme,0
+CA0708,2025-06-14,Web,Beauty,6856.69,98679,4762,730,0.0483,0.1533,9.3927,-0.0852,0,3016.5598,unusual impressions,0
+CA0709,2025-05-21,Store,Beauty,3666.12,3780,2410,651,0.6376,0.2701,5.6315,-0.0289,0,241.5656,click-through rate impossible or extreme,0
+CA0710,2025-08-31,Web,Sports,4637.1,52433,5260,598,0.1003,0.1137,7.7543,-0.1099,0,1491.3495,very high cost per conversion,0
+CA0711,2025-08-21,Social,Home,4386.15,34105,3938,271,0.1155,0.0688,16.1851,-0.0991,0,2960.5674,very high cost per conversion,0
+CA0712,2025-06-30,App,Fashion,4573.87,5990,3686,870,0.6154,0.236,5.2573,-0.0452,0,0.0,click-through rate impossible or extreme,0
+CA0713,2025-05-27,App,Electronics,3189.99,41413,9385,418,0.2266,0.0445,7.6316,-0.0945,0,991.121,click-through rate impossible or extreme,0
+CA0714,2025-04-02,Store,Beauty,5361.37,63687,2374,146,0.0373,0.0615,36.7217,-0.0748,0,4593.344,very high cost per conversion,0
+CA0715,2025-11-13,App,Beauty,2745.08,37651,8088,998,0.2148,0.1234,2.7506,-0.0946,0,0.0,click-through rate impossible or extreme,0
+CA0716,2025-04-23,Social,Electronics,818.09,76315,2056,208,0.0269,0.1012,3.9331,-0.058,0,0.0,unusually high/low spend,0
+CA0717,2025-03-16,Store,Fashion,4908.1,61982,566,1162,0.0091,2.053,4.2238,-0.0487,0,0.0,conversion rate impossible or extreme,1
+CA0718,2025-04-16,Social,Beauty,2923.94,11385,6246,1390,0.5486,0.2225,2.1036,-0.0506,0,0.0,click-through rate impossible or extreme,0
+CA0719,2025-04-16,Email,Sports,607.53,77044,8397,1465,0.109,0.1745,0.4147,-0.0231,0,0.0,unusually high/low spend,0
+CA0720,2025-11-12,Email,Sports,6721.47,39905,2957,329,0.0741,0.1113,20.43,-0.0852,0,4990.7812,very high cost per conversion,0
+CA0721,2025-07-18,Email,Fashion,2349.57,3399,5154,599,1.5163,0.1162,3.9225,0.0,1,0.0,click-through rate impossible or extreme,1
+CA0722,2025-05-13,App,Sports,6687.51,639,5277,1227,8.2582,0.2325,5.4503,0.1482,1,232.9351,click-through rate impossible or extreme,1
+CA0723,2025-01-17,Social,Fashion,4792.71,62025,7957,1039,0.1283,0.1306,4.6128,-0.1043,0,0.0,click-through rate impossible or extreme,0
+CA0724,2025-07-24,Web,Home,1108.29,498,9086,695,18.245,0.0765,1.5947,0.2065,1,0.0,click-through rate impossible or extreme,1
+CA0725,2025-11-04,Store,Sports,6529.28,55330,8355,579,0.151,0.0693,11.2768,-0.0979,0,3483.4781,very high cost per conversion,0
+CA0726,2025-07-18,Social,Fashion,2822.31,67645,3088,691,0.0457,0.2238,4.0844,-0.1054,0,0.0,conversion rate impossible or extreme,0
+CA0727,2025-07-29,Social,Sports,6436.15,88862,8539,691,0.0961,0.0809,9.3143,-0.0912,0,2801.1775,unusual impressions,0
+CA0728,2025-11-20,Web,Electronics,1306.96,42759,1825,599,0.0427,0.3282,2.1819,-0.0851,0,0.0,unusually high/low spend,0
+CA0729,2025-07-31,Email,Sports,5822.76,48080,2224,868,0.0463,0.3903,6.7082,-0.0986,0,1256.6874,conversion rate impossible or extreme,0
+CA0730,2025-08-09,App,Electronics,4095.83,597,9352,893,15.665,0.0955,4.5866,0.1715,1,0.0,click-through rate impossible or extreme,1
+CA0731,2025-05-05,Social,Sports,5207.99,11694,7252,1363,0.6201,0.1879,3.821,-0.0635,0,0.0,click-through rate impossible or extreme,0
+CA0732,2025-01-10,Web,Electronics,184.57,3567,9261,1011,2.5963,0.1092,0.1826,0.1595,1,0.0,click-through rate impossible or extreme,1
+CA0733,2025-07-13,Web,Electronics,7875.5,77643,7264,214,0.0936,0.0295,36.8014,-0.0562,0,6749.7632,very high cost per conversion,0
+CA0734,2025-02-01,Web,Home,7674.55,96493,471,503,0.0049,1.0679,15.2576,-0.0202,0,5028.5425,conversion rate impossible or extreme,1
+CA0735,2025-09-02,Social,Home,4484.54,32799,1237,511,0.0377,0.4131,8.776,-0.0977,0,1796.4489,conversion rate impossible or extreme,0
+CA0736,2025-09-06,App,Electronics,4756.39,71981,1983,449,0.0275,0.2264,10.5933,-0.0989,0,2394.4469,click-through rate impossible or extreme,0
+CA0737,2025-03-08,Web,Grocery,4559.96,68707,4925,54,0.0717,0.011,84.4437,-0.0564,0,4275.8956,very high cost per conversion,0
+CA0738,2025-12-31,Web,Beauty,4022.13,37459,475,923,0.0127,1.9432,4.3577,-0.0521,0,0.0,conversion rate impossible or extreme,1
+CA0739,2025-03-03,Social,Beauty,2633.83,26254,1086,331,0.0414,0.3048,7.9572,-0.0917,0,892.6203,conversion rate impossible or extreme,0
+CA0740,2025-09-29,App,Fashion,6928.71,5531,2191,1108,0.3961,0.5057,6.2533,-0.0177,0,1100.1289,click-through rate impossible or extreme,0
+CA0741,2025-03-02,Web,Sports,2143.51,78617,2791,635,0.0355,0.2275,3.3756,-0.0971,0,0.0,unusually high/low spend,0
+CA0742,2025-06-01,Web,Beauty,7209.66,8560,7229,1180,0.8445,0.1632,6.1099,-0.0353,0,1002.3263,click-through rate impossible or extreme,0
+CA0743,2025-03-04,Email,Home,3452.08,58987,2929,931,0.0497,0.3179,3.7079,-0.1044,0,0.0,conversion rate impossible or extreme,0
+CA0744,2025-09-24,App,Beauty,2023.83,40306,6306,1394,0.1565,0.2211,1.4518,-0.0851,0,0.0,very high cost per conversion,0
+CA0745,2025-05-23,Web,Sports,2580.03,19543,4605,1025,0.2356,0.2226,2.5171,-0.0837,0,0.0,click-through rate impossible or extreme,0
+CA0746,2025-12-13,Social,Home,5401.13,12218,1960,566,0.1604,0.2888,9.5426,-0.0722,0,2423.714,unusual impressions,0
+CA0747,2025-02-19,Email,Home,5720.86,5345,9684,229,1.8118,0.0236,24.9819,0.04,1,4516.2164,click-through rate impossible or extreme,1
+CA0748,2025-12-04,Social,Fashion,2719.71,123,3538,872,28.7642,0.2465,3.1189,0.246,1,0.0,click-through rate impossible or extreme,1
+CA0749,2025-06-21,Email,Fashion,1608.07,94183,8446,1363,0.0897,0.1614,1.1798,-0.0681,0,0.0,very high cost per conversion,0
+CA0750,2025-01-14,Web,Fashion,3304.2,79037,3435,1165,0.0435,0.3392,2.8362,-0.0942,0,0.0,conversion rate impossible or extreme,0
+CA0751,2025-11-04,App,Home,2617.99,12539,436,1159,0.0348,2.6583,2.2588,0.0126,1,0.0,conversion rate impossible or extreme,1
+CA0752,2025-04-16,App,Sports,5800.02,745,7436,522,9.9812,0.0702,11.1111,0.157,1,3054.0639,click-through rate impossible or extreme,1
+CA0753,2025-03-05,Social,Beauty,6700.67,93682,7927,1424,0.0846,0.1796,4.7055,-0.0867,0,0.0,unusual impressions,0
+CA0754,2025-10-20,Web,Electronics,6408.83,7621,8433,262,1.1065,0.0311,24.4612,0.0136,1,5030.5915,click-through rate impossible or extreme,1
+CA0755,2025-02-02,App,Grocery,1056.75,66613,2850,999,0.0428,0.3505,1.0578,-0.0684,0,0.0,unusually high/low spend,0
+CA0756,2025-10-27,Email,Sports,3505.71,82916,6975,1038,0.0841,0.1488,3.3774,-0.1014,0,0.0,unusual impressions,0
+CA0757,2025-03-12,Web,Home,582.07,3294,7297,250,2.2152,0.0343,2.3283,0.0688,1,0.0,click-through rate impossible or extreme,1
+CA0758,2025-06-01,Web,Electronics,1084.95,46668,8610,515,0.1845,0.0598,2.1067,-0.0718,0,0.0,unusually high/low spend,0
+CA0759,2025-04-25,Web,Home,2038.17,75370,8931,831,0.1185,0.093,2.4527,-0.0936,0,0.0,unusually high/low spend,0
+CA0760,2025-05-15,Email,Grocery,3941.38,45463,2796,1087,0.0615,0.3888,3.6259,-0.1006,0,0.0,conversion rate impossible or extreme,0
+CA0761,2025-04-05,Social,Fashion,2661.32,7503,5494,27,0.7322,0.0049,98.5674,0.0366,1,2519.2878,click-through rate impossible or extreme,0
+CA0762,2025-06-17,Store,Electronics,468.69,28190,2648,393,0.0939,0.1484,1.1926,-0.0297,0,0.0,unusually high/low spend,0
+CA0763,2025-02-08,Web,Home,5951.08,74398,3871,818,0.052,0.2113,7.2752,-0.1027,0,1648.0301,unusually high/low spend,0
+CA0764,2025-05-06,Store,Home,4707.33,5751,5212,1187,0.9063,0.2277,3.9657,-0.0355,0,0.0,click-through rate impossible or extreme,0
+CA0765,2025-04-10,Store,Sports,7952.32,31188,3181,510,0.102,0.1603,15.5928,-0.0797,0,5269.4893,very high cost per conversion,0
+CA0766,2025-09-13,Social,Beauty,7161.0,72728,8725,1000,0.12,0.1146,7.161,-0.0967,0,1900.5477,unusually high/low spend,0
+CA0767,2025-07-01,Web,Fashion,6541.76,69424,5702,1068,0.0821,0.1873,6.1252,-0.1024,0,923.597,unusually high/low spend,0
+CA0768,2025-10-26,Social,Sports,2715.95,68282,1140,926,0.0167,0.8123,2.933,-0.0834,0,0.0,conversion rate impossible or extreme,0
+CA0769,2025-03-05,Store,Sports,3233.78,32926,5563,865,0.169,0.1555,3.7385,-0.1025,0,0.0,click-through rate impossible or extreme,0
+CA0770,2025-05-22,Store,Beauty,3884.0,2567,3763,550,1.4659,0.1462,7.0618,0.0035,1,990.7513,click-through rate impossible or extreme,1
+CA0771,2025-05-10,Social,Home,3592.14,41575,7877,159,0.1895,0.0202,22.5921,-0.0818,0,2755.7281,very high cost per conversion,0
+CA0772,2025-06-05,Email,Beauty,1810.31,41010,8729,828,0.2129,0.0949,2.1864,-0.0862,0,0.0,click-through rate impossible or extreme,0
+CA0773,2025-01-29,Store,Fashion,7932.39,86547,3544,737,0.0409,0.208,10.7631,-0.0752,0,4055.4367,unusually high/low spend,0
+CA0774,2025-01-29,Store,Home,864.55,77703,1782,1150,0.0229,0.6453,0.7518,-0.0322,0,0.0,conversion rate impossible or extreme,0
+CA0775,2025-01-13,Social,Sports,2002.94,43926,7165,344,0.1631,0.048,5.8225,-0.0913,0,193.3444,unusually high/low spend,0
+CA0776,2025-05-20,Email,Beauty,63.82,21145,3715,465,0.1757,0.1252,0.1372,0.1285,1,0.0,unusually high/low spend,0
+CA0777,2025-04-30,Social,Sports,174.97,13760,2497,92,0.1815,0.0368,1.9018,0.0327,1,0.0,unusually high/low spend,0
+CA0778,2025-06-03,Email,Home,4484.68,16036,600,1173,0.0374,1.955,3.8233,-0.029,0,0.0,conversion rate impossible or extreme,1
+CA0779,2025-01-01,App,Grocery,3220.71,60303,7711,1007,0.1279,0.1306,3.1983,-0.1029,0,0.0,very high cost per conversion,0
+CA0780,2025-06-09,Store,Fashion,6867.83,44238,9338,1219,0.2111,0.1305,5.634,-0.0933,0,455.3387,click-through rate impossible or extreme,0
+CA0781,2025-10-14,Email,Home,7270.23,23452,1438,839,0.0613,0.5834,8.6654,-0.0762,0,2856.7106,conversion rate impossible or extreme,0
+CA0782,2025-10-17,Web,Sports,7238.42,30226,8137,8,0.2692,0.001,904.8025,0.0698,1,7196.3364,very high cost per conversion,0
+CA0783,2025-11-15,Social,Beauty,2428.83,56298,1988,988,0.0353,0.497,2.4583,-0.0934,0,0.0,conversion rate impossible or extreme,0
+CA0784,2025-06-21,Social,Beauty,7115.61,33153,2434,187,0.0734,0.0768,38.0514,-0.0677,0,6131.9054,very high cost per conversion,0
+CA0785,2025-04-25,App,Grocery,7146.55,41751,9115,859,0.2183,0.0942,8.3196,-0.0928,0,2627.8215,click-through rate impossible or extreme,0
+CA0786,2025-06-23,Social,Fashion,4554.49,68203,4505,1189,0.0661,0.2639,3.8305,-0.1056,0,0.0,conversion rate impossible or extreme,0
+CA0787,2025-07-14,Email,Grocery,7451.24,58687,418,1203,0.0071,2.878,6.1939,-0.0088,0,1122.9159,conversion rate impossible or extreme,1
+CA0788,2025-11-20,Store,Electronics,1985.61,3894,6206,1028,1.5937,0.1656,1.9315,0.013,1,0.0,click-through rate impossible or extreme,1
+CA0789,2025-05-27,Store,Beauty,5934.82,81369,2164,1004,0.0266,0.464,5.9112,-0.0891,0,653.3259,conversion rate impossible or extreme,0
+CA0790,2025-08-17,Web,Grocery,246.67,85383,1778,987,0.0208,0.5551,0.2499,0.0544,1,0.0,unusually high/low spend,0
+CA0791,2025-08-17,Social,Beauty,7911.31,80551,8714,1459,0.1082,0.1674,5.4224,-0.0807,0,236.3102,unusually high/low spend,0
+CA0792,2025-12-07,Web,Electronics,2670.57,58317,51,1444,0.0009,28.3137,1.8494,0.1438,1,0.0,conversion rate impossible or extreme,1
+CA0793,2025-07-16,Email,Home,7950.05,61981,2361,749,0.0381,0.3172,10.6142,-0.0797,0,4009.9713,conversion rate impossible or extreme,0
+CA0794,2025-03-17,Store,Electronics,2524.89,91127,7131,265,0.0783,0.0372,9.5279,-0.087,0,1130.8702,conversion rate impossible or extreme,0
+CA0795,2025-11-14,Social,Sports,5091.47,11156,5602,588,0.5022,0.105,8.659,-0.0711,0,1998.3241,click-through rate impossible or extreme,0
+CA0796,2025-08-30,Email,Grocery,7602.68,61186,9776,1267,0.1598,0.1296,6.0005,-0.0848,0,937.687,unusually high/low spend,0
+CA0797,2025-04-05,Store,Sports,3178.2,87604,7652,1202,0.0873,0.1571,2.6441,-0.0929,0,0.0,unusual impressions,0
+CA0798,2025-01-25,App,Electronics,4199.77,66545,8101,198,0.1217,0.0244,21.211,-0.088,0,3158.2005,very high cost per conversion,0
+CA0799,2025-01-29,Email,Beauty,4342.93,72872,4551,1027,0.0625,0.2257,4.2288,-0.1045,0,0.0,conversion rate impossible or extreme,0
+CA0800,2025-08-08,Store,Fashion,1213.49,46863,4332,673,0.0924,0.1554,1.8031,-0.0863,0,0.0,unusually high/low spend,0
+CA0801,2025-03-19,Store,Electronics,3886.34,37981,9232,541,0.2431,0.0586,7.1836,-0.0963,0,1040.4353,click-through rate impossible or extreme,0
+CA0802,2025-02-17,App,Fashion,6012.85,76789,2979,1463,0.0388,0.4911,4.1099,-0.0891,0,0.0,conversion rate impossible or extreme,0
+CA0803,2025-05-05,Web,Home,2416.31,73666,1404,1490,0.0191,1.0613,1.6217,-0.0676,0,0.0,conversion rate impossible or extreme,1
+CA0804,2025-04-22,Email,Home,2161.07,73053,3934,7,0.0539,0.0018,308.7243,0.0188,1,2124.2468,very high cost per conversion,0
+CA0805,2025-10-10,App,Grocery,4967.54,86109,934,42,0.0108,0.045,118.2748,-0.0221,0,4746.601,very high cost per conversion,0
+CA0806,2025-09-02,Social,Fashion,6770.19,15362,2912,1040,0.1896,0.3571,6.5098,-0.081,0,1299.3196,unusual impressions,0
+CA0807,2025-02-18,Social,Home,4428.22,50317,7127,444,0.1416,0.0623,9.9735,-0.1061,0,2092.5792,conversion rate impossible or extreme,0
+CA0808,2025-01-20,Social,Sports,6772.19,46897,1043,114,0.0222,0.1093,59.4052,-0.0509,0,6172.4984,very high cost per conversion,0
+CA0809,2025-07-07,Email,Home,7785.06,41522,1504,339,0.0362,0.2254,22.9648,-0.0641,0,6001.7667,very high cost per conversion,0
+CA0810,2025-07-28,Email,Electronics,7365.72,1551,4771,906,3.0761,0.1899,8.1299,0.0656,1,2599.7503,click-through rate impossible or extreme,1
+CA0811,2025-12-24,Social,Electronics,5946.26,53021,117,481,0.0022,4.1111,12.3623,0.0251,1,3415.9825,conversion rate impossible or extreme,1
+CA0812,2025-04-05,Email,Electronics,4587.06,32500,4556,197,0.1402,0.0432,23.2846,-0.0877,0,3550.7509,very high cost per conversion,0
+CA0813,2025-06-17,App,Beauty,6425.5,51646,1990,1396,0.0385,0.7015,4.6028,-0.0848,0,0.0,conversion rate impossible or extreme,0
+CA0814,2025-05-09,Email,Electronics,2303.96,25994,2278,518,0.0876,0.2274,4.4478,-0.0947,0,0.0,unusual impressions,0
+CA0815,2025-12-13,Email,Home,7808.98,19499,2928,1244,0.1502,0.4249,6.2773,-0.0717,0,1264.9774,conversion rate impossible or extreme,0
+CA0816,2025-11-04,Email,Beauty,722.62,92787,2685,1208,0.0289,0.4499,0.5982,-0.016,0,0.0,unusually high/low spend,0
+CA0817,2025-12-15,App,Grocery,304.79,61420,5173,1182,0.0842,0.2285,0.2579,0.0195,1,0.0,unusually high/low spend,0
+CA0818,2025-06-27,Email,Fashion,4798.64,82110,9404,1030,0.1145,0.1095,4.6589,-0.0968,0,0.0,unusual impressions,0
+CA0819,2025-01-07,Store,Electronics,2983.9,20046,6632,136,0.3308,0.0205,21.9404,-0.0588,0,2268.4785,click-through rate impossible or extreme,0
+CA0820,2025-04-06,Web,Home,6650.63,44664,4145,433,0.0928,0.1045,15.3594,-0.0968,0,4372.8542,very high cost per conversion,0
+CA0821,2025-05-18,Store,Beauty,1268.52,21235,1638,722,0.0771,0.4408,1.757,-0.0629,0,0.0,conversion rate impossible or extreme,0
+CA0822,2025-10-13,App,Home,4830.56,43373,6453,1210,0.1488,0.1875,3.9922,-0.1048,0,0.0,click-through rate impossible or extreme,0
+CA0823,2025-04-30,Email,Beauty,7961.15,29304,5668,1210,0.1934,0.2135,6.5795,-0.0811,0,1596.0028,click-through rate impossible or extreme,0
+CA0824,2025-12-17,Email,Grocery,5403.35,90216,5565,231,0.0617,0.0415,23.3911,-0.0786,0,4188.1855,very high cost per conversion,0
+CA0825,2025-01-15,Social,Grocery,4050.32,23862,8249,777,0.3457,0.0942,5.2128,-0.0933,0,0.0,click-through rate impossible or extreme,0
+CA0826,2025-01-20,Web,Sports,2654.46,15422,7035,1152,0.4562,0.1638,2.3042,-0.0744,0,0.0,click-through rate impossible or extreme,0
+CA0827,2025-12-17,Web,Home,1090.74,9667,2351,228,0.2432,0.097,4.7839,-0.0317,0,0.0,unusual impressions,0
+CA0828,2025-11-05,App,Grocery,1490.54,26104,7344,1129,0.2813,0.1537,1.3202,-0.0667,0,0.0,click-through rate impossible or extreme,0
+CA0829,2025-01-30,App,Grocery,3752.68,48558,9093,445,0.1873,0.0489,8.433,-0.1023,0,1411.7787,click-through rate impossible or extreme,0
+CA0830,2025-03-23,Social,Electronics,1577.33,61367,4145,271,0.0675,0.0654,5.8204,-0.0873,0,151.7474,unusually high/low spend,0
+CA0831,2025-09-30,App,Home,634.67,86788,8162,447,0.094,0.0548,1.4198,-0.0425,0,0.0,unusually high/low spend,0
+CA0832,2025-05-23,Web,Sports,2562.84,96118,6607,1104,0.0687,0.1671,2.3214,-0.0877,0,0.0,unusual impressions,0
+CA0833,2025-08-17,Store,Sports,5921.81,56392,8762,1160,0.1554,0.1324,5.105,-0.1011,0,0.0,click-through rate impossible or extreme,0
+CA0834,2025-01-26,Store,Electronics,6305.13,66765,8158,1079,0.1222,0.1323,5.8435,-0.1006,0,629.102,unusually high/low spend,0
+CA0835,2025-09-19,Store,Sports,4834.7,88889,6794,1230,0.0764,0.181,3.9307,-0.0972,0,0.0,unusual impressions,0
+CA0836,2025-07-29,Email,Grocery,4280.29,43471,4030,803,0.0927,0.1993,5.3304,-0.109,0,56.1468,conversion rate impossible or extreme,0
+CA0837,2025-12-22,Web,Grocery,7698.05,16201,5179,1207,0.3197,0.2331,6.3778,-0.0709,0,1348.6841,click-through rate impossible or extreme,0
+CA0838,2025-02-10,Email,Sports,4404.11,2194,9738,351,4.4385,0.036,12.5473,0.0687,1,2557.6913,click-through rate impossible or extreme,1
+CA0839,2025-11-18,Email,Electronics,6640.14,27462,8317,670,0.3029,0.0806,9.9107,-0.0883,0,3115.637,click-through rate impossible or extreme,0
+CA0840,2025-12-03,Social,Grocery,403.95,54290,6578,1169,0.1212,0.1777,0.3456,-0.0,0,0.0,unusually high/low spend,0
+CA0841,2025-03-03,Social,Fashion,4826.83,99791,1854,263,0.0186,0.1419,18.353,-0.0733,0,3443.3311,very high cost per conversion,0
+CA0842,2025-11-12,App,Beauty,1415.49,91381,4959,616,0.0543,0.1242,2.2979,-0.0787,0,0.0,unusually high/low spend,0
+CA0843,2025-04-25,Web,Fashion,6256.45,1169,767,1108,0.6561,1.4446,5.6466,0.078,1,427.8689,conversion rate impossible or extreme,1
+CA0844,2025-02-07,Social,Fashion,4919.13,50800,7150,452,0.1407,0.0632,10.883,-0.1048,0,2541.4056,very high cost per conversion,0
+CA0845,2025-08-12,Social,Electronics,1509.89,48357,516,959,0.0107,1.8585,1.5744,-0.0387,0,0.0,conversion rate impossible or extreme,1
+CA0846,2025-03-15,Web,Grocery,1331.51,41728,1342,621,0.0322,0.4627,2.1441,-0.0801,0,0.0,conversion rate impossible or extreme,0
+CA0847,2025-03-31,App,Grocery,6505.21,69123,1413,931,0.0204,0.6589,6.9873,-0.0832,0,1607.7289,conversion rate impossible or extreme,0
+CA0848,2025-07-31,Email,Sports,5154.3,33918,519,652,0.0153,1.2563,7.9054,-0.0657,0,1724.4851,conversion rate impossible or extreme,1
+CA0849,2025-04-22,Social,Sports,5767.7,83941,4620,1123,0.055,0.2431,5.136,-0.0953,0,0.0,conversion rate impossible or extreme,0
+CA0850,2025-06-12,Store,Home,7334.95,86733,1763,433,0.0203,0.2456,16.9398,-0.0711,0,5057.1742,very high cost per conversion,0
+CA0851,2025-01-24,Email,Electronics,3195.02,87389,5591,233,0.064,0.0417,13.7125,-0.0895,0,1969.3346,very high cost per conversion,0
+CA0852,2025-04-09,Web,Electronics,3142.91,9023,3321,635,0.3681,0.1912,4.9495,-0.0655,0,0.0,click-through rate impossible or extreme,0
+CA0853,2025-02-26,Social,Beauty,3889.18,64734,621,790,0.0096,1.2721,4.923,-0.0743,0,0.0,conversion rate impossible or extreme,1
+CA0854,2025-05-04,App,Grocery,2817.8,61862,6158,771,0.0995,0.1252,3.6547,-0.1075,0,0.0,unusually high/low spend,0
+CA0855,2025-01-16,Web,Fashion,2524.99,75982,4654,523,0.0613,0.1124,4.8279,-0.1027,0,0.0,unusually high/low spend,0
+CA0856,2025-03-22,Social,Home,4700.28,98282,8464,339,0.0861,0.0401,13.8651,-0.0846,0,2916.9867,very high cost per conversion,0
+CA0857,2025-05-23,App,Fashion,584.87,3904,5279,1151,1.3522,0.218,0.5081,0.0692,1,0.0,click-through rate impossible or extreme,1
+CA0858,2025-04-11,Store,Electronics,4390.41,2196,8194,1237,3.7313,0.151,3.5492,0.0388,1,0.0,click-through rate impossible or extreme,1
+CA0859,2025-03-06,Store,Grocery,5878.31,91858,6126,1198,0.0667,0.1956,4.9068,-0.0927,0,0.0,unusual impressions,0
+CA0860,2025-05-18,Store,Sports,6013.42,97570,7489,1372,0.0768,0.1832,4.383,-0.0882,0,0.0,unusual impressions,0
+CA0861,2025-09-04,Store,Home,5540.78,94111,2038,131,0.0217,0.0643,42.296,-0.0552,0,4851.6608,very high cost per conversion,0
+CA0862,2025-08-26,Email,Sports,4368.46,81735,8,1352,0.0001,169.0,3.2311,0.2046,1,0.0,conversion rate impossible or extreme,1
+CA0863,2025-03-03,Store,Sports,2641.34,94853,9633,110,0.1016,0.0114,24.0122,-0.0606,0,2062.6903,very high cost per conversion,0
+CA0864,2025-01-20,Email,Beauty,1686.07,71757,8018,1134,0.1117,0.1414,1.4868,-0.0866,0,0.0,very high cost per conversion,0
+CA0865,2025-10-04,Store,Beauty,6996.73,61217,4478,976,0.0731,0.218,7.1688,-0.1034,0,1862.5286,unusually high/low spend,0
+CA0866,2025-06-07,Social,Electronics,1463.27,45570,3468,1352,0.0761,0.3899,1.0823,-0.0735,0,0.0,conversion rate impossible or extreme,0
+CA0867,2025-09-02,Social,Beauty,6417.39,39259,9925,224,0.2528,0.0226,28.6491,-0.068,0,5239.0487,very high cost per conversion,0
+CA0868,2025-03-15,App,Home,3969.56,83016,9400,1392,0.1132,0.1481,2.8517,-0.0898,0,0.0,unusual impressions,0
+CA0869,2025-01-01,Web,Grocery,6029.75,99305,6694,1386,0.0674,0.2071,4.3505,-0.0862,0,0.0,unusual impressions,0
+CA0870,2025-05-28,Web,Fashion,5458.05,9434,3854,754,0.4085,0.1956,7.2388,-0.0682,0,1491.669,click-through rate impossible or extreme,0
+CA0871,2025-11-23,Social,Grocery,5655.28,51790,6468,647,0.1249,0.1,8.7408,-0.1066,0,2251.7674,unusually high/low spend,0
+CA0872,2025-08-04,Email,Fashion,5943.41,16120,1473,336,0.0914,0.2281,17.6887,-0.072,0,4175.898,unusual impressions,0
+CA0873,2025-06-25,App,Beauty,930.73,15453,4796,521,0.3104,0.1086,1.7864,-0.0432,0,0.0,click-through rate impossible or extreme,0
+CA0874,2025-01-23,App,Beauty,3579.0,51160,2698,1248,0.0527,0.4626,2.8678,-0.0975,0,0.0,conversion rate impossible or extreme,0
+CA0875,2025-12-25,App,Electronics,3259.51,46155,9644,1451,0.2089,0.1505,2.2464,-0.0891,0,0.0,click-through rate impossible or extreme,0
+CA0876,2025-02-04,Store,Home,4990.16,67899,9554,1174,0.1407,0.1229,4.2506,-0.1003,0,0.0,click-through rate impossible or extreme,0
+CA0877,2025-09-07,Social,Electronics,864.81,71545,1993,802,0.0279,0.4024,1.0783,-0.0534,0,0.0,unusually high/low spend,0
+CA0878,2025-06-24,Email,Beauty,4694.24,21179,9411,163,0.4444,0.0173,28.799,-0.0544,0,3836.7863,click-through rate impossible or extreme,0
+CA0879,2025-03-01,Social,Fashion,4613.71,23342,5467,1101,0.2342,0.2014,4.1905,-0.0971,0,0.0,click-through rate impossible or extreme,0
+CA0880,2025-07-17,Social,Beauty,4757.75,5680,8802,594,1.5496,0.0675,8.0097,-0.007,0,1633.0414,click-through rate impossible or extreme,1
+CA0881,2025-10-06,App,Home,786.13,95184,1011,74,0.0106,0.0732,10.6234,-0.0151,0,396.8565,unusually high/low spend,0
+CA0882,2025-04-18,Social,Electronics,1692.1,76273,6308,1247,0.0827,0.1977,1.3569,-0.0877,0,0.0,very high cost per conversion,0
+CA0883,2025-07-16,Web,Home,2509.95,2405,970,710,0.4033,0.732,3.5351,0.0127,1,0.0,conversion rate impossible or extreme,0
+CA0884,2025-04-05,Email,Home,2973.5,97748,5914,1288,0.0605,0.2178,2.3086,-0.0841,0,0.0,unusual impressions,0
+CA0885,2025-02-26,Store,Sports,369.17,19819,2722,252,0.1373,0.0926,1.465,-0.0134,0,0.0,unusually high/low spend,0
+CA0886,2025-10-13,Email,Home,7673.81,64838,6392,663,0.0986,0.1037,11.5744,-0.0913,0,4186.1302,unusually high/low spend,0
+CA0887,2025-10-14,Web,Grocery,1080.17,57950,9087,368,0.1568,0.0405,2.9352,-0.0731,0,0.0,unusually high/low spend,0
+CA0888,2025-05-18,App,Electronics,6288.04,61974,9156,238,0.1477,0.026,26.4203,-0.0751,0,5036.0524,very high cost per conversion,0
+CA0889,2025-06-23,Social,Grocery,6927.78,68584,5990,1319,0.0873,0.2202,5.2523,-0.1004,0,0.0,unusually high/low spend,0
+CA0890,2025-02-23,Social,Fashion,4139.18,19014,477,1081,0.0251,2.2662,3.829,-0.0242,0,0.0,conversion rate impossible or extreme,1
+CA0891,2025-04-12,Social,Home,3422.35,67265,1755,104,0.0261,0.0593,32.9072,-0.0692,0,2875.263,very high cost per conversion,0
+CA0892,2025-05-24,Social,Beauty,1189.41,7291,6370,1328,0.8737,0.2085,0.8956,0.0085,1,0.0,click-through rate impossible or extreme,0
+CA0893,2025-05-20,Store,Home,5021.29,18050,8350,336,0.4626,0.0402,14.9443,-0.0772,0,3253.778,click-through rate impossible or extreme,0
+CA0894,2025-08-13,App,Home,709.21,83138,1066,539,0.0128,0.5056,1.3158,-0.0398,0,0.0,conversion rate impossible or extreme,0
+CA0895,2025-07-15,Social,Home,3428.74,20941,3632,306,0.1734,0.0843,11.205,-0.0972,0,1819.0416,unusual impressions,0
+CA0896,2025-10-25,Social,Sports,6258.89,92998,2144,1397,0.0231,0.6516,4.4802,-0.0698,0,0.0,conversion rate impossible or extreme,0
+CA0897,2025-01-02,Social,Grocery,4627.68,98128,2159,1314,0.022,0.6086,3.5218,-0.0692,0,0.0,conversion rate impossible or extreme,0
+CA0898,2025-10-24,Web,Fashion,1065.25,98380,3062,1113,0.0311,0.3635,0.9571,-0.0405,0,0.0,unusually high/low spend,0
+CA0899,2025-07-03,Email,Beauty,4285.29,9803,8531,417,0.8702,0.0489,10.2765,-0.0381,0,2091.6814,click-through rate impossible or extreme,0
+CA0900,2025-08-05,App,Beauty,504.4,44580,9716,456,0.2179,0.0469,1.1061,-0.0279,0,0.0,unusually high/low spend,0
+CA0901,2025-03-14,Email,Sports,6958.84,32572,2192,798,0.0673,0.3641,8.7204,-0.0947,0,2760.9991,conversion rate impossible or extreme,0
+CA0902,2025-08-12,Store,Grocery,4347.39,22218,1800,144,0.081,0.08,30.1902,-0.0688,0,3589.8849,very high cost per conversion,0
+CA0903,2025-12-21,Store,Electronics,4355.96,51051,6316,900,0.1237,0.1425,4.84,-0.108,0,0.0,click-through rate impossible or extreme,0
+CA0904,2025-08-10,Store,Home,6597.95,53393,6221,681,0.1165,0.1095,9.6886,-0.1023,0,3015.582,unusually high/low spend,0
+CA0905,2025-02-25,Store,Sports,4786.52,58121,1204,129,0.0207,0.1071,37.1048,-0.072,0,4107.9217,very high cost per conversion,0
+CA0906,2025-03-10,Store,Beauty,5407.55,39012,8098,141,0.2076,0.0174,38.3514,-0.0671,0,4665.8262,very high cost per conversion,0
+CA0907,2025-03-02,Email,Beauty,7664.2,84839,147,634,0.0017,4.3129,12.0886,0.0564,1,4329.0733,conversion rate impossible or extreme,1
+CA0908,2025-07-29,App,Home,846.02,28232,3152,1428,0.1116,0.453,0.5925,-0.0288,0,0.0,conversion rate impossible or extreme,0
+CA0909,2025-05-26,Web,Electronics,2702.43,33937,2995,284,0.0883,0.0948,9.5156,-0.0981,0,1208.4616,very high cost per conversion,0
+CA0910,2025-10-04,Email,Beauty,5360.82,84202,4200,923,0.0499,0.2198,5.808,-0.0987,0,505.4226,unusual impressions,0
+CA0911,2025-05-31,Web,Home,2496.14,84530,7410,750,0.0877,0.1012,3.3282,-0.0991,0,0.0,unusual impressions,0
+CA0912,2025-10-28,Web,Grocery,430.29,99948,2364,121,0.0237,0.0512,3.5561,-0.0069,0,0.0,unusually high/low spend,0
+CA0913,2025-09-20,Social,Beauty,5159.71,67292,3479,1428,0.0517,0.4105,3.6132,-0.0953,0,0.0,conversion rate impossible or extreme,0
+CA0914,2025-02-25,App,Beauty,6754.52,77187,4976,162,0.0645,0.0326,41.6946,-0.0686,0,5902.3267,very high cost per conversion,0
+CA0915,2025-04-01,Email,Grocery,7572.04,70099,5689,1461,0.0812,0.2568,5.1828,-0.087,0,0.0,unusually high/low spend,0
+CA0916,2025-11-22,App,Fashion,2522.03,82466,6292,1046,0.0763,0.1662,2.4111,-0.0988,0,0.0,very high cost per conversion,0
+CA0917,2025-02-25,Store,Sports,6002.22,12684,3649,942,0.2877,0.2582,6.3718,-0.075,0,1046.874,click-through rate impossible or extreme,0
+CA0918,2025-08-14,Web,Electronics,734.39,96474,2164,933,0.0224,0.4311,0.7871,-0.0207,0,0.0,unusually high/low spend,0
+CA0919,2025-12-14,Web,Home,6216.93,43848,9763,774,0.2227,0.0793,8.0322,-0.0944,0,2145.3399,click-through rate impossible or extreme,0
+CA0920,2025-09-03,App,Beauty,3849.44,93009,5186,930,0.0558,0.1793,4.1392,-0.0968,0,0.0,unusual impressions,0
+CA0921,2025-09-04,Email,Sports,3637.55,62677,6169,517,0.0984,0.0838,7.0359,-0.108,0,917.8962,conversion rate impossible or extreme,0
+CA0922,2025-11-09,Social,Beauty,3609.24,77735,5885,158,0.0757,0.0268,22.8433,-0.0826,0,2778.0885,very high cost per conversion,0
+CA0923,2025-11-01,Web,Beauty,5779.03,54733,55,1252,0.001,22.7636,4.6158,0.1256,1,0.0,conversion rate impossible or extreme,1
+CA0924,2025-04-17,App,Fashion,4647.09,4304,5481,1116,1.2735,0.2036,4.1641,-0.0219,0,0.0,click-through rate impossible or extreme,1
+CA0925,2025-09-21,App,Sports,3698.2,96534,4802,298,0.0497,0.0621,12.4101,-0.0838,0,2130.5852,unusual impressions,0
+CA0926,2025-11-13,Store,Home,6563.22,54892,6071,1243,0.1106,0.2047,5.2801,-0.0995,0,24.4778,unusually high/low spend,0
+CA0927,2025-02-14,App,Electronics,7498.99,21786,6385,1227,0.2931,0.1922,6.1116,-0.0815,0,1044.4151,click-through rate impossible or extreme,0
+CA0928,2025-09-24,App,Beauty,4490.06,4033,3992,339,0.9898,0.0849,13.245,-0.0098,0,2706.7667,click-through rate impossible or extreme,0
+CA0929,2025-02-03,Web,Sports,58.31,52717,1556,1294,0.0295,0.8316,0.0451,0.1641,1,0.0,unusually high/low spend,0
+CA0930,2025-05-08,Web,Fashion,2490.64,61925,7479,1236,0.1208,0.1653,2.0151,-0.0984,0,0.0,very high cost per conversion,0
+CA0931,2025-06-17,App,Fashion,2411.17,95733,2383,1162,0.0249,0.4876,2.075,-0.0685,0,0.0,conversion rate impossible or extreme,0
+CA0932,2025-11-19,Social,Grocery,2928.55,81368,4102,562,0.0504,0.137,5.2109,-0.1022,0,0.0,unusual impressions,0
+CA0933,2025-09-08,Store,Sports,7431.88,18398,3759,1372,0.2043,0.365,5.4168,-0.078,0,214.5395,conversion rate impossible or extreme,0
+CA0934,2025-03-23,Social,Grocery,4324.22,27576,4791,563,0.1737,0.1175,7.6807,-0.1046,0,1362.5854,unusual impressions,0
+CA0935,2025-06-24,Email,Beauty,52.84,16992,4906,1296,0.2887,0.2642,0.0408,0.1638,1,0.0,unusually high/low spend,0
+CA0936,2025-04-04,Store,Electronics,5198.61,22409,5700,794,0.2544,0.1393,6.5474,-0.0981,0,1021.8109,click-through rate impossible or extreme,0
+CA0937,2025-11-25,App,Grocery,2207.04,77409,6967,1285,0.09,0.1844,1.7175,-0.0931,0,0.0,very high cost per conversion,0
+CA0938,2025-12-19,Store,Grocery,2071.28,7272,8990,87,1.2362,0.0097,23.8078,0.0356,1,1613.6207,click-through rate impossible or extreme,1
+CA0939,2025-11-12,Store,Grocery,1713.25,2753,7254,515,2.6349,0.071,3.3267,0.0366,1,0.0,click-through rate impossible or extreme,1
+CA0940,2025-04-29,Web,Electronics,113.73,98157,7485,959,0.0763,0.1281,0.1186,0.096,1,0.0,unusually high/low spend,0
+CA0941,2025-10-08,Email,Electronics,7688.7,85819,2661,168,0.031,0.0631,45.7661,-0.0479,0,6804.944,very high cost per conversion,0
+CA0942,2025-04-19,App,Grocery,431.91,55437,6180,1029,0.1115,0.1665,0.4197,-0.0149,0,0.0,unusually high/low spend,0
+CA0943,2025-02-28,Web,Grocery,2777.81,99062,7998,448,0.0807,0.056,6.2005,-0.0894,0,421.1274,unusual impressions,0
+CA0944,2025-10-05,Store,Fashion,5987.3,84694,946,1127,0.0112,1.1913,5.3126,-0.0636,0,58.7703,conversion rate impossible or extreme,1
+CA0945,2025-08-22,App,Beauty,3695.91,94689,7384,882,0.078,0.1194,4.1904,-0.0975,0,0.0,unusual impressions,0
+CA0946,2025-12-30,Store,Grocery,2530.23,17232,1462,0,0.0848,0.0,,0.0889,1,2530.23,very high cost per conversion,0
+CA0947,2025-03-19,App,Electronics,6713.12,61004,5668,365,0.0929,0.0644,18.3921,-0.0913,0,4793.0549,very high cost per conversion,0
+CA0948,2025-02-12,App,Home,1545.06,64803,2773,78,0.0428,0.0281,19.8085,-0.0568,0,1134.7447,very high cost per conversion,0
+CA0949,2025-08-11,Web,Beauty,117.8,38949,6603,1373,0.1695,0.2079,0.0858,0.0972,1,0.0,unusually high/low spend,0
+CA0950,2025-01-12,App,Grocery,6799.97,66774,269,1058,0.004,3.9331,6.4272,0.0138,1,1234.4115,conversion rate impossible or extreme,1
+CA0951,2025-11-03,Social,Sports,2853.06,13564,9209,221,0.6789,0.024,12.9098,-0.048,0,1690.5001,click-through rate impossible or extreme,0
+CA0952,2025-12-30,App,Sports,5430.67,85259,5286,561,0.062,0.1061,9.6803,-0.1006,0,2479.5563,unusual impressions,0
+CA0953,2025-04-19,Email,Electronics,5238.1,32884,4766,837,0.1449,0.1756,6.2582,-0.1037,0,835.1015,unusual impressions,0
+CA0954,2025-12-27,Social,Sports,4893.45,25418,5967,710,0.2348,0.119,6.8922,-0.1006,0,1158.5289,click-through rate impossible or extreme,0
+CA0955,2025-09-24,Social,Home,7946.26,74233,4839,773,0.0652,0.1597,10.2798,-0.085,0,3879.9304,unusually high/low spend,0
+CA0956,2025-12-13,Email,Beauty,529.03,660,4789,591,7.2561,0.1234,0.8951,0.1696,1,0.0,click-through rate impossible or extreme,1
+CA0957,2025-07-15,Web,Sports,4119.86,66145,9702,726,0.1467,0.0748,5.6747,-0.0999,0,300.7717,conversion rate impossible or extreme,0
+CA0958,2025-01-28,Social,Beauty,4643.8,6014,4878,886,0.8111,0.1816,5.2413,-0.045,0,0.0,click-through rate impossible or extreme,0
+CA0959,2025-08-17,App,Sports,3586.66,71061,7858,423,0.1106,0.0538,8.4791,-0.1026,0,1361.4887,conversion rate impossible or extreme,0
+CA0960,2025-01-02,Web,Beauty,5332.64,13913,8307,1355,0.5971,0.1631,3.9355,-0.0699,0,0.0,click-through rate impossible or extreme,0
+CA0961,2025-06-17,Web,Home,5594.51,82702,4131,860,0.05,0.2082,6.5052,-0.1005,0,1070.5211,unusual impressions,0
+CA0962,2025-11-10,Web,Fashion,1568.92,71945,7556,604,0.105,0.0799,2.5975,-0.0886,0,0.0,unusually high/low spend,0
+CA0963,2025-05-27,Social,Sports,6386.93,13279,6970,1436,0.5249,0.206,4.4477,-0.0669,0,0.0,click-through rate impossible or extreme,0
+CA0964,2025-04-02,App,Electronics,1033.68,38672,2154,666,0.0557,0.3092,1.5521,-0.0668,0,0.0,unusually high/low spend,0
+CA0965,2025-09-24,App,Fashion,71.01,63726,3627,1061,0.0569,0.2925,0.0669,0.1279,1,0.0,unusually high/low spend,0
+CA0966,2025-10-21,Email,Grocery,3779.7,70008,4508,771,0.0644,0.171,4.9023,-0.1067,0,0.0,unusual impressions,0
+CA0967,2025-02-25,Social,Beauty,3194.87,98494,6015,49,0.0611,0.0081,65.2014,-0.0358,0,2937.1078,very high cost per conversion,0
+CA0968,2025-06-16,Email,Grocery,3652.74,99634,3990,675,0.04,0.1692,5.4115,-0.0895,0,101.9347,unusual impressions,0
+CA0969,2025-01-23,App,Electronics,2691.93,74644,2143,861,0.0287,0.4018,3.1265,-0.0959,0,0.0,conversion rate impossible or extreme,0
+CA0970,2025-12-24,App,Sports,4149.15,78711,389,989,0.0049,2.5424,4.1953,-0.0286,0,0.0,conversion rate impossible or extreme,1
+CA0971,2025-04-03,Social,Beauty,4724.86,65864,1104,407,0.0168,0.3687,11.609,-0.0971,0,2583.8559,conversion rate impossible or extreme,0
+CA0972,2025-11-12,Social,Fashion,1109.19,32275,813,367,0.0252,0.4514,3.0223,-0.0704,0,0.0,conversion rate impossible or extreme,0
+CA0973,2025-03-10,Web,Electronics,7333.63,22083,6961,500,0.3152,0.0718,14.6673,-0.0768,0,4703.4039,click-through rate impossible or extreme,0
+CA0974,2025-04-12,Social,Electronics,6867.25,40590,3995,994,0.0984,0.2488,6.9087,-0.1013,0,1638.3605,conversion rate impossible or extreme,0
+CA0975,2025-06-01,Store,Beauty,5734.91,15356,4453,632,0.29,0.1419,9.0742,-0.09,0,2410.3042,click-through rate impossible or extreme,0
+CA0976,2025-07-20,Email,Fashion,1032.4,23899,3388,67,0.1418,0.0198,15.409,-0.0325,0,679.9497,unusually high/low spend,0
+CA0977,2025-03-10,Email,Electronics,168.05,8645,8398,1048,0.9714,0.1248,0.1604,0.1183,1,0.0,click-through rate impossible or extreme,0
+CA0978,2025-02-01,Store,Sports,188.81,27491,331,213,0.012,0.6435,0.8864,0.0401,1,0.0,unusually high/low spend,0
+CA0979,2025-07-28,Web,Home,2968.59,94427,5926,415,0.0628,0.07,7.1532,-0.0929,0,785.5023,unusual impressions,0
+CA0980,2025-08-31,Store,Beauty,2585.12,53859,5588,250,0.1038,0.0447,10.3405,-0.0996,0,1270.0069,conversion rate impossible or extreme,0
+CA0981,2025-02-23,Social,Grocery,5795.73,83758,7220,343,0.0862,0.0475,16.8972,-0.0899,0,3991.3949,very high cost per conversion,0
+CA0982,2025-12-09,App,Electronics,2574.58,78475,9547,298,0.1217,0.0312,8.6395,-0.0912,0,1006.9652,conversion rate impossible or extreme,0
+CA0983,2025-02-12,Email,Electronics,1698.79,22346,7121,898,0.3187,0.1261,1.8917,-0.0715,0,0.0,click-through rate impossible or extreme,0
+CA0984,2025-02-02,Email,Home,5921.26,53916,5729,123,0.1063,0.0215,48.1403,-0.0721,0,5274.2244,very high cost per conversion,0
+CA0985,2025-06-13,Store,Beauty,3822.54,25212,152,813,0.006,5.3487,4.7018,0.0482,1,0.0,conversion rate impossible or extreme,1
+CA0986,2025-08-06,Social,Home,3949.42,42879,537,16,0.0125,0.0298,246.8388,0.0022,1,3865.2528,very high cost per conversion,0
+CA0987,2025-12-10,Store,Sports,3581.57,3532,3852,196,1.0906,0.0509,18.2733,0.0096,1,2550.5214,click-through rate impossible or extreme,1
+CA0988,2025-06-10,Email,Fashion,5830.83,19962,8889,916,0.4453,0.103,6.3655,-0.0903,0,1012.2557,click-through rate impossible or extreme,0
+CA0989,2025-09-17,Store,Grocery,4900.06,29909,9255,1083,0.3094,0.117,4.5245,-0.0957,0,0.0,click-through rate impossible or extreme,0
+CA0990,2025-12-08,App,Beauty,5402.05,95049,1832,580,0.0193,0.3166,9.3139,-0.0817,0,2350.9877,conversion rate impossible or extreme,0
+CA0991,2025-09-01,Social,Grocery,6478.93,35271,85,117,0.0024,1.3765,55.3755,-0.0042,0,5863.4571,conversion rate impossible or extreme,1
+CA0992,2025-04-28,Store,Electronics,879.02,28923,1011,1370,0.035,1.3551,0.6416,0.0004,1,0.0,conversion rate impossible or extreme,1
+CA0993,2025-03-30,App,Grocery,4627.83,49211,5035,341,0.1023,0.0677,13.5713,-0.1061,0,2834.0158,very high cost per conversion,0
+CA0994,2025-04-05,Store,Beauty,4633.68,92293,7985,469,0.0865,0.0587,9.8799,-0.0938,0,2166.5279,unusual impressions,0
+CA0995,2025-01-26,Social,Beauty,2577.95,92259,4220,670,0.0457,0.1588,3.8477,-0.0963,0,0.0,unusual impressions,0
+CA0996,2025-02-19,Email,Grocery,6662.21,1611,7117,647,4.4178,0.0909,10.2971,0.082,1,3258.6974,click-through rate impossible or extreme,1
+CA0997,2025-08-26,Web,Fashion,5594.07,97025,3754,633,0.0387,0.1686,8.8374,-0.0888,0,2264.2037,unusual impressions,0
+CA0998,2025-07-25,App,Grocery,4855.14,36319,716,1236,0.0197,1.7263,3.9281,-0.059,0,0.0,conversion rate impossible or extreme,1
+CA0999,2025-08-10,Social,Electronics,3275.73,25314,2157,673,0.0852,0.312,4.8674,-0.0983,0,0.0,conversion rate impossible or extreme,0
+CA1000,2025-06-16,Web,Grocery,1024.21,40003,7261,161,0.1815,0.0222,6.3616,-0.0538,0,177.2772,unusually high/low spend,0
+CA1001,2025-12-25,Web,Electronics,3401.21,94095,1638,645,0.0174,0.3938,5.2732,-0.0859,0,8.2183,conversion rate impossible or extreme,0
+CA1002,2025-02-10,App,Fashion,376.39,11959,1237,740,0.1034,0.5982,0.5086,0.0353,1,0.0,conversion rate impossible or extreme,0
+CA1003,2025-01-13,App,Beauty,6291.97,30466,9121,222,0.2994,0.0243,28.3422,-0.0635,0,5124.1496,click-through rate impossible or extreme,0
+CA1004,2025-11-12,App,Electronics,6581.44,70921,6085,693,0.0858,0.1139,9.497,-0.1029,0,2935.9466,unusually high/low spend,0
+CA1005,2025-08-06,Email,Home,4611.43,39152,2181,711,0.0557,0.326,6.4858,-0.1017,0,871.2484,conversion rate impossible or extreme,0
+CA1006,2025-12-16,App,Fashion,6263.78,30380,5386,764,0.1773,0.1418,8.1987,-0.1011,0,2244.7945,click-through rate impossible or extreme,0
+CA1007,2025-08-30,Social,Beauty,5503.94,11684,5661,315,0.4845,0.0556,17.4728,-0.0561,0,3846.8975,click-through rate impossible or extreme,0
+CA1008,2025-08-23,Store,Grocery,3531.93,90540,5943,1155,0.0656,0.1943,3.0579,-0.0963,0,0.0,unusual impressions,0
+CA1009,2025-07-25,Store,Sports,821.54,73713,3716,664,0.0504,0.1787,1.2373,-0.064,0,0.0,unusually high/low spend,0
+CA1010,2025-08-21,Web,Beauty,5063.86,16095,7545,1159,0.4688,0.1536,4.3692,-0.0848,0,0.0,click-through rate impossible or extreme,0
+CA1011,2025-06-23,Store,Beauty,2100.06,61530,855,516,0.0139,0.6035,4.0699,-0.0852,0,0.0,conversion rate impossible or extreme,0
+CA1012,2025-12-17,Store,Electronics,3529.9,25362,4624,352,0.1823,0.0761,10.0281,-0.0999,0,1678.2208,unusual impressions,0
+CA1013,2025-05-20,App,Sports,7383.96,43238,415,56,0.0096,0.1349,131.8564,-0.0105,0,7089.3747,very high cost per conversion,0
+CA1014,2025-05-16,Web,Beauty,933.62,20254,9512,901,0.4696,0.0947,1.0362,-0.0321,0,0.0,click-through rate impossible or extreme,0
+CA1015,2025-02-04,Store,Grocery,5222.11,54981,1806,208,0.0328,0.1152,25.1063,-0.0843,0,4127.9359,very high cost per conversion,0
+CA1016,2025-03-20,App,Fashion,7401.01,11939,6227,794,0.5216,0.1275,9.3212,-0.0589,0,3224.2109,click-through rate impossible or extreme,0
+CA1017,2025-12-17,App,Fashion,2082.17,59646,6799,1339,0.114,0.1969,1.555,-0.0909,0,0.0,very high cost per conversion,0
+CA1018,2025-12-15,Social,Beauty,985.02,1287,1847,1161,1.4351,0.6286,0.8484,0.1001,1,0.0,click-through rate impossible or extreme,1
+CA1019,2025-11-27,Web,Home,397.31,41390,8199,1006,0.1981,0.1227,0.3949,0.0048,1,0.0,unusually high/low spend,0
+CA1020,2025-05-06,Email,Electronics,593.72,11246,2409,212,0.2142,0.088,2.8006,-0.0227,0,0.0,unusually high/low spend,0
+CA1021,2025-11-29,Social,Fashion,3398.22,258,5619,1256,21.7791,0.2235,2.7056,0.212,1,0.0,click-through rate impossible or extreme,1
+CA1022,2025-11-01,Web,Fashion,52.56,9999,1795,250,0.1795,0.1393,0.2102,0.1472,1,0.0,unusually high/low spend,0
+CA1023,2025-06-05,Social,Sports,5199.54,26486,507,538,0.0191,1.0611,9.6646,-0.067,0,2369.4167,conversion rate impossible or extreme,1
+CA1024,2025-01-29,Web,Fashion,2260.82,97289,3505,1342,0.036,0.3829,1.6847,-0.0729,0,0.0,conversion rate impossible or extreme,0
+CA1025,2025-02-03,Web,Grocery,2357.46,95190,8820,1167,0.0927,0.1323,2.0201,-0.0819,0,0.0,very high cost per conversion,0
+CA1026,2025-07-18,Web,Electronics,7966.09,88974,8329,1240,0.0936,0.1489,6.4243,-0.0769,0,1443.1292,unusually high/low spend,0
+CA1027,2025-07-17,Email,Electronics,223.74,61309,2948,1218,0.0481,0.4132,0.1837,0.052,1,0.0,unusually high/low spend,0
+CA1028,2025-03-11,App,Beauty,7471.26,93776,2419,583,0.0258,0.241,12.8152,-0.0728,0,4404.4163,unusually high/low spend,0
+CA1029,2025-10-03,App,Fashion,3032.15,66174,5930,1282,0.0896,0.2162,2.3652,-0.1009,0,0.0,very high cost per conversion,0
+CA1030,2025-05-06,App,Beauty,2285.38,62376,5773,1023,0.0926,0.1772,2.234,-0.1009,0,0.0,very high cost per conversion,0
+CA1031,2025-03-26,App,Fashion,4708.1,88041,8254,1226,0.0938,0.1485,3.8402,-0.0967,0,0.0,unusual impressions,0
+CA1032,2025-08-10,Social,Grocery,5482.61,10386,799,294,0.0769,0.368,18.6483,-0.0428,0,3936.037,unusual impressions,0
+CA1033,2025-04-28,Store,Beauty,4417.34,83047,3812,94,0.0459,0.0247,46.993,-0.0669,0,3922.8575,very high cost per conversion,0
+CA1034,2025-07-17,Store,Beauty,2462.67,22630,2455,468,0.1085,0.1906,5.2621,-0.0966,0,0.7783,unusual impressions,0
+CA1035,2025-09-10,Social,Sports,7768.15,62459,741,628,0.0119,0.8475,12.3697,-0.0565,0,4464.586,conversion rate impossible or extreme,0
+CA1036,2025-11-04,App,Grocery,7274.98,89808,782,246,0.0087,0.3146,29.5731,-0.0457,0,5980.9087,very high cost per conversion,0
+CA1037,2025-07-25,App,Fashion,5466.89,44937,1827,530,0.0407,0.2901,10.3149,-0.0978,0,2678.8503,conversion rate impossible or extreme,0
+CA1038,2025-04-27,App,Electronics,7380.08,99387,2338,684,0.0235,0.2926,10.7896,-0.0693,0,3781.9307,conversion rate impossible or extreme,0
+CA1039,2025-07-03,Store,Electronics,4695.57,51883,4586,364,0.0884,0.0794,12.8999,-0.1071,0,2780.7654,very high cost per conversion,0
+CA1040,2025-02-09,Web,Electronics,2718.72,39685,1289,267,0.0325,0.2071,10.1825,-0.0921,0,1314.1792,click-through rate impossible or extreme,0
+CA1041,2025-05-21,Email,Electronics,5982.83,58773,9775,1343,0.1663,0.1374,4.4548,-0.096,0,0.0,click-through rate impossible or extreme,0
+CA1042,2025-11-01,Store,Beauty,7025.55,99396,2394,938,0.0241,0.3918,7.4899,-0.0735,0,2091.2458,conversion rate impossible or extreme,0
+CA1043,2025-07-17,Email,Electronics,2563.85,70772,6467,897,0.0914,0.1387,2.8582,-0.1023,0,0.0,very high cost per conversion,0
+CA1044,2025-05-04,Social,Grocery,6034.08,51400,7202,1327,0.1401,0.1843,4.5472,-0.0981,0,0.0,unusually high/low spend,0
+CA1045,2025-02-17,Web,Home,2639.27,11685,5229,1274,0.4475,0.2436,2.0716,-0.0573,0,0.0,click-through rate impossible or extreme,0
+CA1046,2025-12-19,Web,Home,764.07,50782,4170,887,0.0821,0.2127,0.8614,-0.0547,0,0.0,unusually high/low spend,0
+CA1047,2025-01-28,Web,Fashion,6017.88,92260,6078,699,0.0659,0.115,8.6093,-0.0956,0,2340.8239,unusual impressions,0
+CA1048,2025-08-03,App,Electronics,6637.56,59551,8227,163,0.1382,0.0198,40.7212,-0.0668,0,5780.1063,very high cost per conversion,0
+CA1049,2025-09-06,Store,Home,64.96,23594,5138,322,0.2178,0.0627,0.2017,0.1217,1,0.0,unusually high/low spend,0
+CA1050,2025-11-02,Email,Electronics,7398.8,95084,9506,477,0.1,0.0502,15.5111,-0.0719,0,4889.5643,very high cost per conversion,0
+CA1051,2025-12-08,App,Electronics,7603.71,59695,1948,988,0.0326,0.5072,7.6961,-0.0796,0,2406.3832,conversion rate impossible or extreme,0
+CA1052,2025-12-25,Store,Grocery,7880.57,73916,5874,135,0.0795,0.023,58.3746,-0.0453,0,7170.4089,very high cost per conversion,0
+CA1053,2025-10-24,Store,Home,2838.28,37921,7130,1023,0.188,0.1435,2.7745,-0.0984,0,0.0,click-through rate impossible or extreme,0
+CA1054,2025-06-09,Email,Grocery,3825.69,65978,2561,918,0.0388,0.3585,4.1674,-0.104,0,0.0,conversion rate impossible or extreme,0
+CA1055,2025-05-22,Email,Home,7448.22,42158,2370,1402,0.0562,0.5916,5.3126,-0.0801,0,73.0659,conversion rate impossible or extreme,0
+CA1056,2025-12-27,App,Grocery,5937.88,60702,9029,824,0.1487,0.0913,7.2062,-0.1024,0,1603.2673,unusually high/low spend,0
+CA1057,2025-05-19,App,Fashion,3989.82,98773,6602,278,0.0668,0.0421,14.3519,-0.0823,0,2527.4143,very high cost per conversion,0
+CA1058,2025-11-27,Social,Sports,742.22,70612,4115,630,0.0583,0.1531,1.1781,-0.0577,0,0.0,unusually high/low spend,0
+CA1059,2025-12-19,Email,Fashion,4716.49,39610,6901,535,0.1742,0.0775,8.8159,-0.106,0,1902.148,click-through rate impossible or extreme,0
+CA1060,2025-05-05,App,Sports,5190.76,54860,8719,885,0.1589,0.1015,5.8653,-0.1027,0,535.2597,click-through rate impossible or extreme,0
+CA1061,2025-09-21,Email,Home,7846.04,68700,5467,1086,0.0796,0.1986,7.2247,-0.0873,0,2133.1888,unusually high/low spend,0
+CA1062,2025-06-27,Web,Fashion,7529.0,75784,8221,482,0.1085,0.0586,15.6203,-0.085,0,4993.462,very high cost per conversion,0
+CA1063,2025-07-25,Store,Fashion,6921.94,17799,5543,694,0.3114,0.1252,9.974,-0.0881,0,3271.1861,click-through rate impossible or extreme,0
+CA1064,2025-01-23,App,Grocery,466.91,19476,1556,609,0.0799,0.3914,0.7667,-0.0105,0,0.0,unusually high/low spend,0
+CA1065,2025-03-14,App,Beauty,2207.0,63372,168,1027,0.0027,6.1131,2.149,0.05,1,0.0,conversion rate impossible or extreme,1
+CA1066,2025-10-31,Store,Fashion,2862.08,18349,7774,587,0.4237,0.0755,4.8758,-0.084,0,0.0,click-through rate impossible or extreme,0
+CA1067,2025-02-08,Store,Home,4301.28,80519,7596,19,0.0943,0.0025,226.3832,-0.0017,0,4201.3314,very high cost per conversion,0
+CA1068,2025-04-20,Social,Home,2138.85,48773,6926,1435,0.142,0.2072,1.4905,-0.0868,0,0.0,very high cost per conversion,0
+CA1069,2025-09-26,Email,Grocery,2099.88,92852,5907,273,0.0636,0.0462,7.6919,-0.0862,0,663.7765,unusually high/low spend,0
+CA1070,2025-06-12,Web,Home,6879.37,54099,3473,162,0.0642,0.0466,42.4652,-0.0732,0,6027.1767,very high cost per conversion,0
+CA1071,2025-05-20,Web,Fashion,7975.55,75981,3523,450,0.0464,0.1277,17.7234,-0.0766,0,5608.3465,very high cost per conversion,0
+CA1072,2025-11-15,App,Beauty,3488.98,54567,637,1029,0.0117,1.6154,3.3907,-0.0705,0,0.0,conversion rate impossible or extreme,1
+CA1073,2025-06-21,App,Fashion,2713.15,27459,396,1110,0.0144,2.803,2.4443,-0.0195,0,0.0,conversion rate impossible or extreme,1
+CA1074,2025-01-09,Social,Electronics,3859.69,17760,8306,894,0.4677,0.1076,4.3173,-0.0901,0,0.0,click-through rate impossible or extreme,0
+CA1075,2025-04-03,Web,Beauty,7814.15,54699,3509,349,0.0642,0.0995,22.3901,-0.0756,0,5978.2522,very high cost per conversion,0
+CA1076,2025-01-06,Email,Sports,1411.05,76238,3237,863,0.0425,0.2666,1.6351,-0.0846,0,0.0,unusually high/low spend,0
+CA1077,2025-04-25,Email,Electronics,1942.04,10954,3836,587,0.3502,0.153,3.3084,-0.058,0,0.0,click-through rate impossible or extreme,0
+CA1078,2025-12-31,Email,Fashion,4551.32,20696,1091,748,0.0527,0.6856,6.0847,-0.0827,0,616.5017,conversion rate impossible or extreme,0
+CA1079,2025-10-31,Social,Fashion,2586.81,18923,9585,1454,0.5065,0.1517,1.7791,-0.0665,0,0.0,click-through rate impossible or extreme,0
+CA1080,2025-07-04,Web,Electronics,5886.44,897,4064,1433,4.5307,0.3526,4.1078,0.0984,1,0.0,click-through rate impossible or extreme,1
+CA1081,2025-06-04,Web,Grocery,4310.52,44302,6858,1304,0.1548,0.1901,3.3056,-0.1004,0,0.0,click-through rate impossible or extreme,0
+CA1082,2025-10-01,Store,Sports,714.98,53624,623,1013,0.0116,1.626,0.7058,0.0035,1,0.0,conversion rate impossible or extreme,1
+CA1083,2025-03-23,Social,Electronics,6293.45,81914,376,1137,0.0046,3.0239,5.5351,-0.0094,0,312.3158,conversion rate impossible or extreme,1
+CA1084,2025-09-02,Web,Grocery,5368.86,24217,8851,981,0.3655,0.1108,5.4728,-0.0919,0,208.3563,click-through rate impossible or extreme,0
+CA1085,2025-09-30,Email,Sports,991.27,79627,1676,31,0.021,0.0185,31.9765,-0.0113,0,828.196,unusually high/low spend,0
+CA1086,2025-05-08,Store,Beauty,283.34,31739,744,318,0.0234,0.4274,0.891,0.0019,1,0.0,unusually high/low spend,0
+CA1087,2025-12-02,Social,Home,210.09,6312,8319,211,1.318,0.0254,0.9957,0.0931,1,0.0,click-through rate impossible or extreme,1
+CA1088,2025-02-22,Web,Electronics,2972.45,12690,9376,1069,0.7388,0.114,2.7806,-0.0576,0,0.0,click-through rate impossible or extreme,0
+CA1089,2025-10-15,Social,Grocery,6240.45,2469,9994,1148,4.0478,0.1149,5.4359,0.0473,1,201.4508,click-through rate impossible or extreme,1
+CA1090,2025-02-03,App,Home,3499.77,117,6924,772,59.1795,0.1115,4.5334,0.2782,1,0.0,click-through rate impossible or extreme,1
+CA1091,2025-07-19,App,Home,7254.14,117,6463,1325,55.2393,0.205,5.4748,0.2791,1,284.0408,click-through rate impossible or extreme,1
+CA1092,2025-09-11,Email,Home,605.46,51764,5684,573,0.1098,0.1008,1.0566,-0.0536,0,0.0,unusually high/low spend,0
+CA1093,2025-11-09,Email,Home,3195.06,30862,1745,1480,0.0565,0.8481,2.1588,-0.0751,0,0.0,conversion rate impossible or extreme,0
+CA1094,2025-09-03,Social,Electronics,5886.24,97424,2316,802,0.0238,0.3463,7.3395,-0.0814,0,1667.3573,conversion rate impossible or extreme,0
+CA1095,2025-03-19,Social,Sports,5826.14,380,7201,654,18.95,0.0908,8.9085,0.2017,1,2385.8042,click-through rate impossible or extreme,1
+CA1096,2025-07-07,Store,Beauty,3209.18,58335,1784,749,0.0306,0.4198,4.2846,-0.099,0,0.0,conversion rate impossible or extreme,0
+CA1097,2025-08-01,Web,Beauty,152.42,82238,642,1377,0.0078,2.1449,0.1107,0.1197,1,0.0,conversion rate impossible or extreme,1
+CA1098,2025-04-08,App,Electronics,3093.47,84031,6378,684,0.0759,0.1072,4.5226,-0.1004,0,0.0,unusual impressions,0
+CA1099,2025-01-16,Email,Home,5876.57,23327,7353,152,0.3152,0.0207,38.6616,-0.0554,0,5076.9813,click-through rate impossible or extreme,0
+CA1100,2025-06-09,Web,Beauty,6125.81,22415,648,954,0.0289,1.4722,6.4212,-0.0476,0,1107.3385,conversion rate impossible or extreme,1
+CA1101,2025-05-11,Web,Grocery,4129.13,44754,8633,195,0.1929,0.0226,21.175,-0.0838,0,3103.3418,very high cost per conversion,0
+CA1102,2025-04-11,Social,Grocery,3281.01,21297,3090,284,0.1451,0.0919,11.5529,-0.091,0,1787.0416,unusual impressions,0
+CA1103,2025-12-07,Store,Grocery,6318.68,52321,8660,297,0.1655,0.0343,21.275,-0.0816,0,4756.3257,very high cost per conversion,0
+CA1104,2025-03-06,Web,Grocery,3677.92,52613,448,1048,0.0085,2.3393,3.5095,-0.0441,0,0.0,conversion rate impossible or extreme,1
+CA1105,2025-12-07,Store,Beauty,3047.14,72024,6979,698,0.0969,0.1,4.3655,-0.103,0,0.0,unusual impressions,0
+CA1106,2025-02-19,Store,Fashion,539.75,17219,1554,291,0.0902,0.1873,1.8548,-0.0306,0,0.0,unusually high/low spend,0
+CA1107,2025-01-07,Email,Fashion,708.35,31894,8746,965,0.2742,0.1103,0.734,-0.0303,0,0.0,unusually high/low spend,0
+CA1108,2025-04-10,Store,Grocery,7464.56,50304,8854,449,0.176,0.0507,16.6249,-0.0834,0,5102.6169,very high cost per conversion,0
+CA1109,2025-01-14,Social,Sports,665.02,19238,7231,426,0.3759,0.0589,1.5611,-0.0322,0,0.0,click-through rate impossible or extreme,0
+CA1110,2025-01-21,Web,Beauty,998.49,41729,2749,444,0.0659,0.1615,2.2489,-0.0734,0,0.0,unusually high/low spend,0
+CA1111,2025-12-09,Email,Sports,124.67,4274,8426,551,1.9715,0.0654,0.2263,0.1625,1,0.0,click-through rate impossible or extreme,1
+CA1112,2025-05-23,Web,Fashion,6816.43,64348,7596,985,0.118,0.1297,6.9202,-0.1031,0,1634.8845,unusually high/low spend,0
+CA1113,2025-11-01,App,Electronics,3921.35,13436,4725,999,0.3517,0.2114,3.9253,-0.0824,0,0.0,click-through rate impossible or extreme,0
+CA1114,2025-12-02,Social,Beauty,1601.17,86867,6869,964,0.0791,0.1403,1.661,-0.0835,0,0.0,unusually high/low spend,0
+CA1115,2025-02-02,Social,Sports,5862.26,57994,5145,499,0.0887,0.097,11.748,-0.1061,0,3237.2943,very high cost per conversion,0
+CA1116,2025-03-14,Web,Beauty,5767.19,69711,5319,1035,0.0763,0.1946,5.5722,-0.106,0,322.6219,unusually high/low spend,0
+CA1117,2025-08-20,Store,Electronics,7501.75,6908,356,621,0.0515,1.7444,12.0801,0.0282,1,4235.0091,conversion rate impossible or extreme,1
+CA1118,2025-12-08,App,Sports,884.27,62311,8565,1104,0.1375,0.1289,0.801,-0.0573,0,0.0,unusually high/low spend,0
+CA1119,2025-09-10,Web,Beauty,4619.2,5895,2059,822,0.3493,0.3992,5.6195,-0.0372,0,295.1082,unusual impressions,0
+CA1120,2025-09-17,Web,Beauty,2198.21,95791,4225,879,0.0441,0.208,2.5008,-0.0835,0,0.0,unusual impressions,0
+CA1121,2025-04-04,Web,Home,3125.95,33685,6402,1207,0.1901,0.1885,2.5899,-0.094,0,0.0,click-through rate impossible or extreme,0
+CA1122,2025-09-18,Web,Beauty,2777.14,28625,1518,284,0.053,0.1871,9.7787,-0.0959,0,1283.1716,unusual impressions,0
+CA1123,2025-04-12,Email,Electronics,179.8,75317,9638,1265,0.128,0.1313,0.1421,0.063,1,0.0,unusually high/low spend,0
+CA1124,2025-10-28,Store,Sports,1754.06,21518,7461,1374,0.3467,0.1842,1.2766,-0.0632,0,0.0,click-through rate impossible or extreme,0
+CA1125,2025-04-07,App,Electronics,4343.6,98372,5994,94,0.0609,0.0157,46.2085,-0.0534,0,3849.1175,very high cost per conversion,0
+CA1126,2025-05-05,Web,Fashion,5368.3,33632,6786,326,0.2018,0.048,16.4672,-0.0926,0,3653.3926,very high cost per conversion,0
+CA1127,2025-08-22,Social,Home,3122.91,86912,5666,49,0.0652,0.0086,63.7329,-0.0504,0,2865.1478,very high cost per conversion,0
+CA1128,2025-04-03,App,Fashion,5168.81,56083,1278,560,0.0228,0.4382,9.23,-0.0963,0,2222.9567,conversion rate impossible or extreme,0
+CA1129,2025-08-12,Email,Fashion,3524.76,52746,8189,1495,0.1553,0.1826,2.3577,-0.095,0,0.0,very high cost per conversion,0
+CA1130,2025-12-06,Social,Beauty,3266.42,12552,9803,832,0.781,0.0849,3.926,-0.0606,0,0.0,click-through rate impossible or extreme,0
+CA1131,2025-02-04,Email,Fashion,5829.01,59465,7589,100,0.1276,0.0132,58.2901,-0.0615,0,5302.9648,very high cost per conversion,0
+CA1132,2025-09-05,Web,Sports,248.47,32088,749,4,0.0233,0.0053,62.1175,0.0584,1,227.4282,unusually high/low spend,0
+CA1133,2025-05-29,Social,Electronics,183.27,85961,6222,351,0.0724,0.0564,0.5221,0.0226,1,0.0,unusually high/low spend,0
+CA1134,2025-02-01,Web,Electronics,1835.5,30731,1008,1207,0.0328,1.1974,1.5207,-0.0523,0,0.0,conversion rate impossible or extreme,1
+CA1135,2025-06-24,Store,Grocery,939.53,95514,6989,829,0.0732,0.1186,1.1333,-0.0495,0,0.0,unusually high/low spend,0
+CA1136,2025-06-05,Store,Fashion,1077.15,60481,1658,956,0.0274,0.5766,1.1267,-0.0593,0,0.0,conversion rate impossible or extreme,0
+CA1137,2025-10-09,Web,Home,3274.89,85184,5891,1169,0.0692,0.1984,2.8014,-0.0957,0,0.0,unusual impressions,0
+CA1138,2025-01-05,App,Sports,6944.92,58547,2538,868,0.0433,0.342,8.0011,-0.0962,0,2378.8474,conversion rate impossible or extreme,0
+CA1139,2025-08-13,App,Home,5700.23,96808,7983,941,0.0825,0.1179,6.0576,-0.0916,0,750.1444,unusual impressions,0
+CA1140,2025-05-21,Store,Fashion,5437.47,609,6417,505,10.5369,0.0787,10.7673,0.1627,1,2780.9416,click-through rate impossible or extreme,1
+CA1141,2025-09-09,Web,Fashion,1106.2,78867,9367,1150,0.1188,0.1228,0.9619,-0.0592,0,0.0,unusually high/low spend,0
+CA1142,2025-09-07,Store,Grocery,5692.64,98538,1597,1223,0.0162,0.7658,4.6547,-0.065,0,0.0,conversion rate impossible or extreme,0
+CA1143,2025-07-13,Web,Beauty,6958.8,21882,9110,519,0.4163,0.057,13.4081,-0.077,0,4228.6253,click-through rate impossible or extreme,0
+CA1144,2025-08-22,Social,Fashion,2732.85,93281,7421,299,0.0796,0.0403,9.14,-0.09,0,1159.9748,unusual impressions,0
+CA1145,2025-12-28,Email,Grocery,7500.41,57942,3950,1393,0.0682,0.3527,5.3844,-0.0904,0,172.6,conversion rate impossible or extreme,0
+CA1146,2025-03-21,Social,Sports,3078.71,10521,3735,368,0.355,0.0985,8.3661,-0.0682,0,1142.8636,click-through rate impossible or extreme,0
+CA1147,2025-06-30,App,Sports,3271.33,82581,1430,168,0.0173,0.1175,19.4722,-0.0734,0,2387.574,very high cost per conversion,0
+CA1148,2025-07-06,Email,Home,5317.92,62365,7409,314,0.1188,0.0424,16.9361,-0.0966,0,3666.138,very high cost per conversion,0
+CA1149,2025-12-20,App,Home,3463.21,97343,6258,1129,0.0643,0.1804,3.0675,-0.0898,0,0.0,unusual impressions,0
+CA1150,2025-12-30,App,Beauty,2726.05,7375,2729,655,0.37,0.24,4.1619,-0.0541,0,0.0,click-through rate impossible or extreme,0
+CA1151,2025-09-12,Store,Beauty,4218.29,52330,349,265,0.0067,0.7593,15.9181,-0.0751,0,2824.2702,conversion rate impossible or extreme,0
+CA1152,2025-11-19,Social,Home,2590.34,10034,9850,852,0.9817,0.0865,3.0403,-0.035,0,0.0,click-through rate impossible or extreme,0
+CA1153,2025-05-07,App,Sports,2279.19,37508,7664,639,0.2043,0.0834,3.5668,-0.0926,0,0.0,click-through rate impossible or extreme,0
+CA1154,2025-11-10,Social,Electronics,7863.71,51870,3302,162,0.0637,0.0491,48.5414,-0.0585,0,7011.5167,very high cost per conversion,0
+CA1155,2025-10-15,Email,Sports,4207.41,86850,3649,1251,0.042,0.3428,3.3632,-0.0948,0,0.0,conversion rate impossible or extreme,0
+CA1156,2025-05-24,App,Beauty,7212.48,60793,9065,705,0.1491,0.0778,10.2305,-0.0926,0,3503.8612,unusually high/low spend,0
+CA1157,2025-02-11,Social,Electronics,857.02,39663,803,1274,0.0202,1.5866,0.6727,0.0036,1,0.0,conversion rate impossible or extreme,1
+CA1158,2025-11-08,App,Grocery,493.31,73766,9532,1234,0.1292,0.1295,0.3998,-0.0065,0,0.0,unusually high/low spend,0
+CA1159,2025-12-01,Social,Beauty,7421.9,74694,4622,1411,0.0619,0.3053,5.26,-0.0878,0,0.0,conversion rate impossible or extreme,0
+CA1160,2025-02-04,App,Fashion,4814.18,78689,2814,809,0.0358,0.2875,5.9508,-0.0989,0,558.4741,conversion rate impossible or extreme,0
+CA1161,2025-06-11,Social,Grocery,5017.48,42590,9086,22,0.2133,0.0024,228.0673,0.0028,1,4901.7501,very high cost per conversion,0
+CA1162,2025-11-17,Email,Fashion,2121.47,59911,7404,230,0.1236,0.0311,9.2238,-0.0905,0,911.566,conversion rate impossible or extreme,0
+CA1163,2025-08-18,App,Electronics,2147.23,73363,335,1438,0.0046,4.2925,1.4932,0.0317,1,0.0,conversion rate impossible or extreme,1
+CA1164,2025-06-25,Email,Home,2786.27,20087,6721,309,0.3346,0.046,9.0171,-0.0834,0,1160.7903,click-through rate impossible or extreme,0
+CA1165,2025-04-23,Web,Electronics,3273.33,8304,2795,129,0.3366,0.0462,25.3747,-0.0307,0,2594.7317,unusual impressions,0
+CA1166,2025-03-30,Web,Fashion,3083.62,79147,5573,1104,0.0704,0.1981,2.7931,-0.1,0,0.0,very high cost per conversion,0
+CA1167,2025-03-09,Web,Beauty,788.59,67063,9497,1028,0.1416,0.1082,0.7671,-0.0482,0,0.0,unusually high/low spend,0
+CA1168,2025-01-08,App,Fashion,1604.05,47079,9297,874,0.1975,0.094,1.8353,-0.0792,0,0.0,unusually high/low spend,0
+CA1169,2025-10-23,Store,Grocery,5616.3,80519,5222,402,0.0649,0.077,13.9709,-0.098,0,3501.5982,very high cost per conversion,0
+CA1170,2025-11-09,App,Home,5221.39,19914,6008,1050,0.3017,0.1748,4.9728,-0.0933,0,0.0,click-through rate impossible or extreme,0
+CA1171,2025-08-31,App,Fashion,6591.74,53125,565,725,0.0106,1.2832,9.0921,-0.0621,0,2777.9121,conversion rate impossible or extreme,1
+CA1172,2025-02-08,Store,Beauty,3241.61,10256,948,604,0.0924,0.6371,5.3669,-0.056,0,64.2968,conversion rate impossible or extreme,0
+CA1173,2025-12-19,Email,Sports,2523.88,98659,3151,1147,0.0319,0.364,2.2004,-0.0758,0,0.0,conversion rate impossible or extreme,0
+CA1174,2025-09-17,Social,Sports,5805.27,9942,8183,321,0.8231,0.0392,18.085,-0.0271,0,4116.6648,click-through rate impossible or extreme,0
+CA1175,2025-10-18,Store,Fashion,1131.9,97426,5313,1437,0.0545,0.2705,0.7877,-0.0437,0,0.0,very high cost per conversion,0
+CA1176,2025-02-27,Social,Beauty,2207.97,85226,1156,769,0.0136,0.6652,2.8712,-0.0762,0,0.0,conversion rate impossible or extreme,0
+CA1177,2025-04-04,Store,Home,5519.92,32717,2023,1328,0.0618,0.6565,4.1566,-0.0865,0,0.0,conversion rate impossible or extreme,0
+CA1178,2025-05-01,Social,Home,3490.05,91807,1060,1494,0.0115,1.4094,2.336,-0.0532,0,0.0,conversion rate impossible or extreme,1
+CA1179,2025-12-22,App,Grocery,1663.15,15668,7799,101,0.4978,0.013,16.4668,-0.0254,0,1131.8443,click-through rate impossible or extreme,0
+CA1180,2025-08-08,Social,Sports,6244.79,5010,9455,1205,1.8872,0.1274,5.1824,0.0026,1,0.0,click-through rate impossible or extreme,1
+CA1181,2025-03-22,Web,Beauty,6104.25,89921,6348,484,0.0706,0.0762,12.6121,-0.0912,0,3558.1911,very high cost per conversion,0
+CA1182,2025-02-01,Social,Electronics,3155.58,17679,9645,1268,0.5456,0.1315,2.4886,-0.0689,0,0.0,click-through rate impossible or extreme,0
+CA1183,2025-07-26,Email,Electronics,1781.72,59382,845,1198,0.0142,1.4178,1.4872,-0.0521,0,0.0,conversion rate impossible or extreme,1
+CA1184,2025-01-13,Social,Home,5406.2,22942,7400,259,0.3226,0.035,20.8734,-0.0741,0,4043.7429,click-through rate impossible or extreme,0
+CA1185,2025-05-12,App,Home,4166.76,92530,230,150,0.0025,0.6522,27.7784,-0.0332,0,3377.6922,conversion rate impossible or extreme,0
+CA1186,2025-05-31,App,Fashion,7826.04,92266,2300,292,0.0249,0.127,26.8015,-0.0519,0,6289.9879,very high cost per conversion,0
+CA1187,2025-06-19,Email,Electronics,1122.3,67044,1472,717,0.022,0.4871,1.5653,-0.0696,0,0.0,conversion rate impossible or extreme,0
+CA1188,2025-04-22,App,Fashion,6218.47,44307,9266,402,0.2091,0.0434,15.4688,-0.0883,0,4103.7682,click-through rate impossible or extreme,0
+CA1189,2025-05-06,App,Grocery,1305.46,7999,7798,1381,0.9749,0.1771,0.9453,0.0063,1,0.0,click-through rate impossible or extreme,0
+CA1190,2025-10-05,Social,Grocery,5105.38,12475,3871,1196,0.3103,0.309,4.2687,-0.0735,0,0.0,click-through rate impossible or extreme,0
+CA1191,2025-02-01,Store,Sports,5710.6,32369,7259,582,0.2243,0.0802,9.812,-0.1003,0,2649.0168,click-through rate impossible or extreme,0
+CA1192,2025-02-05,Store,Electronics,3571.49,92569,2180,428,0.0236,0.1963,8.3446,-0.0914,0,1320.0164,unusual impressions,0
+CA1193,2025-10-17,Web,Sports,2994.01,51763,6989,236,0.135,0.0338,12.6865,-0.0959,0,1752.5433,conversion rate impossible or extreme,0
+CA1194,2025-11-25,Web,Home,1277.27,32813,6413,1413,0.1954,0.2203,0.9039,-0.0612,0,0.0,very high cost per conversion,0
+CA1195,2025-09-04,Social,Grocery,2393.22,54266,9618,1350,0.1772,0.1404,1.7728,-0.0885,0,0.0,very high cost per conversion,0
+CA1196,2025-04-16,Social,Grocery,6287.58,33771,4975,896,0.1473,0.1801,7.0174,-0.1016,0,1574.2148,unusually high/low spend,0
+CA1197,2025-06-30,Social,Grocery,7853.0,42608,8461,457,0.1986,0.054,17.1838,-0.0687,0,5448.9733,very high cost per conversion,0
+CA1198,2025-04-13,Store,Electronics,6304.31,76078,6039,607,0.0794,0.1005,10.386,-0.1004,0,3111.2155,very high cost per conversion,0
+CA1199,2025-06-06,Web,Beauty,7334.54,96093,2511,1239,0.0261,0.4934,5.9197,-0.0669,0,816.8396,conversion rate impossible or extreme,0
+CA1200,2025-06-30,Social,Beauty,2709.12,7465,434,539,0.0581,1.2419,5.0262,-0.0123,0,0.0,conversion rate impossible or extreme,1

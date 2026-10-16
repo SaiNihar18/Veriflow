@@ -1,0 +1,6 @@
+check,count,of,share
+orders dated before customer signup,792,18000,0.044
+products with unit_cost above list_price,76,250,0.304
+campaigns with impossible funnel,171,1200,0.142
+inventory rows with stock 0 but stockout_flag 0,10,10,1.0
+stockout_flag=1 rows with stock above reorder point,712,750,0.949
